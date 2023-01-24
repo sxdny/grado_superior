@@ -47,23 +47,19 @@ public class mainProgram {
             }
 
             if (op == 4) {
-                
-                for (int i = 0; i < obrersCreats; i++) {
-                    System.out.println(obrers[i]); 
-                }
-
+                mostrarObrer();
             }
 
             if (op == 5) {
-                
+                mostrarQualificat();
             }
 
             if (op == 6) {
-                
+                mostrarCapDeDepartament();
             }
 
             if (op == 7) {
-                
+                mostraTodo();
             }
 
             if (op < 0 || op >= 9 ) {
@@ -178,6 +174,52 @@ public class mainProgram {
         sc.nextLine();
 
         obrers[obrersCreats] = new Obrer(Nom, Cognoms, DNI, salariBase, desti, horasExtra, preuHoresExtra);
+
+    }
+
+    public static void mostrarQualificat() {
+
+        System.out.println("Lista de qualificats: ");
+        for (int i = 0; i < qualificatsCreats; i++) {
+            System.out.println(qualificats[i].mostrarDades());
+        }
+
+    }
+
+    public static void mostrarObrer() {
+
+        System.out.println("Lista de obrers: ");
+        for (int i = 0; i < qualificatsCreats; i++) {
+            System.out.println(obrers[i].mostrarDades());
+        }
+        
+    }
+
+    public static void mostrarCapDeDepartament() {
+
+        System.out.println("Lista de caps de departament: ");
+        for (int i = 0; i < qualificatsCreats; i++) {
+            System.out.println(capsdepartament[i].mostrarDades());
+        }
+        
+    }
+
+    public static void mostraTodo() {
+
+        System.out.println("Lista de qualificats: ");
+        for (int i = 0; i < qualificatsCreats; i++) {
+            System.out.println(qualificats[i].mostrarDades());
+        }
+
+        System.out.println("Lista de obrers: ");
+        for (int i = 0; i < qualificatsCreats; i++) {
+            System.out.println(obrers[i].mostrarDades());
+        }
+
+        System.out.println("Lista de caps de departament: ");
+        for (int i = 0; i < qualificatsCreats; i++) {
+            System.out.println(capsdepartament[i].mostrarDades());
+        }
 
     }
 

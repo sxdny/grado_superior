@@ -10,6 +10,10 @@ public class CapDepartament extends Qualificat {
 
     }
 
+    public String mostrarDadesBarco() {
+        return super.mostrarDades() + "Treballadores al carrec: " + this.treballadorsAlCarrec + " " + "Projectes: " + this.projectes;
+    }
+
     @Override
     public String toString() {
         return "CapDepartament [treballadorsAlCarrec=" + treballadorsAlCarrec + ", projectes=" + projectes + "]";

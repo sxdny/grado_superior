@@ -20,6 +20,10 @@ public class Qualificat extends Empleat {
         this.plus = plus;
     }
 
+    public String mostrarDadesBarco() {
+        return super.mostrarDades() + "Titulacio: " + this.titulacio + " " + "Departament: " + this.titulacio + " " + "Plus: " + this.plus;
+    }
+
     
     // Getters y setters.
 

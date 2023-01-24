@@ -19,7 +19,9 @@ public class Obrer extends Empleat {
         this.preuHoresExtra = preuHoresExtra;
     }
 
-    
+    public String mostrarDadesBarco() {
+        return super.mostrarDades() + "Desti: " + this.desti + " " + "Horas extra: " + this.horasExtra + " " + "Preu Hores Extra: " + this.preuHoresExtra;
+    }
 
     // Getters y setters.
 

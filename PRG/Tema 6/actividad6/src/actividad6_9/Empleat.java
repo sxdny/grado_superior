@@ -12,6 +12,10 @@ public class Empleat {
     
     }
 
+    public String mostrarDades() {
+        return "Nombre:" + this.Nom + " " + "Cognoms:" + this.Cognoms + " " + "DNI: " + this.DNI + " " + "Salari Base: " + this.salariBase;
+    }
+
     public Empleat(String Nom, String Cognoms, String DNI, double salariBase) {
         this.Nom = Nom;
         this.Cognoms = Cognoms;

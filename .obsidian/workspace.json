@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "601924332920be27",
+        "id": "1116b640309a2943",
         "type": "tabs",
         "children": [
           {
-            "id": "4c19a7751cc8cd5c",
+            "id": "136820c1b09dddd0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/Fura Mono (Editor Font)/readme.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3131b1d8cbfaff61",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BD/Cinema Database.md",
+                "file": "PRG/Apuntes PRG/Java.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BD/Cinema Database.md",
+                "file": "PRG/Apuntes PRG/Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "BD/Cinema Database.md",
+                "file": "PRG/Apuntes PRG/Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BD/Cinema Database.md"
+                "file": "PRG/Apuntes PRG/Java.md"
               }
             }
           }
@@ -159,9 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3131b1d8cbfaff61",
+  "active": "9dbe8a44e9046598",
   "lastOpenFiles": [
     "Resources/Fura Mono (Editor Font)/readme.md",
+    "BD/Cinema Database.md",
     "BD/Comandos SQL (Repaso).md",
     "Apuntes/LaTeX/build/main.pdf",
     "Apuntes/LaTeX/main.pdf"
