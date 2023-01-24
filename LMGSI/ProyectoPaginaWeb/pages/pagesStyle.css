@@ -12,20 +12,62 @@
 body {
     background-color: white;
     color: black;
+    position: relative;
+    min-height: 100vh;
 }
 
 .cuerpecito {
     display: flex;
-    justify-self: center;
-    text-align: center;
+    justify-content: center;
 }
 
-
 .form {
-    padding: 1rem;
-    background-color: red;
+    padding: 2rem;
+    background-color: #081C15;
+    color: white;
     align-self: center;
-    width: 50%;
+    width: 100%;
+    text-align: center;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+footer {
+    background-color: #D8F3DC;
+    color: #081C15;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem 0em;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > p {
+    align-self: center;
+    font-size: 18px;
+}
+
+i {
+    font-size: 2rem;
+    align-self: center;
+    margin: 0 10px;
+}
+
+.android {
+    color: #3ddc84;
+}
+
+.github {
+    color: black;
+}
+
+.links {
+    display: flex;
+    
 }
 
 .navbar {
@@ -142,7 +184,7 @@ body {
 }
 
 .menu-responsive > ul > li > a {
-    color: #D8F3DC;
+    color: #081C15;
     text-decoration: none;
 }
 
@@ -158,6 +200,7 @@ body {
     list-style: none;
     font-size: 12px;
     padding: 8px 16px 8px 16px;
+    background-color: #a9c8ae;
 }
 
 @media (max-width: 920px) {
