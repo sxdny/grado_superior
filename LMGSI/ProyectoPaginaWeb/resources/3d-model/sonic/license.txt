@@ -1,0 +1,11 @@
+Model Information:
+* title:	Sonic Sprite - 3D
+* source:	https://sketchfab.com/3d-models/sonic-sprite-3d-0dc9765669574ddf99e6a36c1a105a5a
+* author:	Abe95 (https://sketchfab.com/Abe95)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Sonic Sprite - 3D" (https://sketchfab.com/3d-models/sonic-sprite-3d-0dc9765669574ddf99e6a36c1a105a5a) by Abe95 (https://sketchfab.com/Abe95) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

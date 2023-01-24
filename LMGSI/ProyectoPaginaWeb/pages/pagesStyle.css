@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url("font/Helvetica.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica";
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.cuerpecito {
+    display: flex;
+    justify-self: center;
+    text-align: center;
+}
+
+
+.form {
+    padding: 1rem;
+    background-color: red;
+    align-self: center;
+    width: 50%;
+}
+
+.navbar {
+    background-color: #D8F3DC;
+    color: #081C15;
+    padding: 20px 35px 20px 35px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    position : absolute;
+    top : 50%; left : 50%;
+    transform : translate(-50%, -50%);
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.maxwell {
+    height: 400px;
+    width: 400px;
+    align-self: center;
+    margin: auto;
+    padding: auto;
+}
+
+.news {
+    background-color: #081C15;
+    color: white;
+    padding: 9px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.news > p {
+    align-self: center;
+    font-size: 12px;
+    color: white;
+}
+
+.navbar > .menus > ul {
+    display: flex;
+}
+
+.navbar > .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.menus {
+    align-self: center;
+}
+
+.contact {
+    align-self: center;
+    display: flex;
+    justify-content: right;
+}
+
+.menus > ul > li {
+    margin: 0px 20px 0px 0px;
+    text-align: center;
+    list-style: none;
+}
+
+.menus > ul > li > a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #081C15;
+}
+
+.menus > ul > li > a:hover {
+    font-weight: bold;
+}
+
+.contact > a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #081C15;
+}
+
+.contact > a:hover {
+    font-weight: bold;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 50%;
+}
+
+.logosvg {
+    fill: #081C15;
+}
+
+.blogosvg {
+    fill: none;
+}
+
+.menu-responsive {
+    display: none;
+    background-color: #081C15;
+}
+
+.menu-responsive > ul > li > a {
+    color: #D8F3DC;
+    text-decoration: none;
+}
+
+.menu-responsive > ul > li > a:hover {
+    color: #081C15;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.menu-responsive > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 12px;
+    padding: 8px 16px 8px 16px;
+}
+
+@media (max-width: 920px) {
+    .menu-responsive {
+        display: block;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .menus, .contact {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+    }
+}
+
+.titulo > h1 {
+    text-transform: uppercase;
+}
+
+
+/* @keyframes rotate {
+
+    0% {
+        transform: rotate3d(0,0,0,0);
+    }
+
+    100% {
+        transform: rotate3d(0, 1, 0, 360deg);
+    }
+} */
+
+/* Animacion rotar: */
+
+/* 
+
+    Objeto:
+
+    animation-name: rotate;
+    transform-style: preserve-3d;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+@keyframes rotate {
+
+    0% {
+        transform: rotate3d(0,0,0,0);
+    }
+
+    100% {
+        transform: rotate3d(0, 1, 0, 360deg);
+    }
+}
+*/
