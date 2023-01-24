@@ -13,9 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PRG/Apuntes PRG/Java.md",
+                "file": "BD/Cinema Database.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "bd1d020ba96779a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f83a3c8d52f0cc9",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "BD/24-01-23.canvas",
+                "viewState": {
+                  "x": -240.53047283955243,
+                  "y": 151.5706699938465,
+                  "zoom": 0.13692692713830656,
+                  "snapToGrid": false
+                }
               }
             }
           }
@@ -48,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#✏Cosas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +87,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PRG/Apuntes PRG/Java.md",
+                "file": "BD/Cinema Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PRG/Apuntes PRG/Java.md",
+                "file": "BD/Cinema Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PRG/Apuntes PRG/Java.md"
+                "file": "BD/Cinema Database.md"
               }
             }
           }
@@ -146,11 +169,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9dbe8a44e9046598",
+  "active": "a3ec2283924c6f84",
   "lastOpenFiles": [
-    "Resources/Fura Mono (Editor Font)/readme.md",
+    "BD/24-01-23.canvas",
     "BD/Cinema Database.md",
+    "cheatSheetMD.md",
     "BD/Comandos SQL (Repaso).md",
+    "PRG/Apuntes PRG/Java.md",
+    "Resources/Fura Mono (Editor Font)/readme.md",
     "Apuntes/LaTeX/build/main.pdf",
     "Apuntes/LaTeX/main.pdf"
   ]
