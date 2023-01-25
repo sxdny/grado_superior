@@ -19,4 +19,18 @@ public class Quadrat extends FiguraGeometrica {
         return "Quadrat []";
     }
 
+    public static void mostrarArea(int height, int width) {
+
+        int area = height * width;
+        System.out.println("El area del Circulo es: " + area);
+
+    }
+
+    public static void mostrarPerimetro(int height, int width) {
+
+        int perimetro = height + height + width + width;
+        System.out.println("El perimetro del Circulo es: " + perimetro);
+
+    }
+
 }

@@ -63,4 +63,5 @@ public class FiguraGeometrica {
         return "Coordenada X: " + this.x + " " + "Coordenada Y: " + this.y + " " + "Altura: " + this.height + "Anchura: " + this.width;
     }
 
+    
 }
