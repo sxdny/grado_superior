@@ -33,6 +33,17 @@ body {
     grid-template-columns: auto auto;
 }
 
+.formulario {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario > label {
+    width: 15%;
+}
+
 footer {
     background-color: #D8F3DC;
     color: #081C15;

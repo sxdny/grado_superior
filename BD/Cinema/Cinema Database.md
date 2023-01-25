@@ -39,6 +39,12 @@ actor <--> character
 - 20 character
 - 5 genres
 
+### 🎩 Casting procedure (format).
+
+1. Declare VARIABLES.
+2. SELECT and STORE in the right variables.
+3. CREATE and INSERT INTO.
+
 ## Database tables.
 
 ### movies
@@ -94,15 +100,39 @@ actor <--> character
 | character_race        | VARCHAR(100)        |
 | character_movie       | INT / Foreign key / |
 
+
+## Casting table.
+
+Una vez la "casting procedure" esté hecha.
+
+| casting      |          |                  |                                      |
+| ------------ | -------- | ---------------- | ------------------------------------ |
+| character_id | actor_id | casting_position | expected_salary (in million dollars) |
+| 1            | 3        | 2                | 10.00                                |
+| 1            | 2        | 3                | 4.00                                 |
+| 1            | 27       | 1                | 1.25                                 |
+
+
+| acting   |              |          |                                   |
+| -------- | ------------ | -------- | --------------------------------- |
+| movie_id | character_id | actor_id | payed_salary (in million dollars) |
+| 12       | 1            | 27       | 1.0                               |
+| 10       | 3            | 27       | 1.5                               |
+| 9        | 4            | 27       | 1.25                              |
+| 13       | 1            | 27       | 2.0                               |
+
+
+
 ## ℹ Completar las siguientes bases de datos:
 
 - [ ] Actores
 - [ ] Characters
-- [x] Movies
+- [ ] Movies
 
 
 
 ## ✏ Cosas que hacer:
 
 - [ ] Insertar imagenes en el Canvas.
+- [ ]  Cambiar el DATATYPE de movie_income y movie_certification.
 

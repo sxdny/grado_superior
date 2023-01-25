@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PRG/Apuntes PRG/Java.md",
+                "file": "BD/Cinema/Cinema Database.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PRG/Apuntes PRG/Java.md",
+                "file": "BD/Cinema/Cinema Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PRG/Apuntes PRG/Java.md",
+                "file": "BD/Cinema/Cinema Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PRG/Apuntes PRG/Java.md"
+                "file": "BD/Cinema/Cinema Database.md"
               }
             }
           }
@@ -161,13 +161,13 @@
   },
   "active": "a83ce1bce83a03aa",
   "lastOpenFiles": [
-    "BD/Cinema/Cinema Database.md",
     "BD/Cinema/Cinema Database Content.md",
     "BD/Cinema/24-01-23.canvas",
+    "BD/Cinema/Cinema Database.md",
     "BD/Comandos SQL (Repaso).md",
+    "PRG/Apuntes PRG/Java.md",
     "cheatSheetMD.md",
     "Apuntes/LaTeX/build/main.pdf",
-    "PRG/Apuntes PRG/Java.md",
     "Resources/Fura Mono (Editor Font)/readme.md",
     "Apuntes/LaTeX/main.pdf"
   ]
