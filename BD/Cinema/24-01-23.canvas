@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"064972428518f23a","x":-581,"y":-197,"width":612,"height":400,"color":"1","type":"file","file":"BD/Cinema/Cinema Database.md"},
+		{"id":"e0cc2e782761fc89","x":114,"y":-26,"width":250,"height":58,"color":"3","type":"text","text":"List of actor id's. (Age function)"},
+		{"id":"20e9bc94fd9735aa","x":114,"y":145,"width":250,"height":58,"color":"3","type":"text","text":"List of actor id's. (Languages)"},
+		{"id":"9c268809c544245e","x":114,"y":-197,"width":250,"height":58,"color":"3","type":"text","text":"List of actor id's. (Tolerance) "},
+		{"id":"393eb29b95e02e29","x":472,"y":-52,"width":250,"height":111,"color":"1","type":"text","text":"List of actor id's. \nNumeric Array"}
+	],
+	"edges":[
+		{"id":"668da86ef2b1f5ee","fromNode":"064972428518f23a","fromSide":"right","toNode":"9c268809c544245e","toSide":"left"},
+		{"id":"138fecb44a84b9f1","fromNode":"064972428518f23a","fromSide":"right","toNode":"e0cc2e782761fc89","toSide":"left"},
+		{"id":"847ec28f708eb395","fromNode":"064972428518f23a","fromSide":"right","toNode":"20e9bc94fd9735aa","toSide":"left"},
+		{"id":"f3f0eb710a1dbb1e","fromNode":"9c268809c544245e","fromSide":"right","toNode":"393eb29b95e02e29","toSide":"left"},
+		{"id":"ce8aa865c43010c3","fromNode":"e0cc2e782761fc89","fromSide":"right","toNode":"393eb29b95e02e29","toSide":"left"},
+		{"id":"e20a5104023003b6","fromNode":"20e9bc94fd9735aa","fromSide":"right","toNode":"393eb29b95e02e29","toSide":"left"}
+	]
+}

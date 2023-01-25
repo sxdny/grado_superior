@@ -3,6 +3,8 @@
 
 [MySQL Full Course 🗄️ (2023)](https://www.youtube.com/watch?v=5OdVJbNCSso&ab_channel=BroCode)
 
+![[Pasted image 20230125095047.png]]
+
 # Comandos básicos.
 
 ## CREATE DATABASE. Creación de una base de datos.
