@@ -15,4 +15,18 @@ public class Rectangle extends FiguraGeometrica {
         return "Rectangle []";
     }
 
+    public void mostrarAreaRectangle(int height, int width) {
+
+        int area = width * height;
+        System.out.println("El area del Rectangle es: " + area);
+
+    }
+
+    public void mostrarPerimetreRectangle(int height, int width) {
+
+        int perimetre = height + height * width * width;
+        System.out.println("El perimetro del Rectangle es: " + perimetre);
+
+    }
+
 }

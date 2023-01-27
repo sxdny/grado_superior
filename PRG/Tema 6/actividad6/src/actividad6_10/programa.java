@@ -6,6 +6,7 @@ public class programa {
     
     static int op = 0;
 
+    static int formasCredas = 0;
     static Quadrat[] quadrats = new Quadrat[100];
     static int quadratsCreats = 0;
     static Cercle[] cercles = new Cercle[100];
@@ -32,7 +33,8 @@ public class programa {
             System.out.println("7. Mostrar todos los (Rectangles) ");
             System.out.println("8. Mostrar todos los (Quadrats) ");
             System.out.println("9. Mostrar TODO ");
-            System.out.println("10. Salir del programa.");
+            System.out.println("10. Mostrar Area o Perimetro figuras.");
+            System.out.println("11. Salir del programa.");
 
             op = sc.nextInt();
             sc.nextLine();
@@ -74,7 +76,7 @@ public class programa {
             }
 
             if (op == 10) {
-                
+                mostrarCalculos();
             }
 
             if (op < 0 || op >= 11 ) {
@@ -87,6 +89,106 @@ public class programa {
     }
 
     // Funciones
+
+    public static void mostrarCalculos() {
+
+        int x = 0;
+        int y = 0;
+
+        int opcion = 0;
+
+        System.out.println("De que forma geométrica quieres mostrar los calculos?");
+        System.out.println("1. Cercle - 2. Quadrat - 3. Rectangle - 4. Rombo");
+
+        opcion = sc.nextInt();
+        sc.nextLine();
+
+
+        if (opcion == 1) {
+            
+            System.out.println("Ingrese las coordenadas del Circulo.");
+
+            x = sc.nextInt();
+            sc.nextLine();
+
+            y = sc.nextInt();
+            sc.nextLine();
+
+            for (int i = 0; i < cerclesCreats; i++) {
+                
+                if (x == cercles[i].getX() && y == cercles[i].getY()) {
+                    cercles[i].mostrarAreaCercle(cercles[i].getRadi());
+                    cercles[i].mostrarCircunferenciaCercle(cercles[i].getRadi());
+                }
+            }
+
+        }
+
+        if (opcion == 2) {
+
+            System.out.println("Ingrese las coordenadas del Quadrat.");
+
+            x = sc.nextInt();
+            sc.nextLine();
+
+            y = sc.nextInt();
+            sc.nextLine();
+
+            for (int i = 0; i < quadratsCreats; i++) {
+                
+                if (x == quadrats[i].getX() && y == quadrats[i].getY()) {
+                    quadrats[i].mostrarAreaQuadrat(quadrats[i].getHeight(), quadrats[i].getWidth());
+                    quadrats[i].mostrarPerimetroQuadrat(quadrats[i].getHeight(), quadrats[i].getWidth());
+                }
+            }
+
+        }
+
+        if (opcion == 3) {
+            
+            System.out.println("Ingrese las coordenadas del Rectangle.");
+
+            x = sc.nextInt();
+            sc.nextLine();
+
+            y = sc.nextInt();
+            sc.nextLine();
+
+            for (int i = 0; i < rectanglesCreats; i++) {
+                
+                if (x == rectangles[i].getX() && y == rectangles[i].getY()) {
+                    rectangles[i].mostrarAreaRectangle(rectangles[i].getHeight(), rectangles[i].getWidth());
+                    rectangles[i].mostrarPerimetreRectangle(rectangles[i].getHeight(), rectangles[i].getWidth());
+                }
+            }
+
+        }
+
+        if (opcion == 4) {
+            
+            System.out.println("Ingrese las coordenadas del Rombo.");
+
+            x = sc.nextInt();
+            sc.nextLine();
+
+            y = sc.nextInt();
+            sc.nextLine();
+
+            for (int i = 0; i < rombosCreats; i++) {
+                
+                if (x == rombos[i].getX() && y == rombos[i].getY()) {
+                    rombos[i].mostrarAreaRombo(rombos[i].getDiagonalMenor(), rombos[i].getDiagonalMayor());
+                    rombos[i].mostrarPerimetreRectangle(rombos[i].getLado());
+                }
+            }
+
+        }
+
+        if (opcion < 0 || opcion >= 5) {
+            System.out.println("No has elegido una opcion válida.");
+        }
+
+    }
 
     public static void crearQuadrat() {
 
@@ -107,7 +209,8 @@ public class programa {
         sc.nextLine();
 
         quadrats[quadratsCreats] = new Quadrat(x, y, height, width);
-
+        quadratsCreats++;
+        formasCredas++;
     }
 
     public static void crearRectangle() {
@@ -129,7 +232,8 @@ public class programa {
         sc.nextLine();
         
         rectangles[rectanglesCreats] = new Rectangle(x, y, height, width);
-
+        rectanglesCreats++;
+        formasCredas++;
     }
 
     public static void crearCirculo() {
@@ -150,7 +254,8 @@ public class programa {
         int height = 0;
         
         cercles[cerclesCreats] = new Cercle(x, y, height, width, radi);
-
+        cerclesCreats++;
+        formasCredas++;
     }
 
     public static void crearRombo() {
@@ -179,7 +284,8 @@ public class programa {
         int height = 0;
         
         rombos[rombosCreats] = new Rombo(x, y, height, width, diagonalMayor, diagonalMenor, lado);
-
+        rombosCreats++;
+        formasCredas++;
     }
 
     public static void mostrarRombos() {

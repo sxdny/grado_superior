@@ -30,7 +30,15 @@ public class Cercle extends FiguraGeometrica {
         return super.mostrarDades() + "Radi: " + this.radi;
     }
 
-    
+    public void mostrarAreaCercle(int radio) {
+        double area = 3.14159 * Math.pow(radio, 2);
+        System.out.println("El perimetro del Ciruclo es: " + area);
+    }
+
+    public void mostrarCircunferenciaCercle(int radi) {
+        double area = 3.14159 * 2 * radi;
+        System.out.println("La circunferencia del Circulo es: " + area);
+    }
 
     
     

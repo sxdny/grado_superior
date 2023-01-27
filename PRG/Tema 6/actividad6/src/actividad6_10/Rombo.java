@@ -46,4 +46,18 @@ public class Rombo extends FiguraGeometrica {
         this.lado = lado;
     }
 
+    public void mostrarAreaRombo(int diagonalMenor, int diagonalMayor) {
+
+        int area = diagonalMayor * diagonalMenor;
+        System.out.println("El area del Rombo es: " + area);
+
+    }
+
+    public void mostrarPerimetreRectangle(int lado) {
+
+        int perimetre = lado + lado + lado + lado;
+        System.out.println("El perimetro del Rombo es: " + perimetre);
+
+    }
+
 }

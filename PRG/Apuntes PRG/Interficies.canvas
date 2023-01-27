@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"id":"65a3978cc06128fc","x":-407,"y":223,"width":250,"height":206,"type":"text","text":"Adolescente\n---\npedalear() {\n   Código\n}"},
+		{"id":"22f89c42be2414ab","x":-657,"y":104,"width":250,"height":60,"type":"text","text":"Bebe"},
+		{"id":"d21fdc71faca0dc6","x":-109,"y":45,"width":377,"height":281,"type":"text","text":"Adult\n--\n````java\npublic class Adult extends Persona implements AnarBici\n````"},
+		{"id":"42807ca514409565","x":-368,"y":-109,"width":167,"height":50,"color":"6","type":"text","text":"# Persona"},
+		{"id":"c3e8d2e7ced0df8f","x":268,"y":561,"width":437,"height":241,"type":"text","text":"````java\npublic interface AnarBici() {\n\n\tpublic void pedalejar();\n\n}\n````\n\n## Una clase puede implementar varias interfaces."},
+		{"id":"6b319e14bca39d6a","x":423,"y":223,"width":250,"height":202,"color":"1","type":"text","text":"anarBici()\n-------\n+ pedalear();"},
+		{"id":"15a824a5b62b9eaf","x":-1097,"y":461,"width":623,"height":682,"type":"file","file":"PRG/Apuntes PRG/Java.md"}
+	],
+	"edges":[
+		{"id":"1d9f393262fdda94","fromNode":"42807ca514409565","fromSide":"bottom","toNode":"22f89c42be2414ab","toSide":"top"},
+		{"id":"022ff72a57d7b1f0","fromNode":"42807ca514409565","fromSide":"bottom","toNode":"65a3978cc06128fc","toSide":"top"},
+		{"id":"460bddbf1ffe1f89","fromNode":"42807ca514409565","fromSide":"bottom","toNode":"d21fdc71faca0dc6","toSide":"top"},
+		{"id":"63d53e835216925d","fromNode":"6b319e14bca39d6a","fromSide":"bottom","toNode":"d21fdc71faca0dc6","toSide":"bottom"},
+		{"id":"0ebafe37d5fbf33f","fromNode":"6b319e14bca39d6a","fromSide":"bottom","toNode":"65a3978cc06128fc","toSide":"bottom"},
+		{"id":"94645b0e4201733d","fromNode":"c3e8d2e7ced0df8f","fromSide":"right","toNode":"6b319e14bca39d6a","toSide":"right"}
+	]
+}
