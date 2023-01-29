@@ -1,2 +1,0 @@
-## Movies table content
-

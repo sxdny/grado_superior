@@ -1,0 +1,211 @@
+@font-face {
+    font-family: "Helvetica";
+    src: url("../resources/font/Helvetica.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica";
+}
+
+html, body {
+    background-color: #081C15;
+    color: black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.gridContacto {
+    width: auto;
+    background-color: #081C15;
+    padding: 3rem 5rem;
+}
+
+.contactosvg {
+    fill: yellow;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.heading > svg {
+    height: auto;
+    width: auto;
+    margin: 3em 2em;
+}
+
+.formulario {
+    background-color: #081C15;
+    color: white;
+    display: grid;
+    margin: 0 5em;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 4rem 4rem 4rem;
+    gap: 1em;
+    grid-template-areas:
+    "input1 textarea"
+    "input2 textarea"
+    "input3 textarea"
+    "button button";
+}
+
+#name {
+    grid-area: input1;
+}
+
+#surnames {
+    grid-area: input2;
+}
+
+#email {
+    grid-area: input3;
+}
+
+#message {
+    grid-area: textarea;
+}
+
+.button {
+    grid-area: button;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.formulario > .input, textarea {
+    padding: 1rem;
+    font-size: 16px;
+    color: #081C15;
+    background-color: #D8F3DC;
+    border: none;
+    resize: none;
+}
+
+.formulario > .input:focus, textarea:focus {
+    background-color: white;
+}
+
+.submit {
+    font-size: 16px;
+    width: 6rem;
+    padding: 1rem;
+    background-color: rgb(23, 118, 207);
+    color: white;
+    border: none;
+    transition: .5s ease;
+}
+
+.submit:hover {
+    background-color: #a9c8ae;
+    color: #081C15;
+}
+
+.navbar {
+    background-color: #D8F3DC;
+    color: #081C15;
+    padding: 20px 35px 20px 35px;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+
+.navbar > .menus > ul {
+    display: flex;
+}
+
+.navbar > .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.menus {
+    align-self: center;
+}
+
+.contact {
+    align-self: center;
+    display: flex;
+    justify-content: right;
+}
+
+.menus > ul > li {
+    margin: 0px 20px 0px 0px;
+    text-align: center;
+    list-style: none;
+}
+
+.menus > ul > li > a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #081C15;
+}
+
+.menus > ul > li > a:hover {
+    font-weight: bold;
+}
+
+.contact > a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #081C15;
+}
+
+.contact > a:hover {
+    font-weight: bold;
+}
+
+.logosvg {
+    fill: #081C15;
+}
+
+.blogosvg {
+    fill: none;
+}
+
+.menu-responsive {
+    display: none;
+    background-color: #081C15;
+}
+
+.menu-responsive > ul > li > a {
+    color: #081C15;
+    text-decoration: none;
+}
+
+.menu-responsive > ul > li > a:hover {
+    color: #081C15;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.menu-responsive > ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 12px;
+    padding: 8px 16px 8px 16px;
+    background-color: #a9c8ae;
+}
+
+@media (max-width: 920px) {
+    .menu-responsive {
+        display: block;
+    }
+
+    .navbar {
+        display: flex;
+    }
+
+    .menus, .contact {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+    }
+}
