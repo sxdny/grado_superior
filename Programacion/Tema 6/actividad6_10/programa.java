@@ -210,7 +210,6 @@ public class programa {
 
         quadrats[quadratsCreats] = new Quadrat(x, y, height, width);
         quadratsCreats++;
-        formasCredas++;
     }
 
     public static void crearRectangle() {
@@ -233,7 +232,6 @@ public class programa {
         
         rectangles[rectanglesCreats] = new Rectangle(x, y, height, width);
         rectanglesCreats++;
-        formasCredas++;
     }
 
     public static void crearCirculo() {
@@ -255,7 +253,6 @@ public class programa {
         
         cercles[cerclesCreats] = new Cercle(x, y, height, width, radi);
         cerclesCreats++;
-        formasCredas++;
     }
 
     public static void crearRombo() {
@@ -285,7 +282,6 @@ public class programa {
         
         rombos[rombosCreats] = new Rombo(x, y, height, width, diagonalMayor, diagonalMenor, lado);
         rombosCreats++;
-        formasCredas++;
     }
 
     public static void mostrarRombos() {

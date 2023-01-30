@@ -18,8 +18,59 @@ INNER JOIN ...
 
 ````
 
+## Procedure to get a list of actors.
+
+````sql
+castingActors() -- Procedure.
+
+IN var_character_id  INT
+
+-- 1. DECLARE VARIABLES
+
+-- 2. SELECT from characters.
+SELECT -,-,- INTO -.,-.,-.
+FROM characters
+WHERE character_id = var_character_id;
+
+-- 3. SELECT from actors
+SELECT actor_id 
+FROM actors
+WHERE - = -. AND - = -. AND - = -.;
+
+-- =. RELATION.
+
+-- WHILE LOOP Sql
+DECLARE @i int = 0
+
+WHILE @i < 20
+BEGIN
+    SET @i = @i + 1
+    /* do some work */
+END
+
+-- 4. Create NEW table.
+INSERT INTO casting (-,-,-,-) VALUES
+(-,-,-,-),
+(-,-,-,-),
+(-,-,-,-),
+(-,-,-,-),
+(-,-,-,-);
+
+-- INSERT INTO SELECT
+INSERT INTO casting (-,-,-,-)
+SELECT (-,-,-,-) FROM actors
+WHERE ....
+
+--syntax
+INSERT INTO _table2_ (_column1_, _column2_, _column3_, ...)  
+SELECT _column1_, _column2_, _column3_, ...  
+FROM _table1_  
+WHERE _condition_;
+````
 
 # Database structure.
+
+#📢 *Create new casting table to store the actors for the movie.*
 
 Main point: Develop a SN to do an automatic casting process.
 

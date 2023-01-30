@@ -14,6 +14,7 @@ public class Quadrat extends FiguraGeometrica {
         return super.mostrarDades();
     }
 
+    // Opcional.
     @Override
     public String toString() {
         return "Quadrat []";

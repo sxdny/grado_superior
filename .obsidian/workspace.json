@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "385225f6b6360b03",
+        "id": "cb8a4cbab791b25e",
         "type": "tabs",
         "children": [
           {
-            "id": "a83ce1bce83a03aa",
+            "id": "47e78493761d790d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PRG/Apuntes PRG/Java.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0297e7a2569bcf1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BD/Cinema/Cinema Database Content.md",
+                "file": "Bases de Datos/Cinema/Cinema Database.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#✏Cosas",
+                "query": "tag:#📢",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -97,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PRG/Apuntes PRG/Java.md",
+                "file": "Bases de Datos/Cinema/Cinema Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PRG/Apuntes PRG/Java.md",
+                "file": "Bases de Datos/Cinema/Cinema Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PRG/Apuntes PRG/Java.md"
+                "file": "Bases de Datos/Cinema/Cinema Database.md"
               }
             }
           }
@@ -159,17 +148,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a83ce1bce83a03aa",
+  "active": "a3ec2283924c6f84",
   "lastOpenFiles": [
+    "Bases de Datos/Cinema/24-01-23.canvas",
+    "Bases de Datos/Cinema/Cinema Database Content.md",
+    "Bases de Datos/Cinema/Cinema Database.md",
+    "Entornos de Desarrollo/Apuntes ED.md",
+    "Entornos de Desarrollo/Diagramas/ejercicio11ED_sidneysilva.drawio",
+    "Entornos de Desarrollo/Diagramas/actividad9ED.drawio",
+    "Entornos de Desarrollo/Diagramas/ej4ED.drawio",
+    "Entornos de Desarrollo/Canvas.canvas",
     "PRG/Apuntes PRG/Interficies.canvas",
-    "PRG/Apuntes PRG/Java.md",
-    "BD/Cinema/Cinema Database.md",
-    "BD/Cinema/Cinema Database Content.md",
-    "BD/Cinema/24-01-23.canvas",
-    "BD/Comandos SQL (Repaso).md",
-    "cheatSheetMD.md",
-    "Apuntes/LaTeX/build/main.pdf",
-    "Resources/Fura Mono (Editor Font)/readme.md",
-    "Apuntes/LaTeX/main.pdf"
+    "PRG/Apuntes PRG/Java.md"
   ]
 }

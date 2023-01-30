@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"id":"064972428518f23a","x":-581,"y":-197,"width":612,"height":400,"color":"1","type":"file","file":"BD/Cinema/Cinema Database.md"},
-		{"id":"e90e4405000e4e63","x":114,"y":373,"width":656,"height":602,"type":"file","file":"BD/Cinema/Cinema Database.md"},
+		{"id":"064972428518f23a","x":-581,"y":-197,"width":612,"height":400,"color":"1","type":"file","file":"Bases de Datos/Cinema/Cinema Database.md"},
+		{"id":"e90e4405000e4e63","x":114,"y":373,"width":656,"height":602,"type":"file","file":"Bases de Datos/Cinema/Cinema Database.md"},
 		{"id":"9081f555db2ba9a0","x":-429,"y":373,"width":250,"height":60,"color":"1","type":"text","text":"Casting"},
 		{"id":"0ce1ca7acbbef34c","x":-245,"y":505,"width":250,"height":60,"type":"text","text":"actor_id"},
 		{"id":"ef72692dce680e12","x":-581,"y":505,"width":250,"height":60,"type":"text","text":"character_id"},
