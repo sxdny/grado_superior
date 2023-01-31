@@ -8,7 +8,9 @@
 		{"id":"e0cc2e782761fc89","x":157,"y":-25,"width":250,"height":58,"color":"3","type":"text","text":"List of actor id's. (Age function)"},
 		{"id":"9c268809c544245e","x":157,"y":-197,"width":250,"height":58,"color":"3","type":"text","text":"List of actor id's. (Tolerance) "},
 		{"id":"20e9bc94fd9735aa","x":157,"y":145,"width":250,"height":58,"color":"3","type":"text","text":"List of actor id's. (Languages)"},
-		{"id":"393eb29b95e02e29","x":520,"y":-52,"width":250,"height":111,"color":"1","type":"text","text":"List of actor id's. \nNumeric Array"}
+		{"id":"393eb29b95e02e29","x":520,"y":-52,"width":250,"height":111,"color":"1","type":"text","text":"List of actor id's. \nNumeric Array"},
+		{"id":"ad74ce6dbfcade03","x":-503,"y":807,"width":313,"height":369,"color":"1","type":"file","file":"Bases de Datos/Cinema/Cinema Database.md"},
+		{"id":"43f2bd7942233932","x":-495,"y":708,"width":250,"height":60,"color":"1","type":"text","text":"## TRIPLE PK"}
 	],
 	"edges":[
 		{"id":"668da86ef2b1f5ee","fromNode":"064972428518f23a","fromSide":"right","toNode":"9c268809c544245e","toSide":"left"},
@@ -19,6 +21,7 @@
 		{"id":"e20a5104023003b6","fromNode":"20e9bc94fd9735aa","fromSide":"right","toNode":"393eb29b95e02e29","toSide":"left"},
 		{"id":"7ca0a21baea40d64","fromNode":"9081f555db2ba9a0","fromSide":"bottom","toNode":"ef72692dce680e12","toSide":"top"},
 		{"id":"ef5636c0b1c4f1df","fromNode":"9081f555db2ba9a0","fromSide":"bottom","toNode":"0ce1ca7acbbef34c","toSide":"top"},
-		{"id":"6fc14119ca3d39a3","fromNode":"9081f555db2ba9a0","fromSide":"top","toNode":"e90e4405000e4e63","toSide":"top","label":"Connection"}
+		{"id":"6fc14119ca3d39a3","fromNode":"9081f555db2ba9a0","fromSide":"top","toNode":"e90e4405000e4e63","toSide":"top","label":"Connection"},
+		{"id":"26d7cdeb4a9d48f8","fromNode":"43f2bd7942233932","fromSide":"right","toNode":"ad74ce6dbfcade03","toSide":"right"}
 	]
 }

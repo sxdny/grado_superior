@@ -68,6 +68,24 @@ FROM _table1_
 WHERE _condition_;
 ````
 
+
+# Casting table (avoid repeating information.)
+
+Set a **Triple** primary key on the casting tables.
+
+
+
+| movie_Id | character_id | actor_id |
+| -------- | ------------ | -------- |
+| 101      | 33           | 2        |
+| 101      | 33           | 4        |
+| 101      | 33           | 8        |
+| 101      | 33           | 2        |
+| 101      | 33           | 4        |
+| 101      | 33           | 8        |
+| 101      | 34           | 4        |
+
+
 # Database structure.
 
 #📢 *Create new casting table to store the actors for the movie.*
