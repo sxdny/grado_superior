@@ -4,22 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "cb8a4cbab791b25e",
+        "id": "385225f6b6360b03",
         "type": "tabs",
         "children": [
           {
-            "id": "47e78493761d790d",
+            "id": "0297e7a2569bcf1c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entornos de Desarrollo/Apuntes Entornos de Desarrollo.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "b605015fcca658fd",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Entornos de Desarrollo/Notas diagramas/Diagrama d'activitat.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "6eb50281b1cf7bf3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de Datos/Cinema/Cinema Database.md",
+                "file": "Apuntes/Apuntes Programación/Java.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#📢",
+                "query": "tag:#✏Cosas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +94,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Cinema/Cinema Database.md",
+                "file": "Apuntes/Apuntes Programación/Java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Cinema/Cinema Database.md",
+                "file": "Apuntes/Apuntes Programación/Java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,15 +154,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bases de Datos/Cinema/Cinema Database.md"
+                "file": "Apuntes/Apuntes Programación/Java.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 320.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -145,20 +174,21 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "dbfolder:Create a new database table": false
     }
   },
-  "active": "a3ec2283924c6f84",
+  "active": "6eb50281b1cf7bf3",
   "lastOpenFiles": [
-    "Bases de Datos/Cinema/24-01-23.canvas",
-    "Bases de Datos/Cinema/Cinema Database Content.md",
-    "Bases de Datos/Cinema/Cinema Database.md",
-    "Entornos de Desarrollo/Apuntes ED.md",
-    "Entornos de Desarrollo/Diagramas/ejercicio11ED_sidneysilva.drawio",
-    "Entornos de Desarrollo/Diagramas/actividad9ED.drawio",
-    "Entornos de Desarrollo/Diagramas/ej4ED.drawio",
-    "Entornos de Desarrollo/Canvas.canvas",
-    "PRG/Apuntes PRG/Interficies.canvas",
-    "PRG/Apuntes PRG/Java.md"
+    "Apuntes/Apuntes Programación/Interficies.canvas",
+    "_notion-like-tables/table-id-mmSXD4.md",
+    "image.png.md",
+    "Pasted image 20230130230236.png",
+    "Pasted image 20230130233706.png",
+    "Pasted image 20230130233412.png",
+    "Entornos de Desarrollo/Notas diagramas/Diagrama d'activitat.md",
+    "images/blaknode.png.md",
+    "Entornos de Desarrollo/Apuntes Entornos de Desarrollo.md",
+    "Entornos de Desarrollo/images/finalBlackNode.png"
   ]
 }

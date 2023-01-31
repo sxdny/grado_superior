@@ -1,4 +1,4 @@
-package ejercicio6_2;
+package actividad6_2;
 
 public class CompteBancari {
     private String dniTitular = new String(); // En vez de las comillas.

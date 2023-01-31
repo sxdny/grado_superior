@@ -1,6 +1,6 @@
 // Funciona en Ubuntu.
 
-package ejercicio6_2;
+package actividad6_2;
 
 import java.util.Scanner;
 
