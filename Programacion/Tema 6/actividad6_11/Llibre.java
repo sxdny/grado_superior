@@ -1,3 +1,4 @@
+package actividad6_11;
 
 
 public class Llibre {
@@ -23,7 +24,7 @@ public class Llibre {
     
     @Override
     public String toString() {
-        return "Llibre [titulo=" + titulo + ", autor=" + autor + ", idLlibre=" + idLlibre + "]";
+        return "Llibre [titulo=" + this.titulo + ", autor=" + this.autor + ", idLlibre=" + idLlibre + "]";
     }
 
     public String getTitulo() {
