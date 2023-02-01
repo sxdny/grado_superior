@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes/Apuntes Programación/Java.md",
+                "file": "Bases de Datos/Cinema/Cinema Database.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d0017033b2cdf68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apuntes Base de Datos.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Apuntes Base de Datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Apuntes Base de Datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Apuntes Base de Datos.md"
+              }
             }
           }
         ],
@@ -145,17 +162,17 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "9dbe8a44e9046598",
+  "active": "1d0017033b2cdf68",
   "lastOpenFiles": [
+    "Bases de Datos/Cinema/Cinema Database.md",
+    "Bases de Datos/Cinema/Cinema Database Content.md",
+    "Apuntes/Apuntes Programación/Java.md",
     "Apuntes/Apuntes Programación/Interficies.canvas",
     "Bases de Datos/Cinema/24-01-23.canvas",
-    "Bases de Datos/Cinema/Cinema Database.md",
     "Entornos de Desarrollo/Notas diagramas/Diagrama d'activitat.md",
     "Entornos de Desarrollo/Apuntes Entornos de Desarrollo.md",
-    "Apuntes/Apuntes Programación/Java.md",
     "_notion-like-tables/table-id-mmSXD4.md",
     "image.png.md",
-    "Pasted image 20230130230236.png",
-    "Pasted image 20230130233706.png"
+    "Pasted image 20230130230236.png"
   ]
 }
