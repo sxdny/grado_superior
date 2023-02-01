@@ -46,8 +46,8 @@ public class InstrumentsMusicals implements Sons {
     }
 
     @Override
-    public void soProduit() {
-        
+    public String soProduit() {
+        return new String();
     }
 
 }

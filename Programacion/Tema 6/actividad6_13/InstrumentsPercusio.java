@@ -1,6 +1,6 @@
 package actividad6_13;
 
-public class InstrumentsPercusio extends InstrumentsMusicals implements Sons {
+public class InstrumentsPercusio extends InstrumentsMusicals {
     
     public InstrumentsPercusio() {
     }
@@ -10,8 +10,8 @@ public class InstrumentsPercusio extends InstrumentsMusicals implements Sons {
     }
 
     @Override
-	public void soProduit() {
-		System.out.println("Sonido de un instrumento de Percusio.");
+	public String soProduit() {
+		return "Sonido de instrumento de Percusio";
 	}
 
 }

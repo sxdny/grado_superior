@@ -1,6 +1,6 @@
 package actividad6_13;
 
-public class InstruemtsVent extends InstrumentsMusicals implements Sons {
+public class InstruemtsVent extends InstrumentsMusicals {
     
     public InstruemtsVent() {
     }
@@ -10,8 +10,8 @@ public class InstruemtsVent extends InstrumentsMusicals implements Sons {
     }
 
     @Override
-	public void soProduit() {
-		System.out.println("Sonido de un instrumento de Viento.");
+	public String soProduit() {
+		return "Sonido de instrumento de Vent";
 	}
 
 }
