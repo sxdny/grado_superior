@@ -4,20 +4,20 @@ import java.util.Scanner;
 import java.util.UUID;
 
 public class Programa {
-    
+
     static int opcion = 0;
     static Scanner sc = new Scanner(System.in);
     static LlistaLlibres llibres = new LlistaLlibres();
     static int llibresCreats = 0;
 
     public static void main(String[] args) {
-        
+
         do {
-            
+
             System.out.println("Seleccione una de las siguientes opciones:");
             System.out.println("1. Crear un *NUEVO* libro.");
             System.out.println("2. Modificar un libro.");
-            System.out.println("3. Mostrar el libro.");
+            System.out.println("3. Mostrar el/los libro/s.");
             System.out.println("4. Eliminar un libro.");
             System.out.println("5. Salir del progama.");
 
@@ -29,7 +29,7 @@ public class Programa {
             }
 
             if (opcion == 2) {
-                // editarLllibre();
+                editarLlibre();
             }
 
             if (opcion == 3) {
@@ -37,7 +37,7 @@ public class Programa {
             }
 
             if (opcion == 4) {
-                // eliminarLlibre();
+                eliminarLlibre();
             }
 
             if (opcion == 5) {
@@ -53,7 +53,7 @@ public class Programa {
 
     }
 
-    public static String generarCodigoLlibre(){
+    public static String generarCodigoLlibre() {
         UUID uuid = UUID.randomUUID();
         return uuid.toString();
     }
@@ -76,95 +76,43 @@ public class Programa {
         Llibre llibre = new Llibre(titulo, autor, genero, idLlibre, paginas);
 
         llibres.insertarLlibre(llibre);
-        
+
     }
 
     public static void mostrarLlibres() {
 
-        System.out.println("Inserte el ID del libro que desee mostrar:");
-        String idLlibre = sc.nextLine();
+        System.out.println("Quieres mostrar un libro o TODOS?");
+        System.out.println("1. TODOS | 2. Uno");
+        int opcion = sc.nextInt();
+        sc.nextLine();
 
-        llibres.mostraLlibres(idLlibre);
+        if (opcion == 1) {
+            llibres.mostrarTodosLlibres();
+        }
+
+        else {
+            System.out.println("Inserte el ID del libro que desee mostrar:");
+            String idLlibre = sc.nextLine();
+
+            llibres.mostraLlibres(idLlibre);
+        }
 
     }
 
-    
-    // public static void mostrarLlibre() {
+    public static void eliminarLlibre() {
 
-    //     System.out.println("Inserte el ID del libro para mostralo:");
-    //     String idLlibre = sc.nextLine();
-    //     for (int i = 0; i < LlistaLlibres.llibresCreats; i++) { 
-    //         if (idLlibre == LlistaLlibres.llistaLlibres[i].getIdLlibre()) {
-    //             LlistaLlibres.llistaLlibres[i].toString();
-    //         }
-    //     }
-    // }
+        System.out.println("Inserte el ID del libro que quieres eliminar:");
+        String idLlibre = sc.nextLine();
 
-    // public static void eliminarLlibre() {
+        llibres.eliminarLlibres(idLlibre);
+    }
 
-    //     System.out.println("Inserte el ID del libro que quieres eliminar:");
-    //     String idLlibre = sc.nextLine();
+    public static void editarLlibre() {
 
-    //     for (int i = 0; i < LlistaLlibres.llibresCreats; i++) { 
-    //         if (idLlibre == LlistaLlibres.llistaLlibres[i].getIdLlibre()) {
-    //             for (int j = i; j < LlistaLlibres.llibresCreats; j++) {
-    //                 LlistaLlibres.llistaLlibres[i] = LlistaLlibres.llistaLlibres[j + 1];
-    //             }
-    //         }
-    //     }
-    // }
+        System.out.println("Inserte el ID del libro que quieres editar:");
+        String idLlibre = sc.nextLine();
 
-
-    // public static void editarLllibre() {
-
-    //     System.out.println("Inserte el ID del libro que quiera editar:");
-    //     String idLlibre = sc.nextLine();
-    //     int op = 0;
-
-    //     for (int i = 0; i < LlistaLlibres.llibresCreats; i++) { 
-    //         if (idLlibre == LlistaLlibres.llistaLlibres[i].getIdLlibre()) {
-                
-    //             System.out.println("Que quieres editar?");
-    //             System.out.println("1. Titulo.");
-    //             System.out.println("2. Autor.");
-    //             System.out.println("3. Genero.");
-    //             System.out.println("4. Numero paginas.");
-
-    //             op = sc.nextInt();
-    //             sc.nextLine();
-
-    //             if (op == 1) {
-    //                 System.out.println("Introduce un nuevo Titulo:");
-    //                 String titulo = sc.nextLine();
-    //                 LlistaLlibres.llistaLlibres[i].setTitulo(titulo);
-    //             }
-
-    //             if (op == 2) {
-    //                 System.out.println("Introduce un nuevo Autor:");
-    //                 String autor = sc.nextLine();
-    //                 LlistaLlibres.llistaLlibres[i].setAutor(autor);
-    //             }
-
-    //             if (op == 3) {
-    //                 System.out.println("Introduce un nuevo Genero:");
-    //                 String genero = sc.nextLine();
-    //                 LlistaLlibres.llistaLlibres[i].setGenero(genero);
-    //             }
-
-    //             if (op == 4) {
-    //                 System.out.println("Introduce un nuevo Numero de paginas:");
-    //                 int nPaginas = sc.nextInt();
-    //                 LlistaLlibres.llistaLlibres[i].setPaginas(nPaginas);
-    //             }
-
-    //             if (op < 0 || op >= 5) {
-    //                 System.out.println("No has elegido una opcion válida.");
-    //             }
-
-
-    //         }
-    //     }
-
-    // }
+        llibres.editarLlibres(idLlibre);
+    }
 
 }

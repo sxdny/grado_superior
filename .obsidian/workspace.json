@@ -8,51 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0297e7a2569bcf1c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Entornos de Desarrollo/Apuntes Entornos de Desarrollo.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "b605015fcca658fd",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Entornos de Desarrollo/Notas diagramas/Diagrama d'activitat.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "1f8133303bb897b8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Bases de Datos/Cinema/24-01-23.canvas",
-                "viewState": {
-                  "x": -231.37140161569323,
-                  "y": 842.6824800280076,
-                  "zoom": 0.10093519709334853,
-                  "snapToGrid": false
-                }
+                "file": "Apuntes/Apuntes Programación/Java.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Cinema/24-01-23.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Cinema/24-01-23.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,9 +122,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Bases de Datos/Cinema/24-01-23.canvas"
-              }
+              "state": {}
             }
           }
         ],
@@ -182,17 +145,17 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "1f8133303bb897b8",
+  "active": "9dbe8a44e9046598",
   "lastOpenFiles": [
+    "Apuntes/Apuntes Programación/Interficies.canvas",
+    "Bases de Datos/Cinema/24-01-23.canvas",
     "Bases de Datos/Cinema/Cinema Database.md",
     "Entornos de Desarrollo/Notas diagramas/Diagrama d'activitat.md",
     "Entornos de Desarrollo/Apuntes Entornos de Desarrollo.md",
     "Apuntes/Apuntes Programación/Java.md",
-    "Apuntes/Apuntes Programación/Interficies.canvas",
     "_notion-like-tables/table-id-mmSXD4.md",
     "image.png.md",
     "Pasted image 20230130230236.png",
-    "Pasted image 20230130233706.png",
-    "Pasted image 20230130233412.png"
+    "Pasted image 20230130233706.png"
   ]
 }
