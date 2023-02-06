@@ -2,8 +2,10 @@ package actividad6_10;
 
 import java.util.Scanner;
 
+
+
 public class programa {
-    
+
     static int op = 0;
 
     static int formasCredas = 0;
