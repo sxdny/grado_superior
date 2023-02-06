@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "385225f6b6360b03",
+        "id": "5e3487e38e9df967",
         "type": "tabs",
         "children": [
           {
-            "id": "1f8133303bb897b8",
+            "id": "13e60069eae290d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Apuntes/Apuntes Bases de Datos/Apuntes Base de Datos.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apuntes/Apuntes Bases de Datos/Apuntes Base de Datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apuntes/Apuntes Bases de Datos/Apuntes Base de Datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Apuntes/Apuntes Bases de Datos/Apuntes Base de Datos.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -149,17 +141,17 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "9dbe8a44e9046598",
+  "active": "13e60069eae290d9",
   "lastOpenFiles": [
+    "Apuntes/Apuntes Programación/Repaso Examen Java Tema 6.md",
+    "Apuntes/Apuntes Programación/Java.md",
+    "Apuntes/Apuntes Programación/Interficies.canvas",
+    "Apuntes/Apuntes Bases de Datos/Apuntes Base de Datos.md",
     "images/Pasted image 20230130233812.png",
     "images/Pasted image 20230130233706.png",
     "images/Pasted image 20230130233412.png",
     "images/Pasted image 20230130230236.png",
-    "Apuntes/Apuntes Programación/Java.md",
-    "Apuntes/Apuntes Programación/Interficies.canvas",
     "Bases de Datos/Cinema/24-01-23.canvas",
-    "Bases de Datos/Cinema/Cinema Database.md",
-    "Entornos de Desarrollo/Notas diagramas/Diagrama d'activitat.md",
-    "Apuntes/Apuntes Entornos de Desarrollo/Apuntes Entornos de Desarrollo.md"
+    "Bases de Datos/Cinema/Cinema Database.md"
   ]
 }
