@@ -19,6 +19,7 @@ html, body {
     display: flex;
     flex-direction: column;
     scroll-behavior: smooth;
+    min-height: 100vh;
 }
 
 /* Menu del grid. */
@@ -88,13 +89,13 @@ html, body {
     padding: 1rem;
     font-size: 16px;
     color: #e6f4e8;
-    background-color: #2D6A4F;
+    background-color: #081C15;
     border: none;
     resize: none;
 }
 
 .formulario > .input:focus, textarea:focus {
-    background-color: #143a2d;
+    background-color: #12362a;
 }
 
 .submit {
@@ -325,6 +326,10 @@ html, body {
 
 @media (max-width: 920px) {
     
+    .principal {
+        margin: 0em 0em;
+    }
+    
     .main {
         padding: 3em 2em;
     }
@@ -441,6 +446,14 @@ html, body {
         padding: none;        
     }
 
+    body > .principal  {
+        margin: 0em 0em;
+    }
+
+    .proyectos > .p {
+        margin: 1em 2em;
+    }
+
 }
 
 footer {
@@ -448,6 +461,7 @@ footer {
     padding: 1em 3em;
     display: flex;
     justify-content: space-between;
+    margin-top: auto;
 }
 
 .copy {
@@ -521,7 +535,7 @@ footer {
 /* Pagina proyectos. */
 
 .principal {
-    margin: 0em 2em;
+    margin: 0em 4em;
 }
 
 .proyectos {
@@ -531,6 +545,7 @@ footer {
 
 .p {
     padding: 1rem;
+    margin: 0em 4em;
     position: relaive;
     background-color: #081C15;
     margin-bottom: 1em;

@@ -51,7 +51,6 @@ SET NEW.character_name = LOWE(NEW.character_name);
 Casting trigger:
 
 ````sql
-
 CREATE TRIGGER tr_inr_ishired
 AFTER UPDATE ON casting
 FOR EACH ROW
