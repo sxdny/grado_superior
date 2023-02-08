@@ -8,3 +8,4 @@ Lista de las notas de cada diagrama:
 - [[Diagrama d'activitat]]
 - [[Diagrama d'estat]]
 - [[Diagrama de comunicació]]
+
