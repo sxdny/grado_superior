@@ -336,7 +336,7 @@ html, body {
 
     .gridImage {
         grid-template-columns: none;
-        grid-template-rows: 70% 30%;
+        /* grid-template-rows: 70% 30%; */
         gap: 2em;
     }
 
