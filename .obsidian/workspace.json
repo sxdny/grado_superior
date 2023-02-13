@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Entornos de Desarrollo/Notas diagramas/Diagrama de seqüència.md",
+                "file": "Bases de Datos/Cinema/Cinema Database.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Entornos de Desarrollo/Notas diagramas/Diagrama de seqüència.md",
+                "file": "Bases de Datos/Cinema/Cinema Database.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Entornos de Desarrollo/Notas diagramas/Diagrama de seqüència.md",
+                "file": "Bases de Datos/Cinema/Cinema Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Entornos de Desarrollo/Notas diagramas/Diagrama de seqüència.md"
+                "file": "Bases de Datos/Cinema/Cinema Database.md"
               }
             }
           }
@@ -151,15 +151,15 @@
   },
   "active": "13e60069eae290d9",
   "lastOpenFiles": [
+    "Apuntes/Apuntes Bases de Datos/Apuntes Base de Datos.md",
+    "Entornos de Desarrollo/Notas diagramas/Diagrama de seqüència.md",
     "Apuntes/Apuntes Entornos de Desarrollo/Apuntes Entornos de Desarrollo.md",
     "Apuntes/Apuntes Programación/Repaso Examen Java Tema 6.md",
     "Apuntes/Apuntes Programación/Java.md",
     "Apuntes/Apuntes Programación/Interficies.canvas",
-    "Apuntes/Apuntes Bases de Datos/Apuntes Base de Datos.md",
     "images/Pasted image 20230130233812.png",
     "images/Pasted image 20230130233706.png",
     "images/Pasted image 20230130233412.png",
-    "images/Pasted image 20230130230236.png",
-    "Bases de Datos/Cinema/24-01-23.canvas"
+    "images/Pasted image 20230130230236.png"
   ]
 }
