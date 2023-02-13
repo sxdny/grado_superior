@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "41a836b0f1accb10",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Apuntes/Apuntes Bases de Datos/Examen/Examen BD.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/Cinema/Cinema Database.md",
+                "file": "Apuntes/Apuntes Bases de Datos/Examen/Examen BD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/Cinema/Cinema Database.md",
+                "file": "Apuntes/Apuntes Bases de Datos/Examen/Examen BD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bases de Datos/Cinema/Cinema Database.md"
+                "file": "Apuntes/Apuntes Bases de Datos/Examen/Examen BD.md"
               }
             }
           }
@@ -149,14 +162,14 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "13e60069eae290d9",
+  "active": "41a836b0f1accb10",
   "lastOpenFiles": [
-    "Apuntes/Apuntes Bases de Datos/Apuntes Base de Datos.md",
-    "Entornos de Desarrollo/Notas diagramas/Diagrama de seqüència.md",
-    "Apuntes/Apuntes Entornos de Desarrollo/Apuntes Entornos de Desarrollo.md",
-    "Apuntes/Apuntes Programación/Repaso Examen Java Tema 6.md",
-    "Apuntes/Apuntes Programación/Java.md",
-    "Apuntes/Apuntes Programación/Interficies.canvas",
+    "Apuntes/Apuntes Bases de Datos/Examen/Canvas Examen.canvas",
+    "Entornos de Desarrollo/images/finalBlackNode.png",
+    "Entornos de Desarrollo/images/blacknode.png",
+    "Entornos de Desarrollo/Diagramas/actividad14_sidney.png",
+    "Entornos de Desarrollo/Diagramas/actividad13ED.drawio.png",
+    "Entornos de Desarrollo/Diagramas/actividad12ED.drawio.png",
     "images/Pasted image 20230130233812.png",
     "images/Pasted image 20230130233706.png",
     "images/Pasted image 20230130233412.png",
