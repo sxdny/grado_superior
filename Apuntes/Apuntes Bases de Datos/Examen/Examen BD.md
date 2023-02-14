@@ -68,3 +68,24 @@ FROM actors;
 SELECT actor_name, actor_age
 FROM actors_view;
 ````
+
+## 6. Calculate actor's age with a function.
+
+The name "age" is better, because the function is stored at a database level.
+
+````sql
+CREATE FUNCTION age(var_birthdate DATE)
+RETURN INT
+RETURNS FLOOR(DATEDIFF(CURRENT_DATE(), var_birthdate) / 365.25)
+-- OR  USE THE TIMESTAMPDIFF function.
+````
+
+phpmyadmin page (sum and age funtion)
+
+## 7. Weight
+
+````sql
+CREATE VIEW actors_view
+SELECT birthdate age(birthdate), height_in_cm, weight_in_kg, cm_to_inches(height_in_cm), kg_to_pounds(weight_in_kg)
+FROM actors;
+````
