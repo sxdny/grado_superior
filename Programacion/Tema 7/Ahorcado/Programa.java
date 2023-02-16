@@ -1,11 +1,10 @@
-import java.io.IOException;
 import java.util.Arrays;
 import java.util.Objects;
 import java.util.Scanner;
 
 public class Programa {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         
         // String del monigote.
         String[] monigote = {" __  ", "/  | ", "|  o ", "|  | ", "| -|-", "|  | ", "| / \\"};
@@ -27,7 +26,6 @@ public class Programa {
 
         // Defino la palabra que se irá desvelando a medida de que el usuario acierte.
         String[] guessPalabra = new String[palabra.length()];
-        String palabraAdivinar = new String();
 
         // Construyo la palabra con el char "guess".
         for (int i = 0; i < palabra.length(); i++) {
@@ -35,42 +33,68 @@ public class Programa {
         }
 
         String[] arrayPalabra = palabra.split("");
+        String errores = new String();
 
         int correctas = 0;
         int incorrectas = 0;
+        int l = arrayPalabra.length;
             
         Scanner sc = new Scanner(System.in);
 
         do {
 
             System.out.println();
-            System.out.println("Adivinador palabra: " + Arrays.toString(guessPalabra));
+            System.out.println("Palabra a descubrir: " + Arrays.toString(guessPalabra));
             System.out.println("Solucion: " + palabra);
-            System.out.println("Palabra en array: " + Arrays.toString(arrayPalabra));
+            System.out.println("Numero de errores: " + incorrectas);
+            System.out.println("Letras erroneas: " + errores);
 
-            // User input.
             String userInput = sc.nextLine();
-
-            System.out.println("Char del usuario: " + userInput);
 
             // Recorrer la palabra para comparar.
             for (int i = 0; i < arrayPalabra.length; i++) {
                 if (Objects.equals(userInput, arrayPalabra[i])) {
                     guessPalabra[i] = userInput;
-                    correctas++;
-                }
-                else {
-                    incorrectas++;
+                    correctas++;   
                 }
             }
 
-            // Imprimit monigote.
-            for (int i = 0; i < monigote.length; i++) {
+            if (correctas >= 1) {
+                
+            }
+            else {
+                errores = errores + " " + userInput;
+                incorrectas++;
+            }
+
+            // Imprimir el monigote.
+            for (int i = 0; i < incorrectas; i++) {
                 System.out.println(monigote[i]);
             }
 
-        } while (correctas != arrayPalabra.length || incorrectas == monigote.length);
+        } while (correctas != l && incorrectas < monigote.length);
+
+        int index = 0;
         
+        for (int i = 0; i < arrayPalabra.length; i++) {
+            if (Objects.equals(guessPalabra[i], arrayPalabra[i])) {
+                index++;
+            }
+        }
+
+        if (index == arrayPalabra.length) {
+            System.out.println("JUEGO COMPLETADO");
+            System.out.println("Palabra final: " + Arrays.toString(guessPalabra));
+        }
+        else {
+            System.out.println("HAS FALLADO.");
+            System.out.println("La solucion era: " + palabra);
+        }
+
+        correctas = 0;
+        
+    sc.close();
+    
     }
 
 }

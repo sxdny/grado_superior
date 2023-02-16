@@ -89,3 +89,21 @@ CREATE VIEW actors_view
 SELECT birthdate age(birthdate), height_in_cm, weight_in_kg, cm_to_inches(height_in_cm), kg_to_pounds(weight_in_kg)
 FROM actors;
 ````
+
+## 8. Ns que ejercicio
+
+Privacidad.
+
+````sql
+SELECT character_gender, character_age INTO var_gender, var_age
+FROM characters
+WHERE character_id = var_character_id;
+-- The code above only works when there's a condition.
+
+SELECT var_movie_id, var_character_id, actor_id
+FROM actors
+WHERE actor_gender = var_gender AND age(actor_birthdate) = var_age;
+````
+
+## 9. Ejercicio 8++.
+
