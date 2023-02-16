@@ -322,6 +322,8 @@ html, body {
     font-weight: bold;
 }
 
+
+
 @media (max-width: 920px) {
     
     .principal {
@@ -334,6 +336,7 @@ html, body {
 
     .gridImage {
         grid-template-columns: none;
+        /* grid-template-rows: 70% 30%; */
         gap: 2em;
     }
 
