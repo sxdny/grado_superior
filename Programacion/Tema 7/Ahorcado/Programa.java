@@ -21,10 +21,10 @@ public class Programa {
         // Defino los guiones.
         String guess = "-";
 
-        // Escogo una palabra aleatprio de la Array String diccionaroi con el numero aleatorio.
+        // Escogo una palabra aleatprio de la Array String diccionario con el número aleatorio.
         palabra = diccionario[nAleatorio];
 
-        // Defino la palabra que se irá desvelando a medida de que el usuario acierte.
+        // Defino la palabra que se irá desvelando a medida de que el usuario acierte las letras.
         String[] guessPalabra = new String[palabra.length()];
 
         // Construyo la palabra con el char "guess".
