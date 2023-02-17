@@ -1,0 +1,28 @@
+* {
+    font-family: "Samsung Sans";
+    font-size: 22px;
+}
+
+@font-face {
+    font-family: "Samsung Sans";
+    src: url(./SamsungSans-Regular.ttf);
+}
+
+smartphones {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 2rem 8rem;
+}
+
+smartphone {
+    padding: 12px;
+    background-color: #303934;
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: #45534c;
+    margin-bottom: 1rem;
+}

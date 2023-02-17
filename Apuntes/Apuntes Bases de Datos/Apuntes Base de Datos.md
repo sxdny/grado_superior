@@ -1,8 +1,4 @@
-Examen Base de datos (2 horas sin papel, NO Internet).
-
-<https://google.com>
-
-> Exam: --> NO POPSQL, use command line.
+[Enlaçe a Repasomenorca.](https://repasomenorca.es/)
 
 + **FUNCTIONS.** age()
 + **PROCEDURES.**castingActors().

@@ -6,7 +6,7 @@ The views are used to show information from another tables. To hide some informa
 
 ### Functions.
 
-They have inputs and outputs. To call a function --> SELECT toPounds(weight_in_kg)
+They have inputs and outputs. ==To call a function== --> SELECT toPounds(weight_in_kg)
 
 ### Procedure.
 
@@ -82,7 +82,7 @@ RETURNS FLOOR(DATEDIFF(CURRENT_DATE(), var_birthdate) / 365.25)
 
 phpmyadmin page (sum and age funtion)
 
-## 7. Weight
+## 7. Weight. Convert weight from `kg` to `pounds`.
 
 ````sql
 CREATE VIEW actors_view
@@ -90,7 +90,7 @@ SELECT birthdate age(birthdate), height_in_cm, weight_in_kg, cm_to_inches(height
 FROM actors;
 ````
 
-## 8. Ns que ejercicio
+## 8. SELECT FROM actors.
 
 Privacidad.
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes/Apuntes Bases de Datos/Examen/Examen BD.md",
+                "file": "Apuntes/Apuntes Sistemas Informáticos/Apuntes Sistemas Informáticos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apuntes/Apuntes Bases de Datos/Examen/Examen BD.md",
+                "file": "Apuntes/Apuntes Sistemas Informáticos/Apuntes Sistemas Informáticos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apuntes/Apuntes Bases de Datos/Examen/Examen BD.md",
+                "file": "Apuntes/Apuntes Sistemas Informáticos/Apuntes Sistemas Informáticos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Apuntes/Apuntes Bases de Datos/Examen/Examen BD.md"
+                "file": "Apuntes/Apuntes Sistemas Informáticos/Apuntes Sistemas Informáticos.md"
               }
             }
           }
@@ -149,17 +149,17 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "13e60069eae290d9",
+  "active": "a8614051dba179be",
   "lastOpenFiles": [
+    "Apuntes/Apuntes Bases de Datos/Apuntes Base de Datos.md",
+    "Apuntes/Apuntes Sistemas Informáticos/Apuntes Sistemas Informáticos.md",
+    "Apuntes/Apuntes Programación/Repaso Examen Java Tema 6.md",
+    "Apuntes/Apuntes Programación/Java.md",
+    "Apuntes/Apuntes Programación/Interficies.canvas",
+    "Apuntes/Apuntes Bases de Datos/Examen/Examen BD.md",
     "Apuntes/Apuntes Bases de Datos/Examen/Canvas Examen.canvas",
     "Bases de Datos/Cinema/Cinema Database.md",
-    "Apuntes/Apuntes Bases de Datos/Examen/Examen BD.md",
     "Entornos de Desarrollo/images/finalBlackNode.png",
-    "Entornos de Desarrollo/images/blacknode.png",
-    "Entornos de Desarrollo/Diagramas/actividad14_sidney.png",
-    "Entornos de Desarrollo/Diagramas/actividad13ED.drawio.png",
-    "Entornos de Desarrollo/Diagramas/actividad12ED.drawio.png",
-    "images/Pasted image 20230130233812.png",
-    "images/Pasted image 20230130233706.png"
+    "Entornos de Desarrollo/images/blacknode.png"
   ]
 }

@@ -5,7 +5,6 @@ public class PruebaMonigote {
         // String del monigote.
         String[] monigote = {" __  ", "/  | ", "|  o ", "|  | ", "| -|-", "|  | ", "| / \\"};
 
-        String[] monigote2 = {" |  "};
         int index = 0;
 
         // Imprimir el monigote.
