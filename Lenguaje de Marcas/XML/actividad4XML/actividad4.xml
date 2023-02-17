@@ -8,6 +8,7 @@
         <explosividad>False</explosividad>
         <RAM>12 GB</RAM>
         <almacenamiento>250 GB</almacenamiento>
+        <precio>499€</precio>
     </smartphone>
 
     <smartphone> 
@@ -15,6 +16,7 @@
         <explosividad>False</explosividad>
         <RAM>12 GB</RAM>
         <almacenamiento>1 TB</almacenamiento>
+        <precio>1999€</precio>
     </smartphone>
 
     <smartphone> 
@@ -22,6 +24,7 @@
         <explosividad>False</explosividad>
         <RAM>12 GB</RAM>
         <almacenamiento>512 GB</almacenamiento>
+        <precio>1799€</precio>
     </smartphone>
 
     <smartphone> 
@@ -29,6 +32,7 @@
         <explosividad>False</explosividad>
         <RAM>8 GB</RAM>
         <almacenamiento>512 GB</almacenamiento>
+        <precio>2199€</precio>
     </smartphone>
 
     <smartphone> 
@@ -36,6 +40,7 @@
         <explosividad>False</explosividad>
         <RAM>12 GB</RAM>
         <almacenamiento>512 GB</almacenamiento>
+        <precio>1899€</precio>
     </smartphone>
 
 
