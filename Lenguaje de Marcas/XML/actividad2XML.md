@@ -53,7 +53,7 @@ j) Qualsevol arxiu de text és automàticament considerat com un document XML mi
 
 **Falso.** Solo son identificados como documentos XML aquellos que finalicen con `.xml`.
 
-### 2. Omplir els espais en blanc en cadascuna de les següents afirmacions.
+### **2. Omplir els espais en blanc en cadascuna de les següents afirmacions.**
 
 Un / una ***parser*** processa els documents XML.
 
@@ -72,7 +72,7 @@ Les línies que precedeixen l'element arrel d'un document XML se'ls denomina	***
 Els documents XML solen tenir ***.xml*** com extensió d'arxiu.
 
 
-### 3. Identificar i corregir l'error (s) en cada un dels següents:
+### **3. Identificar i corregir l'error (s) en cada un dels següents:**
 a) Primer  error.
 ```xml
 <!-- Incorrecto. -->
