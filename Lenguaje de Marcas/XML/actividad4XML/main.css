@@ -47,17 +47,16 @@ smartphone:last-child > nombre::after {
     margin-left: 10px;
     padding: 4px;
 }
-
-smartphone:last-child > precio {
+ smartphone:last-child > precio {
     text-decoration: line-through;
 }
 
-smartphone:last-child > precio::after {
-    display: inline-block;
+smartphone:last-child {
     content: "10€";
     background-color: rgb(5, 255, 5);
     margin-left: 10px;
     padding: 4px;
     color: black;
     text-decoration: none;
-}
+}    
+
