@@ -72,6 +72,8 @@ public class Programa {
                 System.out.println(monigote[i]);
             }
 
+            correctas = 0;
+
         } while (correctas != l && incorrectas < monigote.length);
 
         int index = 0;
@@ -91,7 +93,7 @@ public class Programa {
             System.out.println("La solucion era: " + palabra);
         }
 
-        correctas = 0;
+        
         
     sc.close();
     

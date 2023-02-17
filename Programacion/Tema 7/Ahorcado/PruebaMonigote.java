@@ -5,11 +5,19 @@ public class PruebaMonigote {
         // String del monigote.
         String[] monigote = {" __  ", "/  | ", "|  o ", "|  | ", "| -|-", "|  | ", "| / \\"};
 
-        String[] monigote2 = {" |  ", " |  ", " |  ", " |  "};
+        String[] monigote2 = {" |  "};
+        int index = 0;
 
         // Imprimir el monigote.
-        for (int i = monigote2.length - 1; i >= 0; i--) {
-            System.out.println(monigote2[i]);
+        for (int i = 0; i < monigote.length; i++) {
+            if (index == 3) {
+                System.out.println(monigote[i]);
+                index = 0;
+            }
+            else {
+                System.out.print(monigote[i]);
+                index++;
+            }
         }
 
     }
