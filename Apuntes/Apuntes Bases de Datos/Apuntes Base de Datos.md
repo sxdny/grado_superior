@@ -74,3 +74,35 @@ When **is_hired** == 1, insert that actor in actin table:
 | -------- | ------------ | -------- | ----------- |
 | 17       | 3            | 11       | 1.0         |
 
+## 📓 2023-02-20
+
+### 1. Aggregate functions SUM(), COUNT() AVG() combined with the GROUP BY.
+
+**actors_view**
+* height, weight, age.
+**characters**
+* height, weight, age.
+**casting**
+* expected_salary, negotiated_salary.
+**acting**
+* payed_salary
+
+[W3Schools | GROUP BY](https://www.w3schools.com/sql/sql_groupby.asp)
+
+The `GROUP BY` statement is often used with aggregate functions (`COUNT()`, `MAX()`, `MIN()`, `SUM()`, `AVG()`) to group the result-set by one or more columns.
+
+Average actor_age from VIEW:
+
+````sql
+SELECT FLOOR(AVG(actor_age)) AS average_actor_age FROM actors_view
+````
+
+> The `GROUP BY` is used like a For each.
+
+Salary difference between expected_salary and agreed-salary:
+
+````sql
+SELECT (SUM(expected_salary) - SUM(agreed_salary)) AS salary_difference
+FROM casting
+GROUP BY actor_id
+````
