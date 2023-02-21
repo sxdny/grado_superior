@@ -2,4 +2,6 @@
 
 # Actividades Grado Superior + ¡Acepta el Reto!
 
-Repositorio para almacenar las actividades, recursos y apuntes de las diferentes asignaturas del **Grado Superior** y **¡Acepta el reto!**
+*Sidney Silva Braz de Oliveira | 1º DAW*
+
+Repositorio para almacenar las actividades, recursos y apuntes del **Grado Superior**.
