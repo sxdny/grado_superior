@@ -1,6 +1,4 @@
-![Alt text](README_images/code_readme.jpg)
-
-[//]: <> (Lo de arriba es una imagen y esto un comentario.)
+[//]: <> (Esto es un comentario en Markdown.)
 
 # Actividades Grado Superior + ¡Acepta el Reto!
 
