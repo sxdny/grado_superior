@@ -1,12 +1,9 @@
-## Actividades Pseudocódigo ED.
-### Sidney Silva 1º DAW
+## Sidney Silva 1º DAW
 
+### Ejercicio 3b.
 ---
-
 **b) Modificar el segon algorisme perquè la comparació es faci en funció de la data de naixement de les persones (dia, mes i any) i no en funció de l’edat.**
 
-
-````
 **algorisme MésGran** 
 **var** 
 &emsp;nom_persona_1, nom_persona_2: cadena 
@@ -15,13 +12,17 @@
 &emsp;cumpleA_persona_1, cumpleA_persona_2: enter
 **fivar**
 
+&emsp;escriure ("Introdueix el nom de la persona 1:")
 &emsp;llegir(nom_persona_1) 
+&emsp;escriure ("Introdueix el nom de la persona 2:")
 &emsp;llegir(nom_persona_2) 
+&emsp;escriure ("Introdueix la data de naixement de ", nom_persona_1)
 &emsp;llegir(cumpleD_persona_1) 
-&emsp;llegir(cumpleD_persona_2)
 &emsp;llegir(cumpleM_persona_1)
-&emsp;llegir(cumpleM_persona_2)
 &emsp;llegir(cumpleA_persona_1)
+&emsp;escriure ("Introdueix la data de naixement de ", nom_persona_2)
+&emsp;llegir(cumpleD_persona_2)
+&emsp;llegir(cumpleM_persona_2)
 &emsp;llegir(cumpleA_persona_2)
 
   **si** cumpleA_persona_1 > cumpleA_persona_2 **aleshores** 
@@ -50,11 +51,9 @@
   &emsp;&emsp;&emsp;&emsp; **fisi**
   &emsp;&emsp;&emsp;&emsp; **fisi**
   &emsp;&emsp;&emsp;&emsp; **fisi**
-   &emsp;&emsp;&emsp;&emsp; **fisi**
-    &emsp;&emsp;&emsp;&emsp; **fisi**
-     &emsp;&emsp;&emsp;&emsp; **fisi**
-      &emsp;&emsp;&emsp;&emsp; **fisi**
-       &emsp;&emsp;&emsp;&emsp; **fisi**
-
+  &emsp;&emsp;&emsp;&emsp; **fisi**
+  &emsp;&emsp;&emsp;&emsp; **fisi**
+  &emsp;&emsp;&emsp;&emsp; **fisi**
+  &emsp;&emsp;&emsp;&emsp; **fisi**
+  &emsp;&emsp;&emsp;&emsp; **fisi**
 **fialgorisme** 
-````
