@@ -8,12 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a8614051dba179be",
+            "id": "0fde6e3e58d9755e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Asignaturas/Entornos de Desarrollo/Pseudocodi/ej3b_sidney.pdf"
+                "file": "Apuntes/P/Recursividad.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/Entornos de Desarrollo/Pseudocodi/ej3b_sidney.pdf",
+                "file": "Apuntes/P/Recursividad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/Entornos de Desarrollo/Pseudocodi/ej3b_sidney.pdf",
+                "file": "Apuntes/P/Recursividad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/Entornos de Desarrollo/Pseudocodi/ej3b_sidney.pdf"
+                "file": "Apuntes/P/Recursividad.md"
               }
             }
           }
@@ -132,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5,
-    "collapsed": true
+    "width": 320.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,17 +148,17 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "a8614051dba179be",
+  "active": "0fde6e3e58d9755e",
   "lastOpenFiles": [
-    "Asignaturas/Entornos de Desarrollo/Pseudocodi/Ejercicios Tema 6 ED.md",
-    "Asignaturas/Entornos de Desarrollo/Pseudocodi/ej3bED_sidney.pdf",
+    "Apuntes/Apuntes Bases de Datos/Apuntes Base de Datos.md",
     "Apuntes/Apuntes Bases de Datos/Examen/Examen BD.md",
     "Apuntes/Apuntes Sistemas Informáticos/Apuntes Sistemas Informáticos.md",
-    "Apuntes/Apuntes Bases de Datos/Apuntes Base de Datos.md",
     "Apuntes/Apuntes Entornos de Desarrollo/Apuntes Entornos de Desarrollo.md",
     "Apuntes/Apuntes Programación/Repaso Examen Java Tema 6.md",
     "Apuntes/Apuntes Programación/Java.md",
     "Apuntes/Apuntes Programación/Interficies.canvas",
-    "Apuntes/Apuntes Bases de Datos/Examen/Canvas Examen.canvas"
+    "Apuntes/Apuntes Bases de Datos/Examen/Canvas Examen.canvas",
+    "Bases de Datos/Cinema/Cinema Database.md",
+    "Entornos de Desarrollo/images/finalBlackNode.png"
   ]
 }
