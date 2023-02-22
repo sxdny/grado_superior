@@ -97,7 +97,7 @@ Average actor_age from VIEW:
 SELECT FLOOR(AVG(actor_age)) AS average_actor_age FROM actors_view
 ````
 
-> The `GROUP BY` is used like a For each.
+> The `GROUP BY` is used like a ==for each==.
 
 Salary difference between expected_salary and agreed-salary:
 
@@ -106,3 +106,35 @@ SELECT (SUM(expected_salary) - SUM(agreed_salary)) AS salary_difference
 FROM casting
 GROUP BY actor_id
 ````
+
+## 📓 2023-02-21
+
+> Pedir lo que necesito a la tabla.
+
+- [ ] Hacer casting view.
+- [ ] Hacer el expected_salary del casting_view.
+
+### Casting view.
+
+| movie_id | character_id | actor_id | ==expected_salary== | casting_position | is_hired | agreed_salary |
+| -------- | ------------ | -------- | ------------------- | ---------------- | -------- | ------------- |
+| 30       | 2            | 11       | 1.5                 | 2                | 0        | NULL          |
+| 30       | 2            | 22       | 2.5                 | 1                | 1        | 3.0           |
+| 30       | 2            | 28       | 3.0                 | 3                | 0        | NULL          |
+
+
+La casting_view tiene 4 columnas extras:
+- movie_title.
+- character_name.
+- actor_name.
+- expected_salary.
+
+expected_salary:
+
+````sql
+SELECT AVG(payed_salary)
+FROM acting_view
+WHERE actor_id = casting.actor_id
+AND released_year >= YEAR(CURRENT_DATE()) - 5
+````
+
