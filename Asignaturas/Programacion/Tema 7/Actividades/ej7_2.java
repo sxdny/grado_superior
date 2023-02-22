@@ -15,13 +15,14 @@ public class ej7_2 {
 
       for (int j = 0; j < numeros.length; j++) {
         
-        if (index > numeros[i]) {
+        if (index > numeros[menor]) {
             menor = numeros[i];
         }
 
       } 
 
-      numeros[i] = menor;
+      menor++;
+      numeros[i] = index;
 
     }
 
