@@ -8,19 +8,23 @@ public class ej7_3 {
     int[] numeros = {8, 5, 2, 6, 9, 3, 1, 4, 0, 7};
     int menor = 0;
 
-    for (int j = 0; j < numeros.length; j++) {
+    for (int i = 0; i < numeros.length - 1; i++) {
 
-      menor = j;
-      
-      for (int i = j; i < numeros.length; i++) {
-      
-        if (numeros[menor] > numeros[j]) {
-          menor = numeros[j];
+      menor = i;
+
+      for (int j = i + 1; j < numeros.length; j++) {
+
+        if (numeros[j] < numeros[menor]) {
+
+          menor = j;
+
         }
         
       }
 
-      numeros[j] = menor;
+      int temp = numeros[menor];
+      numeros[menor] =  numeros[i];
+      numeros[i] = temp;
 
     }
     

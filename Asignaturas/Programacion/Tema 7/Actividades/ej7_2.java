@@ -1,28 +1,28 @@
+
 // Insertion Sort.
 import java.util.Arrays;
 
 public class ej7_2 {
-  
+
   public static void main(String[] args) {
-    
-    int[] numeros = {8, 5, 2, 6, 9, 3, 1, 4, 0, 7};
+
+    int[] numeros = { 8, 5, 2, 6, 9, 3, 1, 4, 0, 7 };
     int index = 0;
-    int menor = 0;
 
-    for (int i = 0; i < numeros.length; i++) {
+    for (int i = 1; i < numeros.length; i++) {
       
-      index = i;
+      index = numeros[i];
 
-      for (int j = 0; j < numeros.length; j++) {
-        
-        if (index > numeros[menor]) {
-            menor = numeros[i];
-        }
+      int j = i - 1;
 
-      } 
+      while (j >= 0 && numeros[j] > index) {
 
-      menor++;
-      numeros[i] = index;
+        numeros[j + 1] = numeros[j];
+        j--;
+
+      }
+
+      numeros[j + 1] = index;
 
     }
 
