@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class OrdenarArray {
+public class ej7_5 {
 
     public static void main(String[] args) {
 
