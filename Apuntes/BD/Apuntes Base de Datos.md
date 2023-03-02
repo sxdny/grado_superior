@@ -76,7 +76,7 @@ When **is_hired** == 1, insert that actor in actin table:
 
 ## 📓 2023-02-20
 
-### 1. Aggregate functions SUM(), COUNT() AVG() combined with the GROUP BY.
+### Aggregate functions SUM(), COUNT() AVG() combined with the GROUP BY.
 
 **actors_view**
 * height, weight, age.
@@ -137,4 +137,69 @@ FROM acting_view
 WHERE actor_id = casting.actor_id
 AND released_year >= YEAR(CURRENT_DATE()) - 5
 ````
+
+## 📓 2023-03-02
+
+### Reservations View.
+
+Total income since the company started (reversations table):
+
+````sql
+SELECT SUM(subtotal)
+FROM reservations_view;
+````
+
+Reservations view:
+| reservation_number | customer_id | car_id | date_in    | date_out   | unit_price | subtotal (calculated column) |
+| ------------------ | ----------- | ------ | ---------- | ---------- | ---------- | ---------------------------- |
+| 1341               | 2           | 8      | 2023-03-02 | 2023-03-05 | 80         | 160                          |
+
+subtotal --> calculated column (qty * price)
+
+Total income in last season between May 1 and Oct 1.
+
+````sql
+SELECT SUM(subtotal)
+FROM reservations_view
+WHERE date_out BETWEEN 2022-05-01 AND 2022-09-30 -- include both days.
+````
+
+Total income, **per car**:
+
+````sql
+SELECT car_id, SUM(subtotal)
+FROM reservations_view
+GROUP BY car_id;
+````
+
+Total income, **per month**:
+
+````sql
+SELECT MONTH(date_out) AS month, SUM(subtotal) AS subtotal
+FROM reservations_view
+GROUP BY MONTH(date_out);
+````
+
+Total income, **per car category:**
+
+==Add car_category to the reservations_view and then do the query:==
+| reservation_number | customer_id | car_id | date_in    | date_out   | unit_price | subtotal (calculated column) | car_model |
+| ------------------ | ----------- | ------ | ---------- | ---------- | ---------- | ---------------------------- | --------- |
+| 1341               | 2           | 8      | 2023-03-02 | 2023-03-05 | 80         | 160                          |  Sport |         |
+
+````sql
+SELECT car_catagory, SUM (subtotal)
+FROM reservations_view
+GROUP BY car_category;
+````
+
+Total income, **per year:**
+
+````sql
+SELECT YEAR(date_out), SUM(subtotal)
+FROM reservations_view
+GROUP BY YEAR(date_out);
+````
+
+**GROUP BY YEAR** and **GROUP BY MONTH**.
 
