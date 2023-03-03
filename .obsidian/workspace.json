@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes/P/Java.md",
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apuntes/P/Java.md",
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apuntes/P/Java.md",
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Apuntes/P/Java.md"
+                "file": "Apuntes/BD/Apuntes Base de Datos.md"
               }
             }
           }
@@ -175,9 +175,9 @@
   },
   "active": "96fe2114a8b068f2",
   "lastOpenFiles": [
+    "Apuntes/P/Java.md",
     "Apuntes/P/Recursividad.md",
     "Apuntes/P/Repaso Examen Java Tema 6.md",
-    "Apuntes/P/Java.md",
     "Apuntes/P/Interficies.canvas",
     "Apuntes/BD/Apuntes Base de Datos.md",
     "Apuntes/BD/Examen/Examen BD.md",

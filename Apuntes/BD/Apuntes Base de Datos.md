@@ -203,3 +203,23 @@ GROUP BY YEAR(date_out);
 
 **GROUP BY YEAR** and **GROUP BY MONTH**.
 
+## 📓 2023-03-03
+
+### Get cars between 2 dates.
+
+List of available cars between 2 specific dates.
+
+````sql
+SELECT *
+FROM cars
+WHERE car_id NOT IN (SELECT car_id
+FROM reservations
+WHERE date_in < '2023-03-07' AND date_out > '2023-03-01');
+-- Sustituir las dates con variables para hacer una procedure.
+````
+
+### Fot the weekend.
+
+* List with the top 3 cars. (income generated in the last season)
+* Find the most succesful car_category. (income generated in the last season)
+
