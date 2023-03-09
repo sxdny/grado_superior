@@ -1,4 +1,4 @@
-[Enlaçe a Repasomenorca.](https://repasomenorca.es/)
+>[Enlaçe a Repasomenorca.](https://repasomenorca.es/)
 
 + **FUNCTIONS.** age()
 + **PROCEDURES.**castingActors().
@@ -218,7 +218,7 @@ WHERE date_in < '2023-03-07' AND date_out > '2023-03-01');
 -- Sustituir las dates con variables para hacer una procedure.
 ````
 
-### Fot the weekend.
+### For the weekend.
 
 * List with the top 3 cars. (income generated in the last season)
 * Find the most succesful car_category. (income generated in the last season)

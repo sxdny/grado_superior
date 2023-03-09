@@ -6,24 +6,24 @@ public class ej7_3 {
   public static void main(String[] args) {
     
     int[] numeros = {8, 5, 2, 6, 9, 3, 1, 4, 0, 7};
-    int menor = 0;
+    int posicion = 0;
 
     for (int i = 0; i < numeros.length - 1; i++) {
 
-      menor = i;
+      posicion = i; // 0
 
       for (int j = i + 1; j < numeros.length; j++) {
 
-        if (numeros[j] < numeros[menor]) {
+        if (numeros[j] < numeros[posicion]) {
 
-          menor = j;
+          posicion = j;
 
         }
         
       }
 
-      int temp = numeros[menor];
-      numeros[menor] =  numeros[i];
+      int temp = numeros[posicion];
+      numeros[posicion] =  numeros[i];
       numeros[i] = temp;
 
     }
