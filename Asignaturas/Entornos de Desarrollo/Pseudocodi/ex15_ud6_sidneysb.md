@@ -13,3 +13,4 @@ una temperatura inferior a la mitja anual.
 	mesosAny : taula_enter
 	temp_usuari
 **fivar**
+
