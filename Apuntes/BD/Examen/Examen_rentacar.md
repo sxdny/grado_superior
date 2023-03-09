@@ -59,17 +59,33 @@ CREATE TABLE rentals (
 
 ````sql
 -- Datos en la tabla cars.
-INSERT INTO cars
+INSERT INTO vehicles
 VALUES
-(DEFAULT, "Dodge Hellcat", "Deportivo", 5, 500.00, "2004SID"),
-(DEFAULT, "Mercedes AMG Clase G", "Todoterreno", 5, 750.00, "1783CJH"),
-(DEFAULT, "Lamborghini Aventador", "Deportivo", 2, 900.00, "9973KPL"),
-(DEFAULT, "Toyota Corolla", "Normal", 5, 120.00, "1919JKL"),
-(DEFAULT, "Tesla Model S", "Deportivo", 5, 200.00, "0123TES"),
-(DEFAULT, "SUV Peugeot 2008", "Normal", 5, 310.00, "6298PGO"),
-(DEFAULT, "Aston Martin DB9", "Deportivo", 4, 570.00, "2004NFS"),
-(DEFAULT, "Dodge Challenger", "Deportivo", 4, 490.00, "3800DDG"),
-(DEFAULT, "Range Rover Defender", "Todoterreno", 5, 340.00, "1111JJK");
+(DEFAULT, "Dodge Hellcat", "Coche", 5, 500.00, "2004SID"),
+(DEFAULT, "Mercedes AMG Clase G", "Coche", 5, 750.00, "1783CJH"),
+(DEFAULT, "Lamborghini Aventador", "Coche", 2, 900.00, "9973KPL"),
+(DEFAULT, "Toyota Corolla", "Coche", 5, 120.00, "1919JKL"),
+(DEFAULT, "Tesla Model S", "Coche", 5, 200.00, "0123TES"),
+(DEFAULT, "SUV Peugeot 2008", "Coche", 5, 310.00, "6298PGO"),
+(DEFAULT, "Aston Martin DB9", "Coche", 4, 570.00, "2004NFS"),
+(DEFAULT, "Dodge Challenger", "Coche", 4, 490.00, "3800DDG"),
+(DEFAULT, "Range Rover Defender", "Coche", 5, 340.00, "1111JJK"),
+(DEFAULT, "Honda TR8", "Moto", 2, 120.00, "1234PPL"),
+(DEFAULT, "Moyokami Thunder", "Moto", 2, 150.00, "0001PLP"),
+(DEFAULT, "Retro v8", "Moto", 2, 145.00, "5555OOL"),
+(DEFAULT, "Moto Vieja", "Moto", 2, 80.00, "4432UUJ"),
+(DEFAULT, "Dodge Moto Thunder", "Moto", 2, 233.00, "2424AAA"),
+(DEFAULT, "SRM Yung", "Moto", 2, 156.00, "7777VGT"),
+(DEFAULT, "Bicicleta 1", "Bicicleta", 1, 30.00, NULL),
+(DEFAULT, "Bicicleta Nueva", "Bicicleta", 1, 34.00, NULL),
+(DEFAULT, "Trek Bycicle", "Bicicleta", 1, 31.00, NULL),
+(DEFAULT, "Sniper Mountain", "Bicicleta", 1, 45.00, NULL),
+(DEFAULT, "Toyota BUM Bycicle", "Bicicleta", 1, 67.00, NULL),
+(DEFAULT, "Xiaomi Scooter", "Scooter", 1, 60.00, NULL),
+(DEFAULT, "Samsung Scooter", "Scooter", 1, 67.00, NULL),
+(DEFAULT, "Honda Scooter", "Scooter", 1, 55.00, NULL),
+(DEFAULT, "Toyota Scooter", "Scooter", 1, 99.00, NULL),
+(DEFAULT, "Ferrari Scooter v8", "Scooter", 1, 160.00, NULL),
 
 -- Datos de la tabla clientes.
 INSERT INTO clients
@@ -149,3 +165,12 @@ INNER JOIN _table2
 _ON _table1.column_name_ = _table2.column_name_;
 ````
 
+````sql
+CREATE VIEW rentals_enchanced AS 
+SELECT v.vehicle_name, c.client_forename, c.client_surname, DATEDIFF(r.date_out, r.date_in) AS days_of_rental, SUM (v.vehicle_price * DATEDIFF(r.date_out, r.date_in)) AS subtotal
+FROM rentals AS r 
+INNER JOIN vehicles AS v ON r
+.vehicle_id = v.vehicle_id 
+INNER JOIN clients AS c ON r.client_id = c.client_id;
+````
+[CREATE](http://127.0.0.1/phpmyadmin/url.php?url=https://dev.mysql.com/doc/refman/8.0/en/create-view.html) [VIEW](http://127.0.0.1/phpmyadmin/url.php?url=https://dev.mysql.com/doc/refman/8.0/en/create-view.html) rentals_enchanced AS [SELECT](http://127.0.0.1/phpmyadmin/url.php?url=https://dev.mysql.com/doc/refman/8.0/en/select.html) v.vehicle_name, c.client_forename, c.client_surname, DATEDIFF(r.date_in, r.date_out) AS days_of_rental, [SUM](http://127.0.0.1/phpmyadmin/url.php?url=https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html%23function_sum)(v.vehicle_price * DATEDIFF(r.date_in, r.date_out)) AS subtotal FROM rentals AS r INNER JOIN vehicles AS v ON r.vehicle_id = v.vehicle_id INNER JOIN clients AS c ON r.client_id = c.client_id;
