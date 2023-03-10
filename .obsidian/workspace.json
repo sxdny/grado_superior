@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes/BD/Examen/Examen_rentacar.md",
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apuntes/BD/Examen/Examen_rentacar.md",
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apuntes/BD/Examen/Examen_rentacar.md",
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Apuntes/BD/Examen/Examen_rentacar.md"
+                "file": "Apuntes/BD/Apuntes Base de Datos.md"
               }
             }
           }
@@ -146,8 +146,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 261.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,8 +162,8 @@
   },
   "active": "66527252056ae646",
   "lastOpenFiles": [
-    "Apuntes/BD/Apuntes Base de Datos.md",
     "Apuntes/BD/Examen/Examen_rentacar.md",
+    "Apuntes/BD/Apuntes Base de Datos.md",
     "Asignaturas/Bases de Datos/Cinema/Cinema Database.md",
     "Asignaturas/Bases de Datos/Cinema/24-01-23.canvas",
     "Asignaturas/Bases de Datos/Cinema/Cinema Database Content.md",

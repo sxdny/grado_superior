@@ -223,3 +223,68 @@ WHERE date_in < '2023-03-07' AND date_out > '2023-03-01');
 * List with the top 3 cars. (income generated in the last season)
 * Find the most succesful car_category. (income generated in the last season)
 
+## 📓 2023-03-10
+
+### Corrección examen rentavehicle.
+
+#### 1. Create the tables of the rentavehicle database..
+
+1. vehicles table.
+2. customers table.
+3. reservations table.
+4. invoices table (later on the exam)
+
+#### 2. Fill the database (INSERT INTO).
+
+````sql
+-- 10 cars, 10 motorbikes, 10 bicycles, 10 scooters.
+INSERT INTO vehicles (-,-,-,-) VALUES
+(-,-,-,-,-),
+(-,-,-,-,-),
+(-,-,-,-,-),
+(-,-,-,-,-);
+````
+
+#### 3. Fill reservations TABLE
+
+````sql
+INSERT INTO reservations (-,-,-,-,-) VALUES
+(-,-,-,-,-),
+(-,-,-,-,-);
+````
+
+#### 4. Create VIEW reservations_enchanced.
+
+````sql
+CREATE VIEW reservations_enchanced AS
+SELECT ...
+FROM reservations
+INNER JOIN customers ...
+INNER JOIN vehicles ...
+````
+
+#### 5. Returned trigger in reservations table
+
+Add is_returned to reservations and then create the trigger.
+
+#### 6. Subcategories.
+
+With 2 tables:
+
+- subcategories table.
+- vehicles_subcategories table.
+
+| vehicle_id | subcategory_id |
+| ---------- | -------------- |
+| 1          | 2              |
+| 1          | 4              |
+| 2          | 3              |
+| 3          | 8              |
+
+#### 7. Fill in the invoices table.
+
+
+
+
+
+

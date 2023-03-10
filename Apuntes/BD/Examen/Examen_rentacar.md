@@ -174,3 +174,5 @@ INNER JOIN vehicles AS v ON r
 INNER JOIN clients AS c ON r.client_id = c.client_id;
 ````
 [CREATE](http://127.0.0.1/phpmyadmin/url.php?url=https://dev.mysql.com/doc/refman/8.0/en/create-view.html) [VIEW](http://127.0.0.1/phpmyadmin/url.php?url=https://dev.mysql.com/doc/refman/8.0/en/create-view.html) rentals_enchanced AS [SELECT](http://127.0.0.1/phpmyadmin/url.php?url=https://dev.mysql.com/doc/refman/8.0/en/select.html) v.vehicle_name, c.client_forename, c.client_surname, DATEDIFF(r.date_in, r.date_out) AS days_of_rental, [SUM](http://127.0.0.1/phpmyadmin/url.php?url=https://dev.mysql.com/doc/refman/8.0/en/aggregate-functions.html%23function_sum)(v.vehicle_price * DATEDIFF(r.date_in, r.date_out)) AS subtotal FROM rentals AS r INNER JOIN vehicles AS v ON r.vehicle_id = v.vehicle_id INNER JOIN clients AS c ON r.client_id = c.client_id;
+
+
