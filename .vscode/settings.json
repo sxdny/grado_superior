@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "Asignaturas/Programacion/Tema 7/Mastermind",
         "Asignaturas/Programacion/Tema 7/Actividades",
-        "Asignaturas/Programacion/Tema 7/Mastermind"
+        "Asignaturas/Programacion/Tema 7"
     ]
 }
