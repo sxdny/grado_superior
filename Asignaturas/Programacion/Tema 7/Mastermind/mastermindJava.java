@@ -46,7 +46,7 @@ public class mastermindJava {
                 }
             }
 
-            // Colores que están en la lista, pero no en la posicion incorrecta.
+            // Colores que están en la lista, pero en la posicion incorrecta.
             for (int i = 0; i < codigoSecreto.length; i++) {
                 for (int j = 0; j < codigoSecreto.length; j++) {
                     if (inputUsuario[i].equals(codigoSecreto[j])) {
