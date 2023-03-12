@@ -1,24 +1,56 @@
-// Problemas de las 8 o N reinas en Java.
+import java.util.Arrays;
 
-public class ej7_7 {  
+public class ej7_7 {
+
+    static int n = 8; // n = reinas en el tablero.
     public static void main(String[] args) {
-        
-        int[][] tablero = new int[8][8]; // El tablero de ajedrez es de 8x8.
-        int[] resultado = new int[8]; // La posición indica la columna y el número de dentro la fila.
-        int suma = 0;
-
-        // Recorremos las posiciones del tablero:
-        for(int x = 0; x < tablero.length; x++) {
-             for (int y = 0; y < tablero[x].length; y++) {
-                
-            }
-        }        
-    }
-
-    public static boolean nQueens (int numeros[][]) {
-        while (/*condition*/) {
-            
+        int[][] tablero = new int[n][n];
+        if (!check(tablero, 0)) {
+            System.out.println("Sin solucion.");
         }
-            return false;
+        
     }
+
+    private static boolean nQueens(int[][] tablero, int fila, int columna) {
+        for (int i = 0; i < columna; i++) {
+            if (tablero[fila][i] == 1) {
+                return false;
+            }
+        }
+        for (int i = fila, j = columna; i >= 0 && j >= 0; i--, j--) {
+            if (tablero[i][j] == 1) {
+                return false;
+            }
+        }
+        for (int i = fila, j = columna; i < n && j >= 0; i++, j--) {
+            if (tablero[i][j] == 1) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private static boolean check(int[][] tablero, int columna) {
+        if (columna == n) {
+            System.out.println("Solucion con tablero de " + n + "x" + n + "." );
+            for (int[] fila : tablero) {
+                System.out.println(Arrays.toString(fila));
+            }
+            System.out.println();
+            return true;
+        }
+
+        for (int i = 0; i < n; i++) {
+            if (nQueens(tablero, i, columna)) {
+                tablero[i][columna] = 1;
+                if (check(tablero, columna + 1)) {
+                    return true;
+                }
+                tablero[i][columna] = 0;
+            }
+        }
+        
+        return false;
+    }
+
 }
