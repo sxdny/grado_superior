@@ -283,8 +283,30 @@ With 2 tables:
 
 #### 7. Fill in the invoices table.
 
+## 📓 2023-03-13
 
+### Diagramas entidad relación.
 
+#### Entidades:
+
+* Clients
+* Productes
+* Proveidors
+* Magatzems
+* Transportistas
+* Personal
+* Categorias
+* Adreça.
+* Contactes.
+* Carrito.
+* Carrito linea
+* Comanda. ----> Estat (atributo)
+* Incidència.
+* Comanda linea.
+* Envio.
+* Albaran.
+* Factura.
+* Envio.
 
 
 
