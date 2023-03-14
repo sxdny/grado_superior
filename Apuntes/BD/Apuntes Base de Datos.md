@@ -283,7 +283,7 @@ With 2 tables:
 
 #### 7. Fill in the invoices table.
 
-## 📓 2023-03-13
+## 📓 2023-03-13 && 2023-03-14
 
 ### Diagramas entidad relación.
 
@@ -307,6 +307,75 @@ With 2 tables:
 * Albaran.
 * Factura.
 * Envio.
+
+### Atributos y entidades online shopping:
+
+#### Atributos:
+
+Concepto de CAP y LINEA en el ejemplo de la factura. Arriba de la factura está la información del cliente y después en una tabla, está toda la información, precios de los productos.
+
+##### CLIENT.
+
+UUID para cliente_id (Idenficador único universal)
+*Se recomienda NO usar el DNI como PK de la tabla.*
+
+* Nom y cognoms (junts).
+* DNI.
+* Email.
+* Adreça.
+* Teléfon mòbil.
+* Id cliente.
+* Descompte.
+* Observacions.
+* Forma de pagament.
+
+##### PROVEIDOR.
+
+Casi los mismos que cliente
+
+##### MAGATZEM.
+
+* Adreça.
+* Teléfon.
+* M2 (metros cuadrados).
+
+##### PRODUCTO.
+
+* Id del producto.
+* Nom.
+* Preu.
+* Categoria.
+* Llarg
+* Grossor.
+* Ample.
+* Pes.
+
+##### CARRET.
+* Id.
+* Data.
+* Client.
+
+##### CARRET_LN.
+* Id linea.
+* Producte.
+* Qty.
+* Preu.
+* Import.
+* Magatzem.
+* Estat.
+
+### Atributos y entidades concessionario:
+
+#### Atributos:
+
+* Coches.
+* Clientes.
+* Magatzem.
+* Venta.
+* Venta_ln.
+* 
+
+#### Entidades:
 
 
 
