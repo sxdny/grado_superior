@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "66527252056ae646",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Apuntes/BD/Apuntes Base de Datos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a0b5ee3d5a186080",
             "type": "leaf",
             "state": {
@@ -160,12 +148,12 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "66527252056ae646",
+  "active": "a0b5ee3d5a186080",
   "lastOpenFiles": [
+    "Apuntes/BD/Apuntes Base de Datos.md",
     "Apuntes/pruebaMarp.pdf",
     "Apuntes/pruebaMarp.md",
     "Apuntes/BD/Examen/Examen_rentacar.md",
-    "Apuntes/BD/Apuntes Base de Datos.md",
     "Asignaturas/Bases de Datos/Cinema/Cinema Database.md",
     "Asignaturas/Bases de Datos/Cinema/24-01-23.canvas",
     "Asignaturas/Bases de Datos/Cinema/Cinema Database Content.md",

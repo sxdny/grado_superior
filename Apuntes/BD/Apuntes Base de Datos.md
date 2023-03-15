@@ -1,4 +1,4 @@
->[Enlaçe a Repasomenorca.](https://repasomenorca.es/)
+[Enlaçe a Repasomenorca.](https://repasomenorca.es/)
 
 + **FUNCTIONS.** age()
 + **PROCEDURES.**castingActors().
@@ -33,7 +33,7 @@ SET NEW.character_name = UPPER(NEW.character_name); -- new data that is going to
 CREATE TRIGGER tr_up_char
 BEFORE UPDATE ON characters
 FOR EACH ROW
-SET NEW.character_name = LOWE(NEW.character_name);
+SET NEW.character_name = LOW / LOWER(NEW.character_name);
 
 -- WHEN DELETING, the NEW.x is NOT AVAILABLE, only the OLD one.
 -- WHEN UPDATING, both NEW.x and OLD.x are available.
