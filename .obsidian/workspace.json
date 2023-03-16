@@ -93,6 +93,17 @@
         "type": "tabs",
         "children": [
           {
+            "id": "0a1c8b5f5a05d205",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
             "id": "b3d791bed2a8971e",
             "type": "leaf",
             "state": {
@@ -118,17 +129,6 @@
                 "file": "Apuntes/ED/Repaso Examen ED Recuperación.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "0a1c8b5f5a05d205",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
               }
             }
           },
@@ -163,6 +163,8 @@
   },
   "active": "9dbe8a44e9046598",
   "lastOpenFiles": [
+    "images/Pasted image 20230316180734.png",
+    "images/Pasted image 20230316180716.png",
     "Apuntes/ED/Apuntes Entornos de Desarrollo.md",
     "Apuntes/ED/Repaso Examen ED Recuperación.md",
     "Apuntes/BD/Apuntes Base de Datos.md",
