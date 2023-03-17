@@ -40,7 +40,7 @@ SET NEW.character_name = LOW / LOWER(NEW.character_name);
 -- WHEN INSERTING, only NEW.x is available, because there's no OLD data.
 ````
 
-## 📋 Create these two tables on the Procedure:
+## Create these two tables on the Procedure:
 
 ### Casting table.
 
@@ -97,7 +97,7 @@ Average actor_age from VIEW:
 SELECT FLOOR(AVG(actor_age)) AS average_actor_age FROM actors_view
 ````
 
-> The `GROUP BY` is used like a ==for each==.
+The `GROUP BY` is used like a ==for each==.
 
 Salary difference between expected_salary and agreed-salary:
 
@@ -109,7 +109,7 @@ GROUP BY actor_id
 
 ## 📓 2023-02-21
 
-> Pedir lo que necesito a la tabla.
+Pedir lo que necesito a la tabla.
 
 - [ ] Hacer casting view.
 - [ ] Hacer el expected_salary del casting_view.
