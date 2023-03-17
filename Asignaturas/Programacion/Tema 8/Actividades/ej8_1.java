@@ -24,7 +24,6 @@ public class ej8_1 {
         }
 
         try {
-            System.out.println("Error IndexOutOfBounds.");
             int ar[] = { 1, 2, 3, 4, 5 };
 
             for (int i = 0; i <= ar.length; i++) {

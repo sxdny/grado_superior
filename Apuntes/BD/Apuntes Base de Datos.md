@@ -478,4 +478,3 @@ También, podremos borrar la 2ª fila de la tabla **VENDA.**
 graph LR;  
     MARCA-- Conexion N - M ---MODELO
 ````
-
