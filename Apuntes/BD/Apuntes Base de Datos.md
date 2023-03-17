@@ -40,7 +40,7 @@ SET NEW.character_name = LOW / LOWER(NEW.character_name);
 -- WHEN INSERTING, only NEW.x is available, because there's no OLD data.
 ````
 
-## Create these two tables on the Procedure:
+## 📋 Create these two tables on the Procedure:
 
 ### Casting table.
 
@@ -225,7 +225,7 @@ WHERE date_in < '2023-03-07' AND date_out > '2023-03-01');
 
 ## 📓 2023-03-10
 
-### Corrección examen rentavehicle.
+### 🖊 Corrección examen rentavehicle.
 
 #### 1. Create the tables of the rentavehicle database..
 
@@ -285,7 +285,7 @@ With 2 tables:
 
 ## 📓 2023-03-13 && 2023-03-14
 
-### Diagramas entidad relación.
+### 🖊 Diagramas entidad relación.
 
 #### Entidades:
 
@@ -300,7 +300,7 @@ With 2 tables:
 * Contactes.
 * Carrito.
 * Carrito linea
-* Comanda. ----> Estat (atributo)
+* Comanda. ---> Estat (atributo)
 * Incidència.
 * Comanda linea.
 * Envio.
@@ -308,7 +308,7 @@ With 2 tables:
 * Factura.
 * Envio.
 
-### Atributos y entidades online shopping:
+### 🛒 Atributos y entidades online shopping:
 
 #### Atributos:
 
@@ -364,18 +364,118 @@ Casi los mismos que cliente
 * Magatzem.
 * Estat.
 
-### Atributos y entidades concessionario:
+### 🚗 Atributos y entidades concessionario:
 
-#### Atributos:
+#### Entidades:
 
 * Coches.
 * Clientes.
 * Magatzem.
 * Venta.
+* Taller.
 * Venta_ln.
-* 
+* Empleat
+* Marca.
+* Model.
 
-#### Entidades:
+#### Atributos:
+
+**Coches.** Id coche, nombre, modelo, tipo, precio, asientos, num_bastidor, matricula, data_fecha:fabricacion, estat (si esta rallado, de segunda mano, etc), imatges.
+**Cliente**. Id cliente, nombre, apellidos, DNI, adreça, telefono, métodoDePage.
+**Magatzem**. Id magatzem, adreça, capacitat, coche.
+**Venta**. idventa, cliente, preu.
+**Venta_ln**. Fecha, precio, cantidad.
+**Taller.** Id_taller, 
+**Empleat.**
+**Marca.**
+**Model.** n_asientos, preu, data_llançament, cilindrada, potencia, tipo_combustible
 
 
+## 📓 2023-03-15
+
+### 🅰Relacions.
+
+#### Cardinalitat.
+
+##### 1:1
+
+A cada ocurrència de la primera entitat li correspon una i només una ocurrència de la segona i viceversa (una a una).
+
+Estadoo 1 <- tiene ->  1 Capital.
+
+##### 1:N
+
+A cada ocurrència de la primera entitat li poden correspondre més d'una ocurrència de la segona i cada ocurréncia de la segona li correspon no més d'una de la primera. (1 a moltes)
+
+##### N:M
+
+A cada ocurrència de la primera entitat li poden correspondre més d'una ocurrència de la segons i veceversa (moltes a moltes)
+
+CARRET N <-- té --> M PRODUCTE
+
+Esta cardinalitat es descomposa en dues relacions **1.N** durant del disseny lògic.
+
+## 📓 2023-03-17
+
+### Concesionario de Vehículo.
+
+*Clic derecho --> Insertar nuevo diagrama...*
+![[Diagrama Concesionario.svg]]
+
+Enlace para Mermaid cheat sheet: [aquí](https://jojozhuang.github.io/tutorial/mermaid-cheat-sheet/)
+
+*Mirar las fotos del ==Whatsapp*==
+
+* **VEHICLES.**
+	* Model
+	* Marca
+	* PVP
+	* Num_bastidor.
+
+* **VENDA.**
+	* Nombre. Fac/1
+	* Cliente. Joan Pons Pons
+	* Data_omissió. 17-03-2023
+	* Observacions. -
+
+Tablas "humanas", poner la clave foránea o en la tabla VENDA o en la tabla VEHICLE:
+
+**VENDA.**
+| Nombre | Cliente   | Data       | Observacions | ==Vehicle== |
+| ------ | --------- | ---------- | ------------ | ----------- |
+| FAC/1  | Joan Pons | 17-03-2023 | -            | ABC         |
+| FAC/1  | Joan Pons | 17-03-2023 | -            | CBA         |
+| FAC/2  | Joan Pons | 17-3-2023  | -            | 123         |
+
+**VEHICLE.**
+| Num_bastidor | Model  | Marca | PVP   | ==Venda== |
+| ------------ | ------ | ----- | ----- | ----- |
+| ABC          | Corsa  | Opel  | 20000 | FAC/1 |
+| CBA          | Corsa  | Opel  | 18000 |       |
+| 123          | Fiesta | Ford  | 21000 | FAC/2 |
+
+Solucion más eficiente:
+
+````mermaid
+graph LR;  
+    VEHICLE-- Conexion N - M ---VENDA
+````
+
+Utilizando esta solución, las tablas anteriores ==subrayadas==, se pueden eliminar. Para nombrar la tabla podemos usar: Tabla_tabla (donde hay conexión).
+
+**VENDA_VEHICLES**
+| Nombre | Num_bastidor |
+| ------ | ------------ |
+| FAC/1  | ABC          |
+| FAC/1  | CBA          |
+| FAC/2  | 123          |
+
+También, podremos borrar la 2ª fila de la tabla **VENDA.**
+
+### Tienda Online.
+
+````mermaid
+graph LR;  
+    MARCA-- Conexion N - M ---MODELO
+````
 
