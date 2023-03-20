@@ -2,6 +2,7 @@
 
 ### Tema 9. Colecciones de elementos.
 
+Enlace para callouts --> [aquí](https://help.obsidian.md/Editing+and+formatting/Callouts)
 [Enlace a la teoria del Tema 9 en el Classroom.](https://classroom.google.com/c/NTQ3OTA2ODI1NTg5/m/NTQ3OTA2ODI1NjU2/details)
 
 #### Tipos de clases.
