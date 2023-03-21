@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes/P/Apuntes Programacion.md",
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apuntes/P/Apuntes Programacion.md",
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apuntes/P/Apuntes Programacion.md",
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Apuntes/P/Apuntes Programacion.md"
+                "file": "Apuntes/BD/Apuntes Base de Datos.md"
               }
             }
           }
@@ -164,6 +164,9 @@
   },
   "active": "630c2361ae01817f",
   "lastOpenFiles": [
+    "Asignaturas/Bases de Datos/Cinema/departamentSoftware.drawio.png",
+    "Apuntes/P/Apuntes Programacion.md",
+    "Asignaturas/Bases de Datos/Cinema/departamentSoftware.drawio",
     "Asignaturas/Programacion/Tema 8/Actividades/ej8_3.java",
     "Asignaturas/Programacion/Tema 8/Actividades/ej8_2/mastermindJava.java",
     "Asignaturas/Programacion/Tema 8/Actividades/ej8_2/Colores.java",
@@ -173,10 +176,7 @@
     "Asignaturas/Programacion/Tema 7/Mastermind/ej8_2",
     "Asignaturas/Programacion/Tema 7/Mastermind/Colores.java",
     "Asignaturas/Programacion/Tema 7/Mastermind/Codigo.java",
-    "Asignaturas/Programacion/Tema 8/Actividades/ej8_2.java",
     "Excalidraw/Drawing 2023-03-21 15.53.53.excalidraw.md",
-    "Apuntes/P/Apuntes Programacion.md",
-    "Excalidraw",
     "Apuntes/BD/Apuntes Base de Datos.md",
     "Diagrama Concesionario.svg",
     "images/Pasted image 20230316180734.png",
