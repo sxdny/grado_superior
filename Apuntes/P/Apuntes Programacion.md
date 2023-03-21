@@ -97,7 +97,39 @@ Vector<Alumnos> gradoSuperior = new Vector<>;
 gs.capacity(); // Devuelve la capacidad del vector.
 gs.size(); // Devuelve el número exacto de elementos. 2 objetos = 2 de size.
 gs.get(3) // Objeto almacenado en la posicoin 3 (de 0 a size() - 1) --> size = 4
-gs.add(1, pepe) // Añade un objeto al vector. Especificar el lugar y el objeto. Lo moverá automáticamente.
+gs.add(pepe) // Añade un objeto al vector. Especificar el lugar y el objeto. Lo moverá automáticamente.
 ````
 
 Consultar la documentación en [este enlace.](https://docs.oracle.com/javase/8/docs/api/java/util/Vector.html)
+
+## 📓 2023-03-21
+
+Hashtable
+
+Capacidad ilimitada. muy útil, tienen 2 tipos de objetos (una llave y el valor que realmente guarda). 
+
+| K        | V       |
+| -------- | ------- |
+| DNI      | Persona |
+| 41502... | Joan    |
+
+ht.get(41502..) --> Persona a que corresponde a la K.
+
+````java
+.get(Object key);
+````
+
+Para crear una:
+
+````java
+HashTable <Integer, Persona> ht = new HashTable <>();
+
+HashMap <Integer, String> hm = new HashMap <>(); // Versión más moderna.
+````
+
+Para insertar los objetos:
+
+````java
+hm.put(1, "Sidney");
+````
+

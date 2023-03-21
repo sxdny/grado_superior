@@ -1,4 +1,7 @@
+package ej8_2;
+
 import java.util.Arrays;
+import java.util.*;
 import java.util.Scanner;
 
 public class mastermindJava {
@@ -35,31 +38,46 @@ public class mastermindJava {
             
             System.out.println("Introduce una serie de 4 colores:");
 
-            for (int i = 0; i < inputUsuario.length; i++) {
-                inputUsuario[i] = sc.next();
-            }
+            try {
 
-            // Colores en la misma posición.
-            for (int i = 0; i < codigo.codigo.length; i++) {
-                
-                if (inputUsuario[i].equals(codigo.codigo[i])) {
-                    coloresPC++;
+                for (int i = 0; i < inputUsuario.length; i++) {
+                    inputUsuario[i] = sc.next();
                 }
+
+            } catch (InputMismatchException e) {
+                System.out.println("No has introducido una letra...");;
             }
 
-            // Colores que están en la lista, pero en la posicion incorrecta.
-            for (int i = 0; i < codigo.codigo.length; i++) {
-                for (int j = 0; j < codigo.codigo.length; j++) {
-                    if (inputUsuario[i].equals(codigo.codigo[j])) {
-                        if (inputUsuario[j].equals(codigo.codigo[j])) {
-                            
-                        }
-                        else {
-                            coloresPI++;
+            
+            try {
+                // Colores en la misma posición.
+                for (int i = 0; i < codigo.codigo.length; i++) {
+                    if (inputUsuario[i].equals(codigo.codigo[i])) {
+                        coloresPC++;
+                    }
+                }
+            } catch (IndexOutOfBoundsException e) {
+                System.out.println(e.toString());
+            }
+
+            try {
+                // Colores que están en la lista, pero en la posicion incorrecta.
+                for (int i = 0; i < codigo.codigo.length; i++) {
+                    for (int j = 0; j < codigo.codigo.length; j++) {
+                        if (inputUsuario[i].equals(codigo.codigo[j])) {
+                            if (inputUsuario[j].equals(codigo.codigo[j])) {
+                            }
+                            else {
+                                coloresPI++;
+                            }
                         }
                     }
                 }
+            } catch (IndexOutOfBoundsException e) {
+                System.out.println(e.toString());
             }
+            
+            
 
             if (coloresPC == 4) {
                 resuelto = true;

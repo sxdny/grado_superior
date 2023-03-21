@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class ej8_1 {
+public class ej8_3 {
     
     /*
         Escriure una classe que pugui llançar diversos tipus d’excepcions. Per exemple
