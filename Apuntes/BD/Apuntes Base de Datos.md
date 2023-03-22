@@ -419,7 +419,6 @@ Esta cardinalitat es descomposa en dues relacions **1.N** durant del disseny lò
 
 ### Concesionario de Vehículo.
 
-*Clic derecho --> Insertar nuevo diagrama...*
 ![[Diagrama Concesionario.svg]]
 
 Enlace para Mermaid cheat sheet: [aquí](https://jojozhuang.github.io/tutorial/mermaid-cheat-sheet/)
@@ -478,3 +477,51 @@ También, podremos borrar la 2ª fila de la tabla **VENDA.**
 graph LR;  
     MARCA-- Conexion N - M ---MODELO
 ````
+
+## 📓 2023-03-22
+
+### Normalización.
+
+1FN:
+
+Cada columna de la tabla es única (atómica):
+| DNI    | Nom  | Cognom | Adreça | Adreça | CP  | Matricula | Marca | Model | Potencia | Data | Preu |
+| ------ | ---- | ------ | ------ | ------ | --- | --------- | ----- | ----- | -------- | ---- | ---- |
+| 414444 | Joan | Pons   |        |        |     |           |       |       |          |      |      |
+
+
+2FN:
+
+Reduce los datos superflujos en una tabla selecionandolos, poniendolos en nuevas tablas y estableciendo relaciones entre ellas.
+
+Client
+| DNI | Nom | Cognom | Adreça | Ciutat | CP  |
+| --- | --- | ------ | ------ | ------ | --- |
+
+Venta
+| DNI - Matricula | Preu | Data |
+| --------- | ---- | ---- |
+
+Coche
+| Matricula | Marca | Model | Potencia |
+| --------- | ----- | ----- | -------- |
+
+
+3FN:
+
+Requiere que todas las columnas dependan directamente de la clave primária.
+| CP  | Ciutat |
+| --- | ------ |
+
+En el cliente, dependemos solo de CP:
+| DNI | Nom | Cognom | Adreça | ==CP== |
+| --- | --- | ------ | ------ | ------ |
+
+Después, en cuanto al modelo, tendriamos la siguiente tabla:
+| Modelo | Marca | Potencia |
+| ------ | ----- | -------- |
+
+Y después para coche:
+| Matricula | Model |
+| --------- | ----- |
+

@@ -1,49 +1,41 @@
-import java.util.InputMismatchException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class ej8_3 {
+
+    static String[] t = new String[] {"2131", "asasdasd", "asdfasdf"};
+    static int n = 67;
     
-    /*
-        Escriure una classe que pugui llançar diversos tipus d’excepcions. Per exemple
-        (InputMismatchException, IndexOutOfBoundsException, ArithmeticException) i capturar-lo
-        donant una informació de quin ha estat l’error trobat.
-    */
+    public static void main(String[] args) {  
+        n = t.length;
 
-    public static void main(String[] args) {
+        verificaLengthTaula(n, t);
+
+        errorIOException();
+
+        n = n + 1;
+
+        verificaLengthTaula(n, t);
+
         
-        Scanner sc = new Scanner(System.in);
-        // InputMismatchException
-        try {
-            System.out.println("Introduzca un numero para sumarle +2.");
-            int a = sc.nextInt();
-            a = a + 2;
-            System.out.println("Resultado: " + a);
-
-        } catch (InputMismatchException e) {
-            System.out.println("No se puede sumar un String mas un int.");
-        }
-
-        try {
-            int ar[] = { 1, 2, 3, 4, 5 };
-
-            for (int i = 0; i <= ar.length; i++) {
-                System.out.println(ar[i]);
-            }
-                
-        } catch (IndexOutOfBoundsException e) {
-            System.out.println(e.toString());
-        }
-
-        try {
-            System.out.println("Introduzca un numero para dividirlo entre 0:");
-            int numero = sc.nextInt();
-
-            numero = numero / 0;
-
-            System.out.println("Resultado de la division: " +  numero);
-        } catch (Exception e) {
-            System.out.println("No se puede dividir entre 0.");
-        }
     }
 
+    public static void verificaLengthTaula (int n, String t[]) {
+        if (t.length!=n) throw new RuntimeException ("La taula no te la llargada indicada...");
+        System.out.println("Sortida del metode --> verificaLengthTaula");
+    }
+
+    public static void errorIOException() {
+        try {
+            FileReader f = new FileReader("archivo.txt");
+            
+        } catch (IOException ioe) {
+            System.out.println("Error al leer del archivo: " + ioe.getMessage());
+        } 
+    }
+
+    public static void errorPrintException() {
+        
+    }
 }
