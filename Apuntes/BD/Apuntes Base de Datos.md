@@ -525,3 +525,14 @@ Y después para coche:
 | Matricula | Model |
 | --------- | ----- |
 
+
+## 📓 2023-03-23
+
+````mermaid
+graph LR;  
+    VEHICLE_N --- C{Detall}
+    C --- M_VENDA
+````
+
+
+

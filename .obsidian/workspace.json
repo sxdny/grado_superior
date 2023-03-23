@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes/BD/Apuntes Base de Datos.md",
+                "file": "Apuntes/P/Apuntes Programacion.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apuntes/BD/Apuntes Base de Datos.md",
+                "file": "Apuntes/P/Apuntes Programacion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apuntes/BD/Apuntes Base de Datos.md",
+                "file": "Apuntes/P/Apuntes Programacion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Apuntes/BD/Apuntes Base de Datos.md"
+                "file": "Apuntes/P/Apuntes Programacion.md"
               }
             }
           }
@@ -151,12 +151,12 @@
   },
   "active": "032f9bf1b71ef772",
   "lastOpenFiles": [
+    "Apuntes/BD/Apuntes Base de Datos.md",
     "images/Pasted image 20230322111535.png",
     "Apuntes/SIN/Repaso Examen ED Recuperación.md",
     "Apuntes/BD/Untitled Diagram.svg",
     "Untitled Diagram.svg",
     "Diagrama Concesionario.svg",
-    "Apuntes/BD/Apuntes Base de Datos.md",
     "Asignaturas/Bases de Datos/Cinema/departamentSoftware.drawio.png",
     "Apuntes/P/Apuntes Programacion.md",
     "Asignaturas/Bases de Datos/Cinema/departamentSoftware.drawio",
