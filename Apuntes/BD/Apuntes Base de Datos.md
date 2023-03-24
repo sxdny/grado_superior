@@ -534,5 +534,7 @@ graph LR;
     C --- M_VENDA
 ````
 
+## 📓 2023-03-24
 
+Al hacer los diagramas, nombrar bien con verbos (no solo tener) las diferentes relaciones. 
 

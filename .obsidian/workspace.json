@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes/P/Apuntes Programacion.md",
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apuntes/P/Apuntes Programacion.md",
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apuntes/P/Apuntes Programacion.md",
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Apuntes/P/Apuntes Programacion.md"
+                "file": "Apuntes/BD/Apuntes Base de Datos.md"
               }
             }
           }
@@ -151,6 +151,18 @@
   },
   "active": "032f9bf1b71ef772",
   "lastOpenFiles": [
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado5/exercici5.xsd",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado5/exercici5.xml",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado5",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado4/apartado5",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado4/exercici4.xml",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado4/exercici4.xsd",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado4",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado3/apartado4",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado3/exercici3.xml",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado3/exercici3.xsd",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado3",
+    "Apuntes/P/Apuntes Programacion.md",
     "Apuntes/BD/Apuntes Base de Datos.md",
     "images/Pasted image 20230322111535.png",
     "Apuntes/SIN/Repaso Examen ED Recuperación.md",
@@ -158,17 +170,6 @@
     "Untitled Diagram.svg",
     "Diagrama Concesionario.svg",
     "Asignaturas/Bases de Datos/Cinema/departamentSoftware.drawio.png",
-    "Apuntes/P/Apuntes Programacion.md",
-    "Asignaturas/Bases de Datos/Cinema/departamentSoftware.drawio",
-    "Asignaturas/Programacion/Tema 8/Actividades/ej8_3.java",
-    "Asignaturas/Programacion/Tema 8/Actividades/ej8_2/mastermindJava.java",
-    "Asignaturas/Programacion/Tema 8/Actividades/ej8_2/Colores.java",
-    "Asignaturas/Programacion/Tema 8/Actividades/ej8_2/Codigo.java",
-    "Asignaturas/Programacion/Tema 8/Actividades/ej8_2/ej8_2.java",
-    "Asignaturas/Programacion/Tema 8/Actividades/ej8_2",
-    "Asignaturas/Programacion/Tema 7/Mastermind/ej8_2",
-    "Asignaturas/Programacion/Tema 7/Mastermind/Colores.java",
-    "Asignaturas/Programacion/Tema 7/Mastermind/Codigo.java",
     "Excalidraw/Drawing 2023-03-21 15.53.53.excalidraw.md",
     "images/Pasted image 20230316180734.png",
     "images/Pasted image 20230316180716.png",

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xs:annotation>
+  <xs:documentation xml:lang="ca">
+    Exercici2. Creau un esquema per enviar missatges per sms (màxim 160 paraules) 
+    o per correu electrònic. Fe un captura de pantalla amb el document validat amb un validador.
+  </xs:documentation>
+</xs:annotation>
+
+
+
+</xs:schema>
