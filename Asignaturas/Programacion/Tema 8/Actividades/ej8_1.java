@@ -7,6 +7,8 @@ public class ej8_1 {
         Escriure una classe que pugui llançar diversos tipus d’excepcions. Per exemple
         (InputMismatchException, IndexOutOfBoundsException, ArithmeticException) i capturar-lo
         donant una informació de quin ha estat l’error trobat.
+
+        Test
     */
 
     public static void main(String[] args) {
