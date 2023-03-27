@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:annotation>
+  <xs:documentation xml:lang="ca">
+    Exercici3. Creau un esquema per guardar tot un catàleg de películes. Fe un captura de pantalla amb el document validat amb un validador.
+  </xs:documentation>
+</xs:annotation>  
+
+
+
+
+</xs:schema>

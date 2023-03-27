@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0e0a2ef8a8f6260e",
+        "id": "efdd5a8ffba9a4e8",
         "type": "tabs",
         "children": [
           {
-            "id": "411e0132b239493b",
+            "id": "032f9bf1b71ef772",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -38,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#repa",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,9 +64,19 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "ed69550d610f4570",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -81,23 +91,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0a1c8b5f5a05d205",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
             "id": "b3d791bed2a8971e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apuntes/ED/Cosas Importantes Examen ED Recu.md",
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,9 +113,20 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apuntes/ED/Cosas Importantes Examen ED Recu.md",
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0a1c8b5f5a05d205",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           },
@@ -126,6 +136,8 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
+              
                 "file": "Apuntes/ED/Cosas Importantes Examen ED Recu.md"
               }
             }
@@ -140,51 +152,49 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": true
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6b7fb83793b8edf6",
+  "active": "032f9bf1b71ef772",
   "lastOpenFiles": [
-    "images/Pasted image 20230325104423.png",
-    "Apuntes/ED/example2.svg",
-    "Apuntes/ED/Cosas Importantes Examen ED Recu.md",
-    "images/exampleDiagram.svg",
-    "images/Diagrama Concesionario.svg",
-    "Apuntes/ED/Apuntes Entornos de Desarrollo.md",
-    "Apuntes/ED/Repaso Examen ED.md",
-    "images/Pasted image 20230322111535.png",
-    "Apuntes/SIN/Apuntes Sistemas Informáticos.md",
-    "Apuntes/ED/Repaso Examen ED Recuperación.pdf",
-    "Apuntes/SIN/Repaso Examen ED Recuperación.md",
-    "Apuntes/BD/Untitled Diagram 1.svg",
-    "Apuntes/BD/Untitled Diagram.svg",
-    "Excalidraw/Drawing 2023-03-21 15.53.53.excalidraw.md",
-    "Excalidraw",
-    "Asignaturas/Programacion/Tema 8/Actividades/ej8_2/mastermindJava.java",
-    "Asignaturas/Programacion/Tema 8/Actividades/ej8_2/Colores.java",
-    "Asignaturas/Programacion/Tema 8/Actividades/ej8_2/Codigo.java",
-    "Asignaturas/Programacion/Tema 8/Actividades/ej8_2",
-    "Asignaturas/Lenguaje de Marcas/XML/XSD/apartado5/vehiculos.xsd",
-    "Asignaturas/Lenguaje de Marcas/XML/XSD/apartado4/index.xml",
-    "Asignaturas/Lenguaje de Marcas/XML/XSD/apartado4/fichas.xsd",
-    "Asignaturas/Lenguaje de Marcas/XML/XSD/apartado3/index.xml",
-    "Asignaturas/Bases de Datos/Cinema/departamentSoftware.drawio.png",
-    "Apuntes/BD/Apuntes Base de Datos.md",
-    "Asignaturas/Bases de Datos/Cinema/24-01-23.canvas",
-    "README.md",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado5/exercici5.xsd",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado5/exercici5.xml",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado5",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado4/apartado5",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado4/exercici4.xml",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado4/exercici4.xsd",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado4",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado3/apartado4",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado3/exercici3.xml",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado3/exercici3.xsd",
+    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado3",
     "Apuntes/P/Apuntes Programacion.md",
+    "Apuntes/BD/Apuntes Base de Datos.md",
+    "images/Pasted image 20230322111535.png",
+    "Apuntes/SIN/Repaso Examen ED Recuperación.md",
+    "Apuntes/BD/Untitled Diagram.svg",
+    "Untitled Diagram.svg",
+    "Diagrama Concesionario.svg",
+    "Asignaturas/Bases de Datos/Cinema/departamentSoftware.drawio.png",
+    "Excalidraw/Drawing 2023-03-21 15.53.53.excalidraw.md",
     "images/Pasted image 20230316180734.png",
     "images/Pasted image 20230316180716.png",
-    "Apuntes/pruebaMarp.md",
+    "Apuntes/ED/Repaso Examen ED Recuperación.md",
+    "Apuntes/BD/Untitled Diagram 1.svg",
+    "Apuntes/BD/Concesionario 17-03-2023.canvas",
+    "README.md",
+    "Apuntes/BD/Examen/Canvas Examen.canvas",
     "Apuntes/BD/Examen/Examen_rentacar.md",
     "Asignaturas/Bases de Datos/Cinema/Cinema Database.md",
+    "Apuntes/pruebaMarp.md",
+    "Asignaturas/Bases de Datos/Cinema/24-01-23.canvas",
     "Asignaturas/Bases de Datos/Cinema/Cinema Database Content.md",
     "Apuntes/BD/Examen/Examen BD.md",
     "Asignaturas/Entornos de Desarrollo/Pseudocodi/Ejercicios Tema 6 ED.md",
@@ -198,6 +208,8 @@
     "Asignaturas/Bases de Datos/Comandos SQL (Repaso).md",
     "Asignaturas/Lenguaje de Marcas/XML/actividad2_RSS.md",
     "Asignaturas/Lenguaje de Marcas/XML/actividad3XML.md",
-    "Apuntes/Apuntes Bases de Datos/Apuntes Base de Datos.md"
+    "Apuntes/Apuntes Bases de Datos/Apuntes Base de Datos.md",
+    "Apuntes/Apuntes Bases de Datos/Examen/Examen BD.md",
+    "Apuntes/Apuntes Sistemas Informáticos/Apuntes Sistemas Informáticos.md"
   ]
 }

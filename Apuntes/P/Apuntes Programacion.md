@@ -133,3 +133,35 @@ Para insertar los objetos:
 hm.put(1, "Sidney");
 ````
 
+## 📓 2023-03-23
+
+List, Set, Map
+
+````java
+ArrayList ar;
+// En vez de hacer un for con toda la movida, hacer esto en su lugar:
+Iterator it = ar.iterador();
+
+while(it.hasNext()) {
+	System.out.println(it.next)
+}
+````
+
+````java
+Persona p1
+Persona p2
+
+p1.compareTo(p2) // Devuelve lo mismo que -->
+
+String dni1;
+String dni2;
+
+dni.compareTo(dni2)
+
+// Devuelve un numero positivo o negativo si es mayor o si no es mayor
+````
+
+````java
+int compare(T o1, T o2) // Compara 2  objetos que no son del mismo tipo.
+````
+

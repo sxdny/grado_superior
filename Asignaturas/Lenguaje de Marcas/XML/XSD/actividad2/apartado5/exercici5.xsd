@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:annotation>
+  <xs:documentation xml:lang="ca">
+    Exercici6. Una empresa pretén guardar la informació dels seus empleats en xml. 
+    Fes un esquema per poder modelar-ho creant nou tipus de dades. S'ha de guardar 
+    el nom de l'empleat i un identificador únic com atribut, la data d'inici del contracte, 
+    el lloc que ocupa i els llocs que ha ocupat, el seu cap directe com una relació amb l'ID, 
+    el que cobra, tots els seus títol acadèmics, la seu en que treballa d'entre les 
+    tres possibles Madrid, Barcelona, València; finalment s'ha de guardar un camp que 
+    siguin observacions on també hi pot haver altres etiquetes com merits, demerits. 
+    Fes també un document que s'hi ajusti amb al menys 5 empleats.
+    Fe un captura de pantalla amb el document validat amb un validador.
+
+  </xs:documentation>
+</xs:annotation> 
+
+
+
+</xs:schema>

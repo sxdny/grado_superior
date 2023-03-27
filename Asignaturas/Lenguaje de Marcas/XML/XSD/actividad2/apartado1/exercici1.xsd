@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:documentation xml:lang="ca"> Exercici1. Creau un esquema per posar notes a un grup
+      d'alumnes. Heu de incloure el nom de l'alumne, tres avaluacions i heu de fer que la nota no
+      pugui ser major que 10 ni menor que 0. Fe un captura de pantalla amb el document validat amb
+      un validador. </xs:documentation>
+  </xs:annotation>
+
+  <xs:element name="grup">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="alumne" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nom" type="xs:string"></xs:element>
+              <xs:element name="cognom1" type="xs:string"></xs:element>
+              <xs:element name="cognom2" type="xs:string"></xs:element>
+              <xs:element name="nota" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:int">
+                      <xs:attribute name="avaluacio" type="xs:string"></xs:attribute>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
