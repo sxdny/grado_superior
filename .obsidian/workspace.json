@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apuntes/BD/Apuntes Base de Datos.md",
+                "file": "Apuntes/ED/Cosas Importantes Examen ED Recu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apuntes/BD/Apuntes Base de Datos.md",
+                "file": "Apuntes/ED/Cosas Importantes Examen ED Recu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,8 +136,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Apuntes/BD/Apuntes Base de Datos.md",
-              
                 "file": "Apuntes/ED/Cosas Importantes Examen ED Recu.md"
               }
             }
@@ -162,7 +160,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "032f9bf1b71ef772",
+  "active": "6b7fb83793b8edf6",
   "lastOpenFiles": [
     "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado5/exercici5.xsd",
     "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado5/exercici5.xml",
