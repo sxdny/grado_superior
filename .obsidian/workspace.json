@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes/ED/Cosas Importantes Examen ED Recu.md",
+                "file": "Apuntes/P/Apuntes Programacion.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apuntes/ED/Cosas Importantes Examen ED Recu.md",
+                "file": "Apuntes/P/Apuntes Programacion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apuntes/ED/Cosas Importantes Examen ED Recu.md",
+                "file": "Apuntes/P/Apuntes Programacion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Apuntes/ED/Cosas Importantes Examen ED Recu.md"
+                "file": "Apuntes/P/Apuntes Programacion.md"
               }
             }
           }
@@ -160,19 +160,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6b7fb83793b8edf6",
+  "active": "032f9bf1b71ef772",
   "lastOpenFiles": [
+    "Asignaturas/Programacion/Tema 9/ej9_3/ej9_3.class",
+    "Asignaturas/Programacion/Tema 9/ej9_3/ej9_3.java",
+    "Asignaturas/Programacion/Tema 9/ej9_3",
+    "Asignaturas/Programacion/Tema 9/ej9_2/ej9_3",
+    "Asignaturas/Programacion/Tema 9/ej9_2/Profesor.java",
+    "Asignaturas/Programacion/Tema 9/ej9_2/Persona.java",
+    "Asignaturas/Programacion/Tema 9/ej9_2/Main.java",
+    "Asignaturas/Programacion/Tema 9/ej9_2/Alumno.java",
+    "Asignaturas/Programacion/Tema 9/ej9_2",
+    "Apuntes/ED/Cosas Importantes Examen ED Recu.md",
     "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado5/exercici5.xsd",
     "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado5/exercici5.xml",
-    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado5",
-    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado4/apartado5",
-    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado4/exercici4.xml",
-    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado4/exercici4.xsd",
-    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado4",
-    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado3/apartado4",
-    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado3/exercici3.xml",
-    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado3/exercici3.xsd",
-    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado3",
     "Apuntes/P/Apuntes Programacion.md",
     "Apuntes/BD/Apuntes Base de Datos.md",
     "images/Pasted image 20230322111535.png",
