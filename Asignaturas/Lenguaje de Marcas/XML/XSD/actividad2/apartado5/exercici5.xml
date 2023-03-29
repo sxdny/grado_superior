@@ -2,8 +2,8 @@
 <empleats xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="exercici5.xsd">
   <empleat codi="x12323892s" nom="Jordi Bellvé Soler">
     <dataInici>
-      <dia>---01</dia>
-      <mes>--09</mes>
+      <dia>01</dia>
+      <mes>09</mes>
       <any>1987</any>
     </dataInici>
   <lloc>Propietari</lloc>
@@ -14,8 +14,8 @@
   
   <empleat codi="x81753892p" nom="Isabel Bellvé Smith" cap="x12323892s">
     <dataInici>
-      <dia>---22</dia>
-      <mes>--12</mes>
+      <dia>22</dia>
+      <mes>12</mes>
       <any>2003</any>
     </dataInici>
   <lloc>Cap Barcelona</lloc>
@@ -26,16 +26,16 @@
 
 <empleat codi="x11766592t" nom="Ana Sort Llof" cap="x81753892p">
     <dataInici>
-      <dia>---22</dia>
-      <mes>--12</mes>
+      <dia>22</dia>
+      <mes>12</mes>
       <any>2000</any>
     </dataInici>
   <lloc>Secretaria de la cap de Barcelona</lloc>
-  <llocPrevi>Secretaria de logística de Barcelona</llocPrevi>
   <sou>1100</sou>
   <titulacio>Batxillerat </titulacio>
   <titulacio>Técnico Gestión Administrativa</titulacio>
-  <seu>Barcelona</seu>  
+  <seu>Barcelona</seu>
+  <llocPrevi>Secretaria de logística de Barcelona</llocPrevi>  
   <observacions>Disponibilitat de viatjar. Casada amb un fill. 
     <merit>Sol veure quan un negociador no diu la veritat </merit>
     <merit>Sol treballar molt ràpid i bé</merit>
@@ -45,16 +45,16 @@
 
 <empleat codi="x51766502t" nom="Ramón Soltono Visalte" cap="x81753892p">
     <dataInici>
-      <dia>---10</dia>
-      <mes>--02</mes>
+      <dia>10</dia>
+      <mes>02</mes>
       <any>1999</any>
     </dataInici>
   <lloc>Operari de embalatge</lloc>
+  <sou>600</sou>
+  <titulacio>Tecnico en Embalaje</titulacio>
+  <seu>Barcelona</seu> 
   <llocPrevi>Operari varis</llocPrevi>
-   <llocPrevi>Encarregat de logística</llocPrevi>
-  <sou>650</sou>  
-  
-  <seu>Barcelona</seu>  
+  <llocPrevi>Encarregat de logística</llocPrevi> 
   <observacions>    
     <demerit>Si no hi ha algú que el vigila no treballa</demerit>  
   </observacions>
@@ -62,8 +62,8 @@
 
 <empleat codi="x31766502t" nom="Amalia Dolita Tokil" cap="x81753892p">
     <dataInici>
-      <dia>---10</dia>
-      <mes>--10</mes>
+      <dia>10</dia>
+      <mes>10</mes>
       <any>2011</any>
     </dataInici>
   <lloc>Operari varis</lloc>

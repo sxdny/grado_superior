@@ -18,7 +18,7 @@
 <xs:element name="empleats">
   <xs:complexType>
     <xs:sequence>
-      <xs:element name="empleat">
+      <xs:element name="empleat" maxOccurs="unbounded">
         <xs:complexType>
           <xs:sequence>
             <xs:element name="dataInici">
@@ -26,15 +26,42 @@
                 <xs:sequence>
                   <xs:element name="dia">
                     <xs:simpleType>
-                      <xs:restriction>
+                      <xs:restriction base="xs:int">
                         <xs:maxInclusive value="31"></xs:maxInclusive>
+                        <xs:minInclusive value="1"></xs:minInclusive>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="mes">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:int">
+                        <xs:maxInclusive value="12"></xs:maxInclusive>
+                        <xs:minInclusive value="1"></xs:minInclusive>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="any">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:int">
+                        <xs:maxInclusive value="9999"></xs:maxInclusive>
+                        <xs:minInclusive value="1000"></xs:minInclusive>
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
+            <xs:element name="lloc" type="xs:string" minOccurs="0"></xs:element>
+            <xs:element name="sou" type="xs:int" minOccurs="0"></xs:element>
+            <xs:element name="titulacio" type="xs:string" maxOccurs="unbounded" minOccurs="0"></xs:element>
+            <xs:element name="seu" type="xs:string" minOccurs="0"></xs:element>
+            <xs:element name="lloc" type="xs:string" minOccurs="0"></xs:element>
+            <xs:element name="llocPrevi" type="xs:string" minOccurs="0" maxOccurs="unbounded"></xs:element>
+            <xs:element name="observacions" minOccurs="0"></xs:element>
           </xs:sequence>
+          <xs:attribute name="codi" type="xs:string"></xs:attribute>
+          <xs:attribute name="nom" type="xs:string"></xs:attribute>
+          <xs:attribute name="cap" type="xs:string"></xs:attribute>
         </xs:complexType>
       </xs:element>
     </xs:sequence>
