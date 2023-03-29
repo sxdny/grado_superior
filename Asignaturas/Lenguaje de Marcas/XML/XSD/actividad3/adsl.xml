@@ -9,10 +9,7 @@
           </velocitat_transferencia>
          
           <preu moneda="Euro">
-         
                 <alta gratis="Si" permanencia="No"/>
-                    <!--<preu_alta></preu_alta>
-                    <permanencia_alta></permanencia_alta>-->
                 <linea>13.97</linea>
                 <mensual>36.50</mensual>
                 <total_mensual>50.47</total_mensual>
@@ -33,8 +30,6 @@
           <preu moneda="Euro">
          
                 <alta gratis="Si" permanencia="No"/>
-                      <!--<preu_alta></preu_alta>
-                    <permanencia_alta></permanencia_alta>-->
                 <linea>13.97</linea>
                 <mensual>59.90</mensual>
                 <total_mensual>73.87</total_mensual>
@@ -55,8 +50,6 @@
           <preu moneda="Euro">
          
                 <alta gratis="Si" permanencia="No"/>
-                    <!--<preu_alta></preu_alta>
-                    <permanencia_alta></permanencia_alta>-->
                 <linea>0</linea>
                 <promocio fins="2014-01-01">
                 <promocio_preu>15.94</promocio_preu>
@@ -81,8 +74,7 @@
           <preu moneda="Euro">
          
                 <alta gratis="Si" permanencia="Si">
-                    <!--<preu_alta></preu_alta>-->
-                    <permanencia_alta tiempo="meses" quantitat="12"/>
+                    <permanencia_alta tiempo="meses" quantitat="12"></permanencia_alta>
                 </alta>
                 <linea>13.97</linea>
                 <promocio fins="2014-01-01">
@@ -110,7 +102,6 @@
           <preu moneda="Euro">
          
                 <alta gratis="Si" permanencia="Si">
-                    <!--<preu_alta></preu_alta>-->
                     <permanencia_alta tiempo="meses" quantitat="12"/>
                 </alta>
                 <linea>13.97</linea>
@@ -136,7 +127,6 @@
           <preu moneda="Euro">
          
                 <alta gratis="Si" permanencia="Si">
-                    <!--<preu_alta></preu_alta>-->
                     <permanencia_alta tiempo="meses" quantitat="18"/>
                 </alta>
                 <linea>13.97</linea>
