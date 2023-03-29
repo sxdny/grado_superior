@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Apuntes/P/Apuntes Programacion.md",
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Apuntes/P/Apuntes Programacion.md",
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Apuntes/P/Apuntes Programacion.md",
+                "file": "Apuntes/BD/Apuntes Base de Datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Apuntes/P/Apuntes Programacion.md"
+                "file": "Apuntes/BD/Apuntes Base de Datos.md"
               }
             }
           }
@@ -145,8 +145,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 261.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,6 +161,7 @@
   },
   "active": "032f9bf1b71ef772",
   "lastOpenFiles": [
+    "Apuntes/P/Apuntes Programacion.md",
     "Asignaturas/Programacion/Tema 9/ej9_3/ej9_3.class",
     "Asignaturas/Programacion/Tema 9/ej9_3/ej9_3.java",
     "Asignaturas/Programacion/Tema 9/ej9_3",
@@ -173,8 +173,6 @@
     "Asignaturas/Programacion/Tema 9/ej9_2",
     "Apuntes/ED/Cosas Importantes Examen ED Recu.md",
     "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado5/exercici5.xsd",
-    "Asignaturas/Lenguaje de Marcas/XML/XSD/actividad2/apartado5/exercici5.xml",
-    "Apuntes/P/Apuntes Programacion.md",
     "Apuntes/BD/Apuntes Base de Datos.md",
     "images/Pasted image 20230322111535.png",
     "Apuntes/SIN/Repaso Examen ED Recuperación.md",

@@ -538,3 +538,134 @@ graph LR;
 
 Al hacer los diagramas, nombrar bien con verbos (no solo tener) las diferentes relaciones. 
 
+## 📓 2023-03-28
+
+De diagrama a SQL.
+
+### Tablas.
+
+Projecte, Tipus Projecte, Client, Programador, Feina.
+
+#### Tabla Projecte.
+
+- id_projecte. PK. Integer.
+- nom. String.
+- data_inici. Date.
+- data_final. Date.
+- detall. String.
+
+#### Tabla Tipus_Projecte.
+
+- id_projecte. FK. Integer. 
+- tipus. String.
+- ...
+
+#### Tabla Client.
+
+- id_client. PK. Integer.
+- nom. String.
+- email. String.
+- adreça. String.
+- telefon. String.
+
+#### Tabla Programador.
+
+- id_programador. PK. Int.
+- nom. String.
+- dni. String.
+- telefon. String.
+
+#### Tabla Feina.
+
+- id_projecte. FK. Integer.
+- id_programador. FK. Integer.
+- hores. Integer.
+- Data. Date.
+
+## 📓 2023-03-29
+
+*En Samsung Notes está el ejercicio que hemos hecho.*
+
+*Poner imagen aquí.*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    adwdawadwawdasasw

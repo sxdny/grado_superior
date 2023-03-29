@@ -13,7 +13,33 @@
     Fe un captura de pantalla amb el document validat amb un validador.
 
   </xs:documentation>
-</xs:annotation> 
+</xs:annotation>
+
+<xs:element name="empleats">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="empleat">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="dataInici">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="dia">
+                    <xs:simpleType>
+                      <xs:restriction>
+                        <xs:maxInclusive value="31"></xs:maxInclusive>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
 
 
 

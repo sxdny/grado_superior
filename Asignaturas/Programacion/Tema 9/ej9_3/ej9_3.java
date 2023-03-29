@@ -44,7 +44,48 @@ public class ej9_3 {
         colores.remove(2);
 
         /*Cercar un element en una arrayList */
+        System.out.println("Introduzca el color que desea buscar:");
+        String colorInput = sc.nextLine();
+
+        for (int i = 0; i < colores.size(); i++) {
+            if (colores.get(i) == colorInput) {
+                System.out.println("Color encontrado.");
+            }
+            else {
+                System.out.println("Color no encontrado.");
+            }
+        }
+
+        /*Ordenar un array list. */
+        ArrayList <Integer> numeros = new ArrayList<>();
+        numeros.add(1);
+        numeros.add(8);
+        numeros.add(5);
+        numeros.add(3);
+        numeros.add(10);
+        numeros.add(7);
+
+        System.out.println("ArrayList de numeros sin ordenar: " + numeros);
+
+        numeros.sort(null);
+
+        System.out.println("ArrayList de numeros ordenada: " + numeros);
+
+        /*Copiar un ArrayList en otro y cambiar de posicion un ArrayList. */
+
+        ArrayList <Integer> numerosv2 = (ArrayList<Integer>)numeros.clone();
+
+        System.out.println("ArrayList numeros 2 clonado del de numeros: " + numerosv2);
+
+        System.out.println("--------");
+
+        System.out.println("ArrayList de numeros barrejat: " + );
+
+
+
         
+
+
 
 
 
