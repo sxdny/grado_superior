@@ -8,6 +8,44 @@
   </xs:documentation>
 </xs:annotation>
 
+<xs:element name="missatges">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="sms" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="destinatari"></xs:element>
+            <xs:element name="remitent"></xs:element>
+            <xs:element name="cos">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:maxLength value="160"></xs:maxLength>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="email">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="destinatari"></xs:element>
+            <xs:element name="remitent"></xs:element>
+            <xs:element name="subject"></xs:element>
+            <xs:element name="cos">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:maxLength value="160"></xs:maxLength>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
 
 
 </xs:schema>

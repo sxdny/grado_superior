@@ -8,6 +8,28 @@
   </xs:documentation>
 </xs:annotation> 
 
-
+<xs:element name="objectes">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="objecte" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="descripcio" type="xs:string"></xs:element>
+            <xs:element name="preu_sortida">
+              <xs:complexType>
+                <xs:simpleContent>
+                  <xs:extension base="xs:decimal">
+                    <xs:attribute name="minim" type="xs:decimal"></xs:attribute>
+                  </xs:extension>
+                </xs:simpleContent>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute name="propietari" type="xs:string"></xs:attribute>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
 
 </xs:schema>
