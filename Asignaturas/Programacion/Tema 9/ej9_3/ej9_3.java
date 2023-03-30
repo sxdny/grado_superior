@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class ej9_3 {
@@ -79,7 +80,74 @@ public class ej9_3 {
 
         System.out.println("--------");
 
-        System.out.println("ArrayList de numeros barrejat: " + );
+        System.out.println("ArrayList de numeros barrejat: " + numerosv2);
+
+        /*Invertir los elementos de una arrayList */
+        Collections.reverse(numeros);
+        System.out.println(numeros);
+
+        /*Extraer una parte de una ArrayList */
+        String hola = numeros.subList(0, 2).toString();
+
+        /*Comparar dos ArrayList. */
+        for (int i = 0; i < numerosv2.size(); i++) {
+            if (numeros.get(i).equals(numerosv2.get(i))) {
+                System.out.println("Los dos números son iguales.");
+            }
+            else {
+                System.out.println("Los elementos no son iguales.");
+            }
+        } 
+
+        /*Intercambiar dos elementos en un arrayList. */
+        Collections.swap(numerosv2, 1, 4);
+
+        /*Unir dos arrayList */
+        numeros.addAll(numerosv2);
+
+        System.out.println("ArrayList unida: " + numeros);
+
+        /*Clonar una arrayList en otra */
+        ArrayList<Integer> copia = (ArrayList<Integer>)numerosv2.clone();
+        // Manera correcta: ArrayList<Integer> copia = new ArrayList<>(numerosv2);
+
+        System.out.println(copia);
+
+        /*Buidar un ArrayList */
+        numerosv2.clear();
+
+        /*Comprobar si una ArrayList está vacia o no. */
+        if (numerosv2.isEmpty()) {
+            System.out.println("El arrayList está vacio.");
+        }
+        else {
+            System.out.println("El arrayList tiene contenido.");
+        }
+
+        /* Reducir la capacidad del ArryList a la mitad. */
+        numeros.subList(0, (numeros.size() / 2));
+
+        /*Aumentar el tamaño de un ArrayList. */
+        numeros.ensureCapacity(30);
+
+        /*Sustituir el segundo elemento de un ArrayList por en elemento especificado. */
+        numeros.set(2, 56);
+
+        /*Imprimir todos los elementos usando las posiciones. */
+        for (int i = 0; i < numeros.size(); i++) {
+            System.out.println(numeros.get(i));
+        }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
