@@ -1,1 +1,0 @@
-Hola, este archivo ha sido creado con nvim.
