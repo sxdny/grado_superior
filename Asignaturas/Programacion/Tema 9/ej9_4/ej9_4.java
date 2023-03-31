@@ -59,7 +59,7 @@ public class ej9_4 {
         colores.set(3, "Lima");
 
         /*Obtener la primera y última ocurrencia de un elemento especificado. */
-        
+       /*TODO Acabar el ejercicio. */ 
 
 
 
