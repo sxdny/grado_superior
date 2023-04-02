@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<objectes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="exercici4.xsd">
+  <objecte propietari="Silvia">
+    <descripcio>Un bonsai molt polit</descripcio>
+    <preu_sortida>1.66</preu_sortida>
+  </objecte>
+  <objecte propietari="Ramon">
+    <descripcio>Un portàtil que no va</descripcio>
+    <preu_sortida minim="70">10</preu_sortida>
+  </objecte>
+</objectes>

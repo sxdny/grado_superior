@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<grup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="exercici1.xsd">
+  <alumne>
+      <nom>Jordi</nom>
+      <cognom1>Valls</cognom1>
+      <cognom2>Santos</cognom2>
+      <nota avaluacio="primera">7</nota>
+      <nota avaluacio="segona">8</nota>
+      <nota avaluacio="tercera">9</nota>
+  </alumne>
+  
+  <alumne>
+      <nom>Marta</nom>
+      <cognom1>Roman</cognom1>
+      <cognom2>Sils</cognom2>
+      <nota avaluacio="primera">10</nota>
+      <nota avaluacio="segona">8</nota>
+      <nota avaluacio="tercera">9</nota>
+  </alumne>
+</grup>

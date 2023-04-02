@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:documentation xml:lang="ca"> Exercici3. Creau un esquema per guardar tot un catàleg de
+      películes. Fe un captura de pantalla amb el document validat amb un validador. </xs:documentation>
+  </xs:annotation>
+
+  <xs:element name="cataleg">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="film" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="genere" type="xs:string"></xs:element>
+              <xs:element name="actor" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+            <xs:attribute name="codi" type="xs:string"></xs:attribute>
+            <xs:attribute name="director" type="xs:string"></xs:attribute>
+            <xs:attribute name="titol" type="xs:string"></xs:attribute>
+            <xs:attribute name="any" type="xs:integer"></xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+
+</xs:schema>

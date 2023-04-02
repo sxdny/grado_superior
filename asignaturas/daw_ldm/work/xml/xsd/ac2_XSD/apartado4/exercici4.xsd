@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:annotation>
+  <xs:documentation xml:lang="ca">
+    Exercici5. reau un esquema per posar preus a una serie d'objectes destinats a ser venuts en subhasta. 
+    De cada objecte heu de guardar el seu propietari, el preu de sortida (màxim 6 dígits, dos d'ells decimals). Opcionalment hi pot haver un preu mínim de manera que si no s'arriba no es vendria
+    Fe un captura de pantalla amb el document validat amb un validador.
+  </xs:documentation>
+</xs:annotation> 
+
+<xs:element name="objectes">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="objecte" maxOccurs="unbounded">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="descripcio" type="xs:string"></xs:element>
+            <xs:element name="preu_sortida">
+              <xs:complexType>
+                <xs:simpleContent>
+                  <xs:extension base="xs:decimal">
+                    <xs:attribute name="minim" type="xs:decimal"></xs:attribute>
+                  </xs:extension>
+                </xs:simpleContent>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute name="propietari" type="xs:string"></xs:attribute>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+
+</xs:schema>
