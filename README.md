@@ -1,7 +1,4 @@
-[//]: <> (Esto es un comentario en Markdown.)
+# Actividades Grado Superior
+Sidney Silva Braz de Oliveira | 1º DAW
 
-# Actividades Grado Superior + ¡Acepta el Reto!
-
-*Sidney Silva Braz de Oliveira | 1º DAW*
-
-Repositorio para almacenar las actividades, recursos y apuntes del **Grado Superior**.
+Repositorio de cosas de clase, subido al GitHub para la fácil sincronización.
