@@ -588,3 +588,19 @@ Projecte, Tipus Projecte, Client, Programador, Feina.
 
 *Poner imagen aquí.*
 
+## 📓 2023-03-29
+
+**DATABASES.**
+
+- [x] rentacar.
+- [x] onlineshop.
+- [x] cinema.
+
++ TABLES
+	+ TRIGGERS
++ FUNCTIONS.
++ PROCEDURES.
++ VIEWS.
+
+
+

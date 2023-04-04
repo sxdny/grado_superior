@@ -1,49 +1,50 @@
 {
   "main": {
-    "id": "3bb0e850246e4863",
+    "id": "3ec0dee27110f35a",
     "type": "split",
     "children": [
       {
-        "id": "c5f52eff61614151",
+        "id": "fa5768fe89cd2e26",
         "type": "tabs",
         "children": [
           {
-            "id": "c7ca9b6dac1fb9e7",
+            "id": "dbe8bb629e089a51",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
+                "file": "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "d2d5e760e91ddf5b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "c93563bf3a3f8a8a",
+    "id": "f1e6d8d716e31522",
     "type": "split",
     "children": [
       {
-        "id": "66084f7e1ac886e7",
+        "id": "9e9dec6a26852fa5",
         "type": "tabs",
         "children": [
           {
-            "id": "3efa5885a73708de",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "03965e1b381a8971",
+            "id": "a3ec2283924c6f84",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,35 +59,56 @@
             }
           },
           {
-            "id": "1932df8bafd27909",
+            "id": "6b7fb83793b8edf6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f4f8f6bb880af4c2",
             "type": "leaf",
             "state": {
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "ed69550d610f4570",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "fe92022cbf2a4137",
+    "id": "b187d41bc52499bd",
     "type": "split",
     "children": [
       {
-        "id": "4b664145e6b805a7",
+        "id": "038ac427edc3fc72",
         "type": "tabs",
-        "dimension": 33.33333333333333,
+        "dimension": 54.618937644341806,
         "children": [
           {
-            "id": "180ce00ec360347b",
+            "id": "b3d791bed2a8971e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
+                "file": "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,19 +120,29 @@
             }
           },
           {
-            "id": "fa04e82fb0e9d33a",
+            "id": "83c8faf017905f77",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "3852804f11bfa875",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
+                "file": "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "19d93af2b2e7efd3",
+            "id": "0a1c8b5f5a05d205",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -119,25 +151,17 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "3e7c54d4262d3faa",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
-        "id": "8c5b9d5ed1c511aa",
+        "id": "4ed7c624bd6ae6b1",
         "type": "tabs",
-        "dimension": 27.599611273080665,
+        "dimension": 45.381062355658194,
         "children": [
           {
-            "id": "394068ea0c4fd367",
+            "id": "ba71288d75d2298f",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -145,42 +169,77 @@
             }
           }
         ]
-      },
-      {
-        "id": "745406a623114b31",
-        "type": "tabs",
-        "dimension": 39.067055393586,
-        "children": [
-          {
-            "id": "7d4feb0f22f72445",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "asignaturas/daw_bd/notes/Apuntes Base de Datos.md"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 248.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c7ca9b6dac1fb9e7",
+  "active": "d2d5e760e91ddf5b",
   "lastOpenFiles": [
-    "asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
-    "README.md"
+    "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
+    "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md",
+    "Excalidraw",
+    "Asignaturas/daw_sin/notes/Repaso Examen ED Recuperación.md",
+    "Asignaturas/daw_sin/notes/Apuntes Sistemas Informáticos.md",
+    "Asignaturas/daw_sin/notes",
+    "Asignaturas/daw_sin",
+    "Asignaturas/daw_p/work/tema8/actividades/ej8_4/Programa.java",
+    "Asignaturas/daw_p/work/tema8/actividades/ej8_4/Programa.class",
+    "Asignaturas/daw_p/work/tema8/actividades/ej8_4/ExceptionPersonalizada.java",
+    "Asignaturas/daw_p/work/tema8/actividades/ej8_4/ExceptionPersonalizada.class",
+    "Asignaturas/daw_p/work/tema8/actividades/ej8_3/ej8_3.java",
+    "Asignaturas/daw_p/work/tema8/actividades/ej8_3/ej8_3.class",
+    "Asignaturas/daw_p/work/tema8/actividades/ej8_2/mastermindJava.java",
+    "Asignaturas/daw_p/work/images/Pasted image 20230125095047.png",
+    "Asignaturas/daw_p/work/images/Pasted image 20230124154253.png",
+    "Asignaturas/daw_p/notes/Repaso Examen Java Tema 6.md",
+    "Asignaturas/daw_p/notes/Recursividad.md",
+    "Asignaturas/daw_p/notes/Java.md",
+    "Asignaturas/daw_p/notes/Interficies.canvas",
+    "Asignaturas/daw_p/notes/Apuntes Programacion.md",
+    "Asignaturas/daw_ldm/work/xml/xml/ac4_XML/s23wallpaper.jpg",
+    "Asignaturas/daw_ldm/work/xml/xml/ac3_XML/actividad3XML.md",
+    "Asignaturas/daw_ldm/work/xml/xml/ac2_XML/actividad2XML.md",
+    "Asignaturas/daw_ldm/work/xml/rss/ac2_RSS/actividad2_RSS.md",
+    "Asignaturas/daw_ldm/work/xml/rss/ac1_RSS/actividad1_RSS.md",
+    "Asignaturas/daw_ldm/work/webpage_project/images/sslogo.svg",
+    "Asignaturas/daw_ldm/work/webpage_project/images/PUNK.jpg",
+    "Asignaturas/daw_ldm/work/webpage_project/images/PROJECTS.svg",
+    "Asignaturas/daw_ldm/work/webpage_project/images/project4.png",
+    "Asignaturas/daw_ldm/work/webpage_project/images/project3.jpg",
+    "Asignaturas/daw_ldm/work/webpage_project/images/IMG-20220902-WA0025.jpg",
+    "Asignaturas/daw_ldm/work/webpage_project/images/project2.jpg",
+    "Asignaturas/daw_ed/work/pseudocodigo/ex15_ud6_sidneysb.md",
+    "Asignaturas/daw_ed/work/pseudocodigo/ex10_ud6_sidney.md",
+    "Asignaturas/daw_ed/work/pseudocodigo/Ejercicios Tema 6 ED.md",
+    "Asignaturas/daw_ed/work/diagrams_notes/Diagrama de seqüència.md",
+    "Asignaturas/daw_ed/work/diagrams_notes/Diagrama de comunicació.md",
+    "Asignaturas/daw_ed/work/diagrams_notes/Diagrama d'estat.md",
+    "Asignaturas/daw_ed/work/diagrams_notes/Diagrama d'activitat.md",
+    "Asignaturas/daw_ed/work/diagrams_notes/Diagrama Casos d'Ús.md",
+    "Asignaturas/daw_ed/notes/Cosas Importantes Examen ED Recu.md",
+    "Asignaturas/daw_ed/notes/Apuntes Entornos de Desarrollo.md",
+    "Asignaturas/daw_bd/work/cinema_db_stuff/Cinema Database.md",
+    "Asignaturas/daw_bd/work/cinema_db_stuff/24-01-23.canvas",
+    "Asignaturas/daw_bd/notes/Examen/Examen_rentacar.md",
+    "Asignaturas/daw_bd/notes/Examen/Repaso Examen 30-03-2023 1.md",
+    "Asignaturas/daw_bd/notes/Examen/Examen BD.md",
+    "Asignaturas/daw_bd/notes/Examen/Canvas Examen.canvas",
+    "Apuntes/BD/Concesionario 17-03-2023.canvas",
+    "Apuntes/BD/Examen/Canvas Examen.canvas",
+    "Asignaturas/Bases de Datos/Cinema/24-01-23.canvas",
+    "Apuntes/P/Interficies.canvas"
   ]
 }

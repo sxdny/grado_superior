@@ -1,5 +1,6 @@
 {
   "accentColor": "",
+  "cssTheme": "Prism",
   "showViewHeader": false,
-  "cssTheme": "Obsidian gruvbox"
+  "interfaceFontFamily": "Inter"
 }

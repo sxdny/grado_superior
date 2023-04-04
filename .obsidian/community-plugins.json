@@ -1,5 +1,7 @@
 [
-  "calendar",
+  "obsidian-tikzjax",
   "table-editor-obsidian",
-  "drawio-obsidian"
+  "notion-like-tables",
+  "obsidian-excalidraw-plugin",
+  "obsidian-style-settings"
 ]
