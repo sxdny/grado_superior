@@ -23,14 +23,28 @@
             "id": "d2d5e760e91ddf5b",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md"
+                "file": "Asignaturas/daw_ed/notes/testing_17-04-2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b467b79b736a406",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Asignaturas/daw_bd/notes/php/notes.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md",
+                "file": "Asignaturas/daw_bd/notes/php/notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md"
+                "file": "Asignaturas/daw_bd/notes/php/notes.md"
               }
             }
           },
@@ -135,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md",
+                "file": "Asignaturas/daw_bd/notes/php/notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,26 +196,29 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d2d5e760e91ddf5b",
+  "active": "7b467b79b736a406",
   "lastOpenFiles": [
+    "Asignaturas/daw_bd/work/php/index.php",
+    "Asignaturas/daw_bd/work/php",
+    "Asignaturas/daw_bd/work/Nueva carpeta",
+    "Asignaturas/daw_ed/notes/testing_17-04-2023.md",
+    "Asignaturas/daw_bd/notes/php/notes.md",
+    "Asignaturas/daw_bd/notes/php",
+    "Asignaturas/daw_ed/work/testing/Calculadora/bin/CalculadoraTest2.class",
+    "Asignaturas/daw_ed/work/testing/Calculadora/src/CalculadoraTest2.java",
+    "Asignaturas/daw_ed/work/testing/Calculadora/bin/CalculadoraTest.class",
+    "Asignaturas/daw_ed/work/testing/Calculadora/src/CalculadoraTest.java",
+    "Asignaturas/daw_ed/work/testing/Calculadora/bin/Calculadora.class",
+    "Asignaturas/daw_ed/work/testing/Calculadora/src/Calculadora.java",
+    "Asignaturas/daw_ed/work/testing/Calculadora/bin/App.class",
+    "Asignaturas/daw_ed/work/testing/Calculadora/README.md",
     "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
     "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md",
-    "Excalidraw",
     "Asignaturas/daw_sin/notes/Repaso Examen ED Recuperación.md",
     "Asignaturas/daw_sin/notes/Apuntes Sistemas Informáticos.md",
-    "Asignaturas/daw_sin/notes",
-    "Asignaturas/daw_sin",
-    "Asignaturas/daw_p/work/tema8/actividades/ej8_4/Programa.java",
-    "Asignaturas/daw_p/work/tema8/actividades/ej8_4/Programa.class",
-    "Asignaturas/daw_p/work/tema8/actividades/ej8_4/ExceptionPersonalizada.java",
-    "Asignaturas/daw_p/work/tema8/actividades/ej8_4/ExceptionPersonalizada.class",
-    "Asignaturas/daw_p/work/tema8/actividades/ej8_3/ej8_3.java",
-    "Asignaturas/daw_p/work/tema8/actividades/ej8_3/ej8_3.class",
-    "Asignaturas/daw_p/work/tema8/actividades/ej8_2/mastermindJava.java",
     "Asignaturas/daw_p/work/images/Pasted image 20230125095047.png",
     "Asignaturas/daw_p/work/images/Pasted image 20230124154253.png",
     "Asignaturas/daw_p/notes/Repaso Examen Java Tema 6.md",
@@ -231,11 +248,7 @@
     "Asignaturas/daw_ed/work/diagrams_notes/Diagrama Casos d'Ús.md",
     "Asignaturas/daw_ed/notes/Cosas Importantes Examen ED Recu.md",
     "Asignaturas/daw_ed/notes/Apuntes Entornos de Desarrollo.md",
-    "Asignaturas/daw_bd/work/cinema_db_stuff/Cinema Database.md",
     "Asignaturas/daw_bd/work/cinema_db_stuff/24-01-23.canvas",
-    "Asignaturas/daw_bd/notes/Examen/Examen_rentacar.md",
-    "Asignaturas/daw_bd/notes/Examen/Repaso Examen 30-03-2023 1.md",
-    "Asignaturas/daw_bd/notes/Examen/Examen BD.md",
     "Asignaturas/daw_bd/notes/Examen/Canvas Examen.canvas",
     "Apuntes/BD/Concesionario 17-03-2023.canvas",
     "Apuntes/BD/Examen/Canvas Examen.canvas",
