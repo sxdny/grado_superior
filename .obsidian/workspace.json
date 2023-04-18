@@ -8,43 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dbe8bb629e089a51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2d5e760e91ddf5b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Asignaturas/daw_ed/notes/testing_17-04-2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7b467b79b736a406",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asignaturas/daw_bd/notes/php/notes.md",
+                "file": "Asignaturas/daw_p/notes/notas_lluc_fitxers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +89,6 @@
       {
         "id": "038ac427edc3fc72",
         "type": "tabs",
-        "dimension": 54.618937644341806,
         "children": [
           {
             "id": "b3d791bed2a8971e",
@@ -122,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/daw_bd/notes/php/notes.md",
+                "file": "Asignaturas/daw_p/notes/notas_lluc_fitxers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/daw_bd/notes/php/notes.md"
+                "file": "Asignaturas/daw_p/notes/notas_lluc_fitxers.md"
               }
             }
           },
@@ -149,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/daw_bd/notes/php/notes.md",
+                "file": "Asignaturas/daw_p/notes/notas_lluc_fitxers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,12 +144,11 @@
         "currentTab": 1
       },
       {
-        "id": "4ed7c624bd6ae6b1",
+        "id": "5216e32b455cec2f",
         "type": "tabs",
-        "dimension": 45.381062355658194,
         "children": [
           {
-            "id": "ba71288d75d2298f",
+            "id": "57a0cdb4598200d2",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -201,19 +174,22 @@
   },
   "active": "7b467b79b736a406",
   "lastOpenFiles": [
-    "Asignaturas/daw_bd/work/php/index.php",
-    "Asignaturas/daw_bd/work/php",
-    "Asignaturas/daw_bd/work/Nueva carpeta",
-    "Asignaturas/daw_ed/notes/testing_17-04-2023.md",
+    "Asignaturas/daw_p/work/tema10/ej5/Programa.java",
+    "Asignaturas/daw_p/work/tema10/ej5",
+    "Asignaturas/daw_p/ej5",
+    "Asignaturas/daw_p/work/tema10/ej4/Programa.java",
+    "Asignaturas/daw_p/work/tema10/ej4",
+    "Asignaturas/daw_p/work/tema10/ej3/Programa.java",
+    "Asignaturas/daw_p/work/tema10/ej3",
+    "Asignaturas/daw_p/work/tema10/ej2/Programa.java",
+    "Asignaturas/daw_p/work/tema10/ej2",
+    "Asignaturas/daw_p/work/tema10/ej1/ej2",
+    "Asignaturas/daw_p/work/tema10/ej1/Programa.java",
+    "Asignaturas/daw_p/notes/notas_lluc_fitxers.md",
+    "Asignaturas/daw_ed/work/pseudocodigo/Ejercicios Tema 6 ED.md",
+    "Asignaturas/daw_p/notes/Java.md",
     "Asignaturas/daw_bd/notes/php/notes.md",
-    "Asignaturas/daw_bd/notes/php",
-    "Asignaturas/daw_ed/work/testing/Calculadora/bin/CalculadoraTest2.class",
-    "Asignaturas/daw_ed/work/testing/Calculadora/src/CalculadoraTest2.java",
-    "Asignaturas/daw_ed/work/testing/Calculadora/bin/CalculadoraTest.class",
-    "Asignaturas/daw_ed/work/testing/Calculadora/src/CalculadoraTest.java",
-    "Asignaturas/daw_ed/work/testing/Calculadora/bin/Calculadora.class",
-    "Asignaturas/daw_ed/work/testing/Calculadora/src/Calculadora.java",
-    "Asignaturas/daw_ed/work/testing/Calculadora/bin/App.class",
+    "Asignaturas/daw_ed/notes/testing_17-04-2023.md",
     "Asignaturas/daw_ed/work/testing/Calculadora/README.md",
     "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
     "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md",
@@ -223,7 +199,6 @@
     "Asignaturas/daw_p/work/images/Pasted image 20230124154253.png",
     "Asignaturas/daw_p/notes/Repaso Examen Java Tema 6.md",
     "Asignaturas/daw_p/notes/Recursividad.md",
-    "Asignaturas/daw_p/notes/Java.md",
     "Asignaturas/daw_p/notes/Interficies.canvas",
     "Asignaturas/daw_p/notes/Apuntes Programacion.md",
     "Asignaturas/daw_ldm/work/xml/xml/ac4_XML/s23wallpaper.jpg",
@@ -240,14 +215,12 @@
     "Asignaturas/daw_ldm/work/webpage_project/images/project2.jpg",
     "Asignaturas/daw_ed/work/pseudocodigo/ex15_ud6_sidneysb.md",
     "Asignaturas/daw_ed/work/pseudocodigo/ex10_ud6_sidney.md",
-    "Asignaturas/daw_ed/work/pseudocodigo/Ejercicios Tema 6 ED.md",
     "Asignaturas/daw_ed/work/diagrams_notes/Diagrama de seqüència.md",
     "Asignaturas/daw_ed/work/diagrams_notes/Diagrama de comunicació.md",
     "Asignaturas/daw_ed/work/diagrams_notes/Diagrama d'estat.md",
     "Asignaturas/daw_ed/work/diagrams_notes/Diagrama d'activitat.md",
     "Asignaturas/daw_ed/work/diagrams_notes/Diagrama Casos d'Ús.md",
     "Asignaturas/daw_ed/notes/Cosas Importantes Examen ED Recu.md",
-    "Asignaturas/daw_ed/notes/Apuntes Entornos de Desarrollo.md",
     "Asignaturas/daw_bd/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/daw_bd/notes/Examen/Canvas Examen.canvas",
     "Apuntes/BD/Concesionario 17-03-2023.canvas",

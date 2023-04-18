@@ -1,5 +1,3 @@
-package actividad6_5;
-
 public class Profesor extends Persona {
 
     private String assignatura = new String();

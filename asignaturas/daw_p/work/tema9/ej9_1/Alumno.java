@@ -1,6 +1,3 @@
-package actividad6_5;
-
-
 public class Alumno extends Persona {
 
     private String nivelAc = new String();

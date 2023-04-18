@@ -1,5 +1,3 @@
-package actividad6_5;
-
 public class Persona {
     // Atributos del objeto.
     protected String nomPersona = new String();
