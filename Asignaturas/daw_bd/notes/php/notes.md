@@ -20,3 +20,4 @@ $cars = mysqli_fetch($result, MYSQLI_ASSOC) // MYSQLI_NUM para que el 'model' se
 // display
 echo $ $cars[2]["model"]; // invisible to the customer
 ````
+
