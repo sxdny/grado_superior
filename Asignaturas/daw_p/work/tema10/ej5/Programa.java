@@ -3,10 +3,12 @@ package work.tema10.ej5;
 import java.io.File;
 import java.util.Scanner;
 
+// eliminar todo independientemente del número de carpetas.
+
 public class Programa {
-    
+
     public static void main(String[] args) {
-        
+
         // leer una carpeta y borrar todo lo que tiene adentro.
 
         System.out.println("Introduce la ruta de una carpeta:");
@@ -17,19 +19,26 @@ public class Programa {
         File carpeta = new File(ruta);
 
         // borrar archivos y subcarpetas de la carpeta que le indicamos
-        for(File f1 : carpeta.listFiles()){
-            // si el archivo es una carpeta, dentro hacemos otro for para borrar los archivos
-            if (f1.isDirectory()) {
-                for (File f2 : f1.listFiles()) {
-                    f2.delete();
-                }
-            }
-            f1.delete();
+        if (carpeta.exists() && carpeta.isDirectory()) {
+            borrar(carpeta);
+            System.out.println("Eliminao");
         }
-
-        System.out.println("Archivos borrados.");
-
         sc.close();
 
     }
+
+    public static void borrar(File f) {
+        if (f.isDirectory()) {
+            for (File arch : f.listFiles()) {
+                if (arch.isDirectory()) {
+                    borrar(arch);
+                }
+                arch.delete();
+            }   
+        }
+    }
+
 }
+
+
+
