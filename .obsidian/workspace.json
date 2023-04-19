@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d5d16d47a590ebb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Asignaturas/daw_sin/notes/Examen SIN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/daw_bd/notes/php/notes.md",
+                "file": "Asignaturas/daw_sin/notes/Examen SIN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/daw_bd/notes/php/notes.md"
+                "file": "Asignaturas/daw_sin/notes/Examen SIN.md"
               }
             }
           },
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/daw_bd/notes/php/notes.md",
+                "file": "Asignaturas/daw_sin/notes/Examen SIN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,8 +185,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7b467b79b736a406",
+  "active": "d5d16d47a590ebb5",
   "lastOpenFiles": [
+    "Asignaturas/daw_sin/notes/Apuntes Sistemas Informáticos.md",
+    "Asignaturas/daw_sin/notes/Examen SIN.md",
+    "Asignaturas/daw_bd/notes/php/notes.md",
     "Asignaturas/daw_p/notes/notas_lluc_fitxers.md",
     "Asignaturas/daw_p/work/tema10/ej5/Programa.java",
     "Asignaturas/daw_p/work/tema10/ej5",
@@ -187,13 +203,11 @@
     "Asignaturas/daw_p/work/tema10/ej1/ej2",
     "Asignaturas/daw_ed/work/pseudocodigo/Ejercicios Tema 6 ED.md",
     "Asignaturas/daw_p/notes/Java.md",
-    "Asignaturas/daw_bd/notes/php/notes.md",
     "Asignaturas/daw_ed/notes/testing_17-04-2023.md",
     "Asignaturas/daw_ed/work/testing/Calculadora/README.md",
     "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
     "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md",
     "Asignaturas/daw_sin/notes/Repaso Examen ED Recuperación.md",
-    "Asignaturas/daw_sin/notes/Apuntes Sistemas Informáticos.md",
     "Asignaturas/daw_p/work/images/Pasted image 20230125095047.png",
     "Asignaturas/daw_p/work/images/Pasted image 20230124154253.png",
     "Asignaturas/daw_p/notes/Repaso Examen Java Tema 6.md",
