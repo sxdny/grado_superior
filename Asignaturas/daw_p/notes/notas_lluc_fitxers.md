@@ -18,3 +18,10 @@ Clase de Java que permite gestionar archivos y carpetas (ver la dirección absou
 
 *Ver documentación.*
 
+# Entrada / Sortida informació.
+
+*Ver la dispositiva de clase.*
+
+
+
+

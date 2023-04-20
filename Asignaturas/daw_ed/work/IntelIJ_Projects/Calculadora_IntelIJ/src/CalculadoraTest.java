@@ -16,24 +16,22 @@ class CalculadoraTest {
 
     @Test
     public void testDivideix() {
-
+        // llenar
     }
 
     @Test
     public void testMultiplica() {
-
+        // llenar
     }
 
     @Test
     public void testResta() {
-        calc = new Calculadora(2,3);
         int resultat = calc.resta();
         assertEquals( -1, resultat, 0, "Error en la resta.");
     }
 
     @Test
     public void testSuma() {
-        calc = new Calculadora(2,3);
         int resultat = calc.suma();
         int valorEsperat = 5;
         assertEquals(valorEsperat, resultat, 0, "Error en la resta.");

@@ -1,6 +1,7 @@
 package ej6;
 
 import java.io.File;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Programa {
@@ -22,18 +23,34 @@ public class Programa {
         String ext1 = extensiones[0];
         String ext2 = extensiones[1];
 
-        for (File files : carpeta.listFiles()) {
+        for ( File file : carpeta.listFiles()) {
             
-            if (files.getName() == ext1) {
+            String nombreFile = file.getName();
+            String[] partesFile = nombreFile.split("\\."); // separo la extension del archivo.
+            String newExtension =  "." + partesFile[1]; // le pongo un "."
+
+            char[] pF = newExtension.toCharArray();
+            char[] pExt1 = ext1.toCharArray();
+            
+
+            int contador = 0;
+
+            for (int i = 0; i < 4; i++) {
                 
-                
+                if (pF[i] == pExt1[i]) {
+                    contador++;
+                }
 
             }
 
+            if (contador == 4) {
+                File renamer = new File(ruta + "\\" + partesFile[0] + ext2);
+                file.renameTo(renamer);
+            }
         }
-
-        
         sc.close();
+
+        System.out.println("Archivos cambiados correctamente.");
 
     }
 
