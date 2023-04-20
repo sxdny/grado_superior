@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asignaturas/daw_sin/notes/Examen SIN.md",
+                "file": "Asignaturas/daw_ed/notes/testing_17-04-2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/daw_sin/notes/Examen SIN.md",
+                "file": "Asignaturas/daw_ed/notes/testing_17-04-2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/daw_sin/notes/Examen SIN.md"
+                "file": "Asignaturas/daw_ed/notes/testing_17-04-2023.md"
               }
             }
           },
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/daw_sin/notes/Examen SIN.md",
+                "file": "Asignaturas/daw_ed/notes/testing_17-04-2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,20 +187,23 @@
   },
   "active": "d5d16d47a590ebb5",
   "lastOpenFiles": [
-    "Asignaturas/daw_sin/notes/Apuntes Sistemas Informáticos.md",
+    "Asignaturas/daw_ed/work/IntelIJ_Projects/Calculadora_IntelIJ/src/CalculadoraTest.java",
+    "Asignaturas/daw_ed/work/IntelIJ_Projects/Calculadora_IntelIJ/src/Calculadora.java",
+    "Asignaturas/daw_ed/work/IntelIJ_Projects/Calculadora_IntelIJ/Calculadora_IntelIJ.iml",
+    "Asignaturas/daw_ed/work/IntelIJ_Projects/Calculadora_IntelIJ/src",
+    "Asignaturas/daw_ed/work/IntelIJ_Projects/Calculadora_IntelIJ",
+    "Asignaturas/daw_ed/work/IntelIJ_Projects/Calculadora/src/calculadora/CalculadoraTest.java",
+    "Asignaturas/daw_ed/work/IntelIJ_Projects/Calculadora/src/calculadora/Calculadora.java",
+    "Asignaturas/daw_ed/work/IntelIJ_Projects/Calculadora/bin/calculadora/CalculadoraTest.class",
+    "Asignaturas/daw_ed/work/IntelIJ_Projects/Calculadora/bin/calculadora/Calculadora.class",
+    "Asignaturas/daw_ed/work/IntelIJ_Projects/Calculadora/src/calculadora",
+    "Asignaturas/daw_ed/work/IntelIJ_Projects/Calculadora/bin/calculadora",
+    "Asignaturas/daw_ed/notes/Cosas Importantes Examen ED Recu.md",
+    "Asignaturas/daw_ed/notes/Apuntes Entornos de Desarrollo.md",
     "Asignaturas/daw_sin/notes/Examen SIN.md",
+    "Asignaturas/daw_sin/notes/Apuntes Sistemas Informáticos.md",
     "Asignaturas/daw_bd/notes/php/notes.md",
     "Asignaturas/daw_p/notes/notas_lluc_fitxers.md",
-    "Asignaturas/daw_p/work/tema10/ej5/Programa.java",
-    "Asignaturas/daw_p/work/tema10/ej5",
-    "Asignaturas/daw_p/ej5",
-    "Asignaturas/daw_p/work/tema10/ej4/Programa.java",
-    "Asignaturas/daw_p/work/tema10/ej4",
-    "Asignaturas/daw_p/work/tema10/ej3/Programa.java",
-    "Asignaturas/daw_p/work/tema10/ej3",
-    "Asignaturas/daw_p/work/tema10/ej2/Programa.java",
-    "Asignaturas/daw_p/work/tema10/ej2",
-    "Asignaturas/daw_p/work/tema10/ej1/ej2",
     "Asignaturas/daw_ed/work/pseudocodigo/Ejercicios Tema 6 ED.md",
     "Asignaturas/daw_p/notes/Java.md",
     "Asignaturas/daw_ed/notes/testing_17-04-2023.md",
@@ -231,9 +234,6 @@
     "Asignaturas/daw_ed/work/diagrams_notes/Diagrama de seqüència.md",
     "Asignaturas/daw_ed/work/diagrams_notes/Diagrama de comunicació.md",
     "Asignaturas/daw_ed/work/diagrams_notes/Diagrama d'estat.md",
-    "Asignaturas/daw_ed/work/diagrams_notes/Diagrama d'activitat.md",
-    "Asignaturas/daw_ed/work/diagrams_notes/Diagrama Casos d'Ús.md",
-    "Asignaturas/daw_ed/notes/Cosas Importantes Examen ED Recu.md",
     "Asignaturas/daw_bd/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/daw_bd/notes/Examen/Canvas Examen.canvas",
     "Apuntes/BD/Concesionario 17-03-2023.canvas",
