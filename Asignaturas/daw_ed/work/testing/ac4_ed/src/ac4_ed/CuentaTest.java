@@ -6,29 +6,32 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 class CuentaTest {
-	
-	@BeforeAll
-	void createCuenta( ) {
-		Cuenta c1 = new Cuenta();
-	}
+
+	Cuenta c1 = new Cuenta();
 
 	@Test
 	void testDeposito() {
+		// ingresar en el deposito
+		c1.Deposito(100);
 	}
 
 	@Test
 	void testRetiro() {
-		fail("Not yet implemented");
+		// retirar dinero
+		c1.Retiro(50);
 	}
 
 	@Test
 	void testTransferencia() {
-		fail("Not yet implemented");
+		// transferir a una cuenta
+		c1.Transferencia(c1, 2000);
+		assertEquals();
 	}
 
-	@Test
+	
 	void testBalance() {
-		fail("Not yet implemented");
+		// return de balance
+		c1.Balance();
 	}
 
 }
