@@ -1,4 +1,4 @@
-package work.tema10.ej5;
+package ej5;
 
 import java.io.File;
 import java.util.Scanner;

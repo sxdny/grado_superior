@@ -1,4 +1,4 @@
-package work.tema10.ej3;
+package ej3;
 
 import java.io.File;
 import java.util.Scanner;

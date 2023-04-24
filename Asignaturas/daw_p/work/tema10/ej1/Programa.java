@@ -3,7 +3,7 @@
    al vostre ordinador, imprimir el nom del fitxer, la ruta de la carpeta i la ruta absoluta.
  */
 
-package work.tema10.ej1;
+package ej1;
 
 import java.io.File;
 import java.util.Scanner;
