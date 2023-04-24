@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asignaturas/daw_p/notes/notas_lluc_fitxers.md",
+                "file": "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/daw_p/notes/notas_lluc_fitxers.md",
+                "file": "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/daw_p/notes/notas_lluc_fitxers.md"
+                "file": "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md"
               }
             }
           },
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/daw_p/notes/notas_lluc_fitxers.md",
+                "file": "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,6 +187,7 @@
   },
   "active": "d5d16d47a590ebb5",
   "lastOpenFiles": [
+    "Asignaturas/daw_p/notes/notas_lluc_fitxers.md",
     "Asignaturas/daw_p/work/tema10.zip",
     "Asignaturas/daw_p/work/tema10/hoola.png",
     "Asignaturas/daw_p/work/tema10/kjafkjashdf.png",
@@ -200,13 +201,11 @@
     "Asignaturas/daw_ed/work/IntelIJ_Projects/Calculadora/src/calculadora/Calculadora.java",
     "Asignaturas/daw_ed/work/IntelIJ_Projects/Calculadora/bin/calculadora/CalculadoraTest.class",
     "Asignaturas/daw_ed/work/IntelIJ_Projects/Calculadora/bin/calculadora/Calculadora.class",
-    "Asignaturas/daw_ed/work/IntelIJ_Projects/Calculadora/src/calculadora",
     "Asignaturas/daw_ed/notes/Cosas Importantes Examen ED Recu.md",
     "Asignaturas/daw_ed/notes/Apuntes Entornos de Desarrollo.md",
     "Asignaturas/daw_sin/notes/Examen SIN.md",
     "Asignaturas/daw_sin/notes/Apuntes Sistemas Informáticos.md",
     "Asignaturas/daw_bd/notes/php/notes.md",
-    "Asignaturas/daw_p/notes/notas_lluc_fitxers.md",
     "Asignaturas/daw_ed/work/pseudocodigo/Ejercicios Tema 6 ED.md",
     "Asignaturas/daw_p/notes/Java.md",
     "Asignaturas/daw_ed/work/testing/Calculadora/README.md",

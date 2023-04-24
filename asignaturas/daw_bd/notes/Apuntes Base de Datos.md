@@ -602,5 +602,15 @@ Projecte, Tipus Projecte, Client, Programador, Feina.
 + PROCEDURES.
 + VIEWS.
 
+## 📓 2023-04-24
+
+#### Relational Databases
+
+The tables relate with each other.
+
+*Samsung Notes*
+
+
+
 
 
