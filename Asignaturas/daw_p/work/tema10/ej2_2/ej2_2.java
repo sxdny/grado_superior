@@ -13,7 +13,7 @@ public class ej2_2 {
 
         int i;
 
-        // leer el contenido del archivo hasta que no haya nada más para leer y lo7  .
+        // leer el contenido del archivo hasta que no haya nada más para leer.
         while((i = fileReader.read()) != -1) {
             System.out.print((char)i);
         }

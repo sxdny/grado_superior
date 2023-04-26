@@ -1,4 +1,4 @@
-import java.io.FileNotFoundException;
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -16,27 +16,27 @@ public class programa {
 
     public static void main(String[] args) throws IOException {
 
-        FileReader fR = new FileReader("C:/Users/ciclesgs.EAAULA111W-009/Documents/GitHub/Actividades-Grado-Superior/Asignaturas/daw_p/work/tema10/ej2_3/cadena.txt");
+        FileReader fR = new FileReader(
+                "C:/Users/ciclesgs.EAAULA111W-009/Documents/GitHub/Actividades-Grado-Superior/Asignaturas/daw_p/work/tema10/ej2_3/cadena.txt");
 
         int i;
-        
-        System.out.println("Leer carácter por carácter.");
-        // leer carácter por carácter.
-        while((i = fR.read()) != -1) {
-            System.out.println((char)i);
+
+        System.out.println("FileReader (2bytes)");
+        // leer entero (de 2bytes por 2bytes)
+        while ((i = fR.read()) != -1) {
+            System.out.print((char) i);
         }
 
         System.out.println();
 
-        //leer de una sola vez
-        System.out.println("Leer de una sola vez:");
-        Path filePath = java.nio.file.Path.of("C:/Users/ciclesgs.EAAULA111W-009/Documents/GitHub/Actividades-Grado-Superior/Asignaturas/daw_p/work/tema10/ej2_3/cadena.txt");
-        String content = Files.readString(filePath , Charset.defaultCharset());
+        // leer carácter por carácter (de 1 byte a 1 byte)
+        FileInputStream fis = new FileInputStream(
+                "C:/Users/ciclesgs.EAAULA111W-009/Documents/GitHub/Actividades-Grado-Superior/Asignaturas/daw_p/work/tema10/ej2_3/cadena.txt");
 
-        System.out.println(content);
-
-        
-        
+        System.out.println("FileInputStream (1byte)");
+        while ((i = fis.read()) != -1) {
+            System.out.print((char) i);
+        }
 
     }
 }
