@@ -1,0 +1,26 @@
+[
+    {
+        "personas": [
+            {
+                "name": "Sidney"
+            },
+            {
+                "name": "Ivan"
+            },
+            {
+                "name": "Joan"
+            },
+            {
+                "name": "JSON"
+            }
+        ],
+        "objetos": [
+            {
+                "name": "Pelota"
+            },
+            {
+                "name": "Cuaderno"
+            }
+        ]
+    }
+]
