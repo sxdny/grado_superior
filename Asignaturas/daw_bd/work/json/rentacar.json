@@ -1,0 +1,17 @@
+{
+    "extras": [
+        {
+            "soporte_sidecar": false,
+            "sillita": {
+                "disponible": false,
+                "tipos": {
+                    "bebes": false,
+                    "niños_pequeña": false,
+                    "niños_mediana": false,
+                    "niños_grande": false
+                }
+            },
+            "soporte_remolque": false
+        }
+    ]
+}
