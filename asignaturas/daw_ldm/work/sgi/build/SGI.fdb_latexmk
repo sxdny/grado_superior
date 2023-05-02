@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1682779727 "c:/Users/silva/Documents/GitHub/Actividades-Grado-Superior/asignaturas/daw_ldm/work/sgi/SGI.tex" "build/SGI.pdf" "SGI" 1682779734 0
+["pdflatex"] 1683022594 "c:/Users/silva/Documents/GitHub/Actividades-Grado-Superior/asignaturas/daw_ldm/work/sgi/SGI.tex" "build/SGI.pdf" "SGI" 1683022605 0
   "C:/Users/silva/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1682776000 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/silva/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1682768818 23178960 0df4a9e26c70604c917a384359523a80 ""
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256933040 2375 baa924870cfb487815765f9094cf3728 ""
@@ -109,9 +109,9 @@
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/silva/AppData/Local/Programs/MiKTeX/tex/latex/xurl/xurl.sty" 1641737540 4675 e4b8c405820368c2dfb03526e16d725a ""
   "SGI.png" 1682779502 352228 4154906a1a2bc84e2953f6b5c71328f0 ""
-  "SGI.tex" 1682779724 16179 b380d4192a5c9b8405996e533a66f069 ""
-  "build/SGI.aux" 1682779733 11151 16be066983552b3e2b03c30854ee1147 "pdflatex"
-  "c:/Users/silva/Documents/GitHub/Actividades-Grado-Superior/asignaturas/daw_ldm/work/sgi/SGI.tex" 1682779724 16179 b380d4192a5c9b8405996e533a66f069 ""
+  "SGI.tex" 1683022589 16192 161019bed7bcde5c10d89bdb0390a8ed ""
+  "build/SGI.aux" 1683022604 11151 16be066983552b3e2b03c30854ee1147 "pdflatex"
+  "c:/Users/silva/Documents/GitHub/Actividades-Grado-Superior/asignaturas/daw_ldm/work/sgi/SGI.tex" 1683022589 16192 161019bed7bcde5c10d89bdb0390a8ed ""
   (generated)
   "build/SGI.aux"
   "build/SGI.log"

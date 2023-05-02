@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fa5768fe89cd2e26",
+        "id": "54f7b9cf14e675e1",
         "type": "tabs",
         "children": [
           {
-            "id": "89d734fbe09bfc80",
+            "id": "625a152911f1fb65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "asignaturas/daw_ldm/work/sgi/SGI.md",
+                "file": "re_xslt.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b187d41bc52499bd",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "asignaturas/daw_ldm/work/sgi/SGI.md",
+                "file": "re_xslt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "asignaturas/daw_ldm/work/sgi/SGI.md"
+                "file": "re_xslt.md"
               }
             }
           },
@@ -124,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "asignaturas/daw_ldm/work/sgi/SGI.md",
+                "file": "re_xslt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +161,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 248.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,20 +175,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "89d734fbe09bfc80",
+  "active": "625a152911f1fb65",
   "lastOpenFiles": [
     "asignaturas/daw_ldm/work/sgi/build/SGI.synctex(busy)",
-    "asignaturas/daw_ldm/work/sgi/build/SGI.fls",
-    "asignaturas/daw_ldm/work/sgi/build/SGI.log",
-    "asignaturas/daw_ldm/work/sgi/build/SGI.fdb_latexmk",
-    "asignaturas/daw_ldm/work/sgi/build/SGI.aux",
-    "asignaturas/daw_ldm/work/sgi/SGI.png",
-    "asignaturas/daw_ldm/work/sgi/SGI.md",
-    "asignaturas/daw_ldm/work/sgi/SGI.pdf",
-    "asignaturas/daw_ldm/work/sgi/build/SGI.synctex.gz",
+    "Pasted image 20230501150250.png",
+    "asignaturas/daw_ldm/work/xml/repaso_examen/ejemplo.xslt",
+    "asignaturas/daw_ldm/work/xml/repaso_examen/ejemplo.xsl",
+    "asignaturas/daw_ldm/work/xml/repaso_examen/ejemplo.xml",
+    "asignaturas/daw_ldm/work/xml/repaso_examen",
+    "asignaturas/daw_ldm/work/xml/Nueva carpeta",
+    "re_xslt.md",
+    "re_xlst",
+    "asignaturas/daw_ldm/notes",
     "asignaturas/daw_ldm/work/sgi/build/SGI.pdf",
-    "asignaturas/daw_ldm/work/sgi/build",
-    "asignaturas/daw_ldm/work/sgi/SGI.tex",
+    "asignaturas/daw_ldm/work/sgi/SGI.md",
+    "asignaturas/daw_ldm/work/sgi/build/SGI.fls",
+    "asignaturas/daw_ldm/work/sgi/SGI.png",
     "asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
     "Asignaturas/daw_ldm/work/sgi/SGI.md",
     "Asignaturas/daw_bd/notes/php/notes.md",
@@ -218,9 +222,7 @@
     "Asignaturas/daw_ldm/work/webpage_project/images/sslogo.svg",
     "Asignaturas/daw_ldm/work/webpage_project/images/PUNK.jpg",
     "Asignaturas/daw_ldm/work/webpage_project/images/PROJECTS.svg",
-    "Asignaturas/daw_ldm/work/webpage_project/images/project4.png",
     "Asignaturas/daw_ed/work/pseudocodigo/ex15_ud6_sidneysb.md",
-    "Asignaturas/daw_ed/work/pseudocodigo/ex10_ud6_sidney.md",
     "Asignaturas/daw_bd/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/daw_bd/notes/Examen/Canvas Examen.canvas",
     "Apuntes/BD/Concesionario 17-03-2023.canvas",
