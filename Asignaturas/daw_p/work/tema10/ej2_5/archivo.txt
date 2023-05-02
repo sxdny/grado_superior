@@ -1,0 +1,1 @@
+Hola, aquest es un exemple per escriure en un arxiu.

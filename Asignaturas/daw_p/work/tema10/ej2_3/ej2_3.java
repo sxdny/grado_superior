@@ -1,8 +1,7 @@
+import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
-import java.nio.charset.Charset;
-import java.nio.file.Files;
 import java.nio.file.Path;
 
 /*
@@ -11,7 +10,8 @@ import java.nio.file.Path;
     per caràcter.
  */
 
-public class programa {
+public class ej2_3 {
+
     private static final Path Path = null;
 
     public static void main(String[] args) throws IOException {
@@ -21,11 +21,22 @@ public class programa {
 
         int i;
 
+        // BufferedReader bR = new BufferedReader(fR);
+
+        // bR.readLine();
+
+        // String j;
+
         System.out.println("FileReader (2bytes)");
         // leer entero (de 2bytes por 2bytes)
         while ((i = fR.read()) != -1) {
             System.out.print((char) i);
         }
+
+        // System.out.println("En lineas...");
+        // while ((j = bR.readLine()) != null) {
+        //     System.out.println(j);
+        // }
 
         System.out.println();
 
@@ -40,3 +51,6 @@ public class programa {
 
     }
 }
+
+// // accede desde el buffer (reduce el acceso al disco [accede de manera más rápida.])
+// BufferedReader br = new BufferedReader(fR);

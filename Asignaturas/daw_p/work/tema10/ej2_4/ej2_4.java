@@ -6,7 +6,7 @@ import java.io.IOException;
  * 4. Duplica el fitxer cadena.txt creat anteriorment al fitxer cadena_copia.txt.
  */
 
-public class programa {
+public class ej2_4 {
     public static void main(String[] args) throws IOException {
 
         FileReader fileReader = new FileReader("C:/Users/ciclesgs.EAAULA111W-009/Documents/GitHub/Actividades-Grado-Superior/Asignaturas/daw_p/work/tema10/ej2_3/cadena.txt");

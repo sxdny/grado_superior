@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "54f7b9cf14e675e1",
+        "id": "644fd4acfddea665",
         "type": "tabs",
         "children": [
           {
-            "id": "625a152911f1fb65",
+            "id": "008e3db555a3dd28",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "re_xslt.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/Drawing 2023-05-02 17.50.25.excalidraw.md"
               }
             }
           }
@@ -81,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b187d41bc52499bd",
@@ -98,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "re_xslt.md",
+                "file": "Excalidraw/Drawing 2023-05-02 17.50.25.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "re_xslt.md"
+                "file": "Excalidraw/Drawing 2023-05-02 17.50.25.excalidraw.md"
               }
             }
           },
@@ -125,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "re_xslt.md",
+                "file": "Excalidraw/Drawing 2023-05-02 17.50.25.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,19 +169,25 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "625a152911f1fb65",
+  "active": "008e3db555a3dd28",
   "lastOpenFiles": [
-    "asignaturas/daw_ldm/work/sgi/build/SGI.synctex(busy)",
+    "Excalidraw/Drawing 2023-05-02 18.02.50.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-02 17.50.25.excalidraw.md",
+    "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md",
+    "README.md",
     "Pasted image 20230501150250.png",
+    "re_xslt.md",
+    "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
+    "asignaturas/daw_ldm/work/sgi/build/SGI.synctex(busy)",
     "asignaturas/daw_ldm/work/xml/repaso_examen/ejemplo.xslt",
     "asignaturas/daw_ldm/work/xml/repaso_examen/ejemplo.xsl",
     "asignaturas/daw_ldm/work/xml/repaso_examen/ejemplo.xml",
     "asignaturas/daw_ldm/work/xml/repaso_examen",
     "asignaturas/daw_ldm/work/xml/Nueva carpeta",
-    "re_xslt.md",
     "re_xlst",
     "asignaturas/daw_ldm/notes",
     "asignaturas/daw_ldm/work/sgi/build/SGI.pdf",
@@ -194,7 +197,6 @@
     "asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
     "Asignaturas/daw_ldm/work/sgi/SGI.md",
     "Asignaturas/daw_bd/notes/php/notes.md",
-    "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
     "Asignaturas/daw_p/notes/notas_lluc_fitxers.md",
     "Asignaturas/daw_p/work/tema10/hoola.png",
     "Asignaturas/daw_p/work/tema10/kjafkjashdf.png",
@@ -206,7 +208,6 @@
     "Asignaturas/daw_ed/work/pseudocodigo/Ejercicios Tema 6 ED.md",
     "Asignaturas/daw_p/notes/Java.md",
     "Asignaturas/daw_ed/work/testing/Calculadora/README.md",
-    "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md",
     "Asignaturas/daw_sin/notes/Repaso Examen ED Recuperación.md",
     "Asignaturas/daw_p/work/images/Pasted image 20230125095047.png",
     "Asignaturas/daw_p/work/images/Pasted image 20230124154253.png",
@@ -218,11 +219,9 @@
     "Asignaturas/daw_ldm/work/xml/xml/ac3_XML/actividad3XML.md",
     "Asignaturas/daw_ldm/work/xml/xml/ac2_XML/actividad2XML.md",
     "Asignaturas/daw_ldm/work/xml/rss/ac2_RSS/actividad2_RSS.md",
-    "Asignaturas/daw_ldm/work/xml/rss/ac1_RSS/actividad1_RSS.md",
     "Asignaturas/daw_ldm/work/webpage_project/images/sslogo.svg",
     "Asignaturas/daw_ldm/work/webpage_project/images/PUNK.jpg",
     "Asignaturas/daw_ldm/work/webpage_project/images/PROJECTS.svg",
-    "Asignaturas/daw_ed/work/pseudocodigo/ex15_ud6_sidneysb.md",
     "Asignaturas/daw_bd/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/daw_bd/notes/Examen/Canvas Examen.canvas",
     "Apuntes/BD/Concesionario 17-03-2023.canvas",
