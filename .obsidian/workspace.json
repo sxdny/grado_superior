@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "008e3db555a3dd28",
+            "id": "e9bc77d8fa44dd85",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -72,6 +72,14 @@
               "state": {
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "99d378a9b16638de",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ],
@@ -173,10 +181,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "008e3db555a3dd28",
+  "active": "e9bc77d8fa44dd85",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2023-05-02 18.02.50.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-03 17.26.18.excalidraw.md",
     "Excalidraw/Drawing 2023-05-02 17.50.25.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-02 18.02.50.excalidraw.md",
     "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md",
     "README.md",
     "Pasted image 20230501150250.png",
@@ -218,7 +227,6 @@
     "Asignaturas/daw_ldm/work/xml/xml/ac4_XML/s23wallpaper.jpg",
     "Asignaturas/daw_ldm/work/xml/xml/ac3_XML/actividad3XML.md",
     "Asignaturas/daw_ldm/work/xml/xml/ac2_XML/actividad2XML.md",
-    "Asignaturas/daw_ldm/work/xml/rss/ac2_RSS/actividad2_RSS.md",
     "Asignaturas/daw_ldm/work/webpage_project/images/sslogo.svg",
     "Asignaturas/daw_ldm/work/webpage_project/images/PUNK.jpg",
     "Asignaturas/daw_ldm/work/webpage_project/images/PROJECTS.svg",
