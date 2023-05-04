@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "644fd4acfddea665",
+        "id": "819f7622b2c063ec",
         "type": "tabs",
         "children": [
           {
-            "id": "e9bc77d8fa44dd85",
+            "id": "abd3ad00b31e11ea",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2023-05-02 17.50.25.excalidraw.md"
+                "file": "Excalidraw/Drawing 2023-05-03 17.26.18.excalidraw.md"
               }
             }
           }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-05-02 17.50.25.excalidraw.md",
+                "file": "Excalidraw/Drawing 2023-05-03 17.26.18.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2023-05-02 17.50.25.excalidraw.md"
+                "file": "Excalidraw/Drawing 2023-05-03 17.26.18.excalidraw.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-05-02 17.50.25.excalidraw.md",
+                "file": "Excalidraw/Drawing 2023-05-03 17.26.18.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,12 +181,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e9bc77d8fa44dd85",
+  "active": "abd3ad00b31e11ea",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-05-04 15.45.34.excalidraw.md",
     "Excalidraw/Drawing 2023-05-03 17.26.18.excalidraw.md",
     "Excalidraw/Drawing 2023-05-02 17.50.25.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-02 18.02.50.excalidraw.md",
     "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-02 18.02.50.excalidraw.md",
     "README.md",
     "Pasted image 20230501150250.png",
     "re_xslt.md",
@@ -226,7 +227,6 @@
     "Asignaturas/daw_p/notes/Apuntes Programacion.md",
     "Asignaturas/daw_ldm/work/xml/xml/ac4_XML/s23wallpaper.jpg",
     "Asignaturas/daw_ldm/work/xml/xml/ac3_XML/actividad3XML.md",
-    "Asignaturas/daw_ldm/work/xml/xml/ac2_XML/actividad2XML.md",
     "Asignaturas/daw_ldm/work/webpage_project/images/sslogo.svg",
     "Asignaturas/daw_ldm/work/webpage_project/images/PUNK.jpg",
     "Asignaturas/daw_ldm/work/webpage_project/images/PROJECTS.svg",
