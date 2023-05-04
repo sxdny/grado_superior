@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "abd3ad00b31e11ea",
+            "id": "0fd14f5fc2adcf45",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2023-05-03 17.26.18.excalidraw.md"
+                "file": "Excalidraw/Drawing 2023-05-04 19.51.04.excalidraw.md"
               }
             }
           }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-05-03 17.26.18.excalidraw.md",
+                "file": "Excalidraw/Drawing 2023-05-04 19.51.04.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2023-05-03 17.26.18.excalidraw.md"
+                "file": "Excalidraw/Drawing 2023-05-04 19.51.04.excalidraw.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-05-03 17.26.18.excalidraw.md",
+                "file": "Excalidraw/Drawing 2023-05-04 19.51.04.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,10 +181,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "abd3ad00b31e11ea",
+  "active": "0fd14f5fc2adcf45",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2023-05-04 15.45.34.excalidraw.md",
+    "Asignaturas/daw_p/work/tema11/ac1/ac1.java",
+    "Asignaturas/daw_p/work/tema11/ac1",
+    "Asignaturas/daw_p/work/tema11/FlowLayout.java",
+    "Asignaturas/daw_p/work/tema11/mine.png",
+    "Asignaturas/daw_p/work/tema11/Main.java",
+    "Asignaturas/daw_p/work/tema11/main.java",
     "Excalidraw/Drawing 2023-05-03 17.26.18.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-04 19.51.04.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-04 15.45.34.excalidraw.md",
     "Excalidraw/Drawing 2023-05-02 17.50.25.excalidraw.md",
     "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md",
     "Excalidraw/Drawing 2023-05-02 18.02.50.excalidraw.md",
@@ -198,11 +205,7 @@
     "asignaturas/daw_ldm/work/xml/repaso_examen/ejemplo.xml",
     "asignaturas/daw_ldm/work/xml/repaso_examen",
     "asignaturas/daw_ldm/work/xml/Nueva carpeta",
-    "re_xlst",
-    "asignaturas/daw_ldm/notes",
-    "asignaturas/daw_ldm/work/sgi/build/SGI.pdf",
     "asignaturas/daw_ldm/work/sgi/SGI.md",
-    "asignaturas/daw_ldm/work/sgi/build/SGI.fls",
     "asignaturas/daw_ldm/work/sgi/SGI.png",
     "asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
     "Asignaturas/daw_ldm/work/sgi/SGI.md",
@@ -224,12 +227,9 @@
     "Asignaturas/daw_p/notes/Repaso Examen Java Tema 6.md",
     "Asignaturas/daw_p/notes/Recursividad.md",
     "Asignaturas/daw_p/notes/Interficies.canvas",
-    "Asignaturas/daw_p/notes/Apuntes Programacion.md",
     "Asignaturas/daw_ldm/work/xml/xml/ac4_XML/s23wallpaper.jpg",
-    "Asignaturas/daw_ldm/work/xml/xml/ac3_XML/actividad3XML.md",
     "Asignaturas/daw_ldm/work/webpage_project/images/sslogo.svg",
     "Asignaturas/daw_ldm/work/webpage_project/images/PUNK.jpg",
-    "Asignaturas/daw_ldm/work/webpage_project/images/PROJECTS.svg",
     "Asignaturas/daw_bd/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/daw_bd/notes/Examen/Canvas Examen.canvas",
     "Apuntes/BD/Concesionario 17-03-2023.canvas",
