@@ -13,7 +13,7 @@ public class Main {
         JButton bt1 = new JButton("Versiones");
         JButton bt2 = new JButton("Jugar");
 
-        ImageIcon img = new ImageIcon("C:/Users/ciclesgs.EAAULA111W-009/Documents/GitHub/Actividades-Grado-Superior/Asignaturas/daw_p/work/tema11/mine.png");
+        ImageIcon img = new ImageIcon("mine.png");
         frame.setIconImage(img.getImage());
 
         frame.setSize(800, 500);
