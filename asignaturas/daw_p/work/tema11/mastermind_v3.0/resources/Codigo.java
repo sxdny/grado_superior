@@ -1,10 +1,11 @@
+package resources;
+
 import java.util.Arrays;
 
 public class Codigo {
+    
+    public String[] codigo = new String[4];
 
-    String[] codigo = new String[4];
-
-    // constructores
     public Codigo() {
 
     }
@@ -13,7 +14,8 @@ public class Codigo {
         this.codigo = codigo;
     }
 
-    // getters y setters
+    // Getters y setters.
+
     public String[] getCodigo() {
         return codigo;
     }
@@ -22,20 +24,22 @@ public class Codigo {
         this.codigo = codigo;
     }
 
-    // Override del método toString
+    
+
     @Override
     public String toString() {
         return Arrays.toString(codigo);
     }
 
-    // función para generar un código aleatorio
     public void generarCodigoAleatorio(Codigo codigo, Colores colores) {
 
         for (int i = 0; i < codigo.codigo.length; i++) {
-            int pick = (int) Math.floor(Math.random() * (colores.getSize() - 1 + 1));
-            codigo.codigo[i] = colores.set[pick];
+           int pick = (int) Math.floor(Math.random() * (colores.getSize() - 1 + 1));
+           codigo.codigo[i] = colores.set[pick];
         }
 
     }
+
+    
 
 }
