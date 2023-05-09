@@ -9,12 +9,15 @@ import org.junit.jupiter.api.Test;
 
 
 class TablaEnterosTest {
+	
+	TablaEnteros tabla;
 
 	@BeforeAll
 	void inicializar() {
 		Integer[] numeros = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 		Integer[] numeros2 = {-1, -2, -3, -4, -5, -5, -6, -7, -8, -9, -10};
 		Integer[] numeros3 = null; 
+		tabla = 
 	}
 	
 	@BeforeEach
