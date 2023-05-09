@@ -8,12 +8,20 @@
         "type": "tabs",
         "children": [
           {
+<<<<<<< Updated upstream
             "id": "fea1aa4dc5813f0c",
+=======
+            "id": "4988e7868154411b",
+>>>>>>> Stashed changes
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Excalidraw/Drawing 2023-05-08 17.23.12.excalidraw.md"
+=======
+                "file": "Excalidraw/Drawing 2023-05-05 15.40.04.excalidraw.md"
+>>>>>>> Stashed changes
               }
             }
           }
@@ -103,7 +111,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Excalidraw/Drawing 2023-05-08 17.23.12.excalidraw.md",
+=======
+                "file": "Excalidraw/Drawing 2023-05-05 15.40.04.excalidraw.md",
+>>>>>>> Stashed changes
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +132,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Excalidraw/Drawing 2023-05-08 17.23.12.excalidraw.md"
+=======
+                "file": "Excalidraw/Drawing 2023-05-05 15.40.04.excalidraw.md"
+>>>>>>> Stashed changes
               }
             }
           },
@@ -130,7 +146,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< Updated upstream
                 "file": "Excalidraw/Drawing 2023-05-08 17.23.12.excalidraw.md",
+=======
+                "file": "Excalidraw/Drawing 2023-05-05 15.40.04.excalidraw.md",
+>>>>>>> Stashed changes
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,6 +201,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
+<<<<<<< Updated upstream
   "active": "fea1aa4dc5813f0c",
   "lastOpenFiles": [
     "Asignaturas/daw_ed/work/testing/ac4_ed/bin/ac4_ed/TablaEnterosTest.class",
@@ -189,15 +210,27 @@
     "Asignaturas/daw_ed/work/testing/ac4_ed/src/ac4_ed/TablaEnteros.java",
     "Excalidraw/Drawing 2023-05-04 19.51.04.excalidraw.md",
     "Excalidraw/Drawing 2023-05-08 17.23.12.excalidraw.md",
+=======
+  "active": "4988e7868154411b",
+  "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-05-04 15.45.34.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-05 15.40.04.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-02 17.50.25.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-03 17.26.18.excalidraw.md",
+    "Excalidraw/Drawing 2023-05-04 19.51.04.excalidraw.md",
+>>>>>>> Stashed changes
     "Asignaturas/daw_p/work/tema11/ac1/ac1.java",
     "Asignaturas/daw_p/work/tema11/ac1",
     "Asignaturas/daw_p/work/tema11/FlowLayout.java",
     "Asignaturas/daw_p/work/tema11/mine.png",
     "Asignaturas/daw_p/work/tema11/Main.java",
     "Asignaturas/daw_p/work/tema11/main.java",
+<<<<<<< Updated upstream
     "Excalidraw/Drawing 2023-05-03 17.26.18.excalidraw.md",
     "Excalidraw/Drawing 2023-05-04 15.45.34.excalidraw.md",
     "Excalidraw/Drawing 2023-05-02 17.50.25.excalidraw.md",
+=======
+>>>>>>> Stashed changes
     "Excalidraw/Drawing 2023-04-04 18.09.39.excalidraw.md",
     "Excalidraw/Drawing 2023-05-02 18.02.50.excalidraw.md",
     "README.md",
@@ -206,6 +239,12 @@
     "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
     "asignaturas/daw_ldm/work/sgi/build/SGI.synctex(busy)",
     "asignaturas/daw_ldm/work/xml/repaso_examen/ejemplo.xslt",
+<<<<<<< Updated upstream
+=======
+    "asignaturas/daw_ldm/work/xml/repaso_examen/ejemplo.xsl",
+    "asignaturas/daw_ldm/work/xml/repaso_examen/ejemplo.xml",
+    "asignaturas/daw_ldm/work/xml/repaso_examen",
+>>>>>>> Stashed changes
     "asignaturas/daw_ldm/work/sgi/SGI.md",
     "asignaturas/daw_ldm/work/sgi/SGI.png",
     "asignaturas/daw_bd/notes/Apuntes Base de Datos.md",

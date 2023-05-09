@@ -3,11 +3,15 @@
 // ===========================================
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Vector;
-
 import resources.Codigo;
 import resources.Colores;
 import resources.Usuario;
@@ -15,6 +19,10 @@ import resources.Usuario;
 // import resources.Tirada;
 
 public class Programa {
+
+    // directorio y archivo donde guardamos las partidas
+    static File directorio = new File("./partidas");
+    static File partidas = new File("./partidas/partidas.txt");
 
     // lista usuarios
     static Vector<Usuario> usuarios = new Vector<>(0);
@@ -43,11 +51,7 @@ public class Programa {
     static int opc = 0;
     static boolean salir = false;
 
-    public static void main(String[] args) throws IOException {
-
-        // directorio y archivo donde guardamos las partidas
-        File directorio = new File("./partidas");
-        File partidas = new File("./partidas/partidas.txt");
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
 
         // creamos el directorio si no existe
         System.out.println("Creando directorio partidas...");
@@ -93,11 +97,11 @@ public class Programa {
                 salir = true;
             }
 
-            if (opc > 5 || opc <= 0) {
+            if (opc >= 5 || opc <= 0) {
                 System.out.println("No has introducido una opcion valida...");
             }
 
-        } while (salir != true || opc != 4);
+        } while (salir != true && opc != 4);
 
         if (opc == 4) {
             System.out.println("Has salido correctamente del programa...");
@@ -174,7 +178,14 @@ public class Programa {
     }
 
     // metodo para crear usuarios
-    public static void crearUsuario(Vector<Usuario> usuarios) {
+    public static void crearUsuario(Vector<Usuario> usuarios) throws IOException {
+
+        // escritura de usuarios en el archivo
+        FileOutputStream fos = new FileOutputStream(partidas);
+        ObjectOutputStream oos = new ObjectOutputStream(fos);
+
+        // Student[] studentsFromSavedFile = (Student[]) ois.readObject();
+
         // declaracion de variables
         String nombreUsuario = new String();
         boolean flag = false;
@@ -228,16 +239,38 @@ public class Programa {
             usuarios.add(usuario);
             System.out.println("Usuario creado correctamente!");
 
+            // escribir objeto en el archivo
+            for (Usuario usuario2 : usuarios) {
+                oos.writeObject(usuario2);
+            }
+
         }
     }
 
     // TODO substituir por lectura de un archivo
-    public static void listarUsuario(Vector<Usuario> usuarios) {
+    public static void listarUsuario(Vector<Usuario> usuarios) throws IOException, ClassNotFoundException {
+
+        FileInputStream fis = new FileInputStream(partidas);
+        ObjectInputStream ois = new ObjectInputStream(fis);
+
+        Vector<Usuario> usuariosArchivo = new Vector<Usuario>();
+
         // recorremos el vector y mostramos los datos de los usuarios
         System.out.println("Lista de usuarios y puntuaciones:");
-        for (int i = 0; i < usuarios.size(); i++) {
-            System.out.println(usuarios.get(i).toString());
+        // for (int i = 0; i < usuarios.size(); i++) {
+        // System.out.println(usuarios.get(i).toString());
+        // }
+
+        for (int i = 0; i < usuariosArchivo.size(); i++) {
+            usuariosArchivo.add((Usuario) ois.readObject());
         }
+
+        usuariosArchivo.toString();
+        // Usuario uA = (Usuario) ois.readObject();
+        
+
+        ois.close();
+
     }
 
     // TODO substituir por seleccion de usuario de un archivo

@@ -14,7 +14,7 @@ public class Main {
         JButton bt1 = new JButton("Versiones");
         JButton bt2 = new JButton("Jugar");
 
-        ImageIcon img = new ImageIcon("mine.png");
+        ImageIcon img = new ImageIcon("./mine.png");
         frame.setIconImage(img.getImage());
 
         frame.setSize(800, 500);
@@ -24,6 +24,7 @@ public class Main {
         panel.add(bt1);
         panel.add(bt2);
 
+        frame.pack();
         frame.setVisible(true);
 
     }

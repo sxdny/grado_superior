@@ -1,6 +1,8 @@
 package resources;
 
-public class Usuario {
+import java.io.Serializable;
+
+public class Usuario implements Serializable {
     
     int id = 0;
     String nombre = new String();
