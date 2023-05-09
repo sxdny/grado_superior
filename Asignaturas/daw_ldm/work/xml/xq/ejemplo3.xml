@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<coleccion>
+  <cd>
+    <titulo>Motomami</titulo>
+    <artista>Rosalia</artista>
+    <precio>10.90</precio>
+  </cd>
+   <cd>
+    <titulo>Motomami</titulo>
+    <artista>Rosalia</artista>
+    <precio>10.90</precio>
+  </cd>
+   <cd>
+    <titulo>Motomami</titulo>
+    <artista>Rosalia</artista>
+    <precio>10.90</precio>
+  </cd>
+
+</coleccion>
