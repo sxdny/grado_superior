@@ -1,6 +1,10 @@
 {
   "accentColor": "",
-  "cssTheme": "",
+  "cssTheme": "Prism",
   "showViewHeader": false,
-  "interfaceFontFamily": "Inter"
+  "interfaceFontFamily": "SF Pro Text",
+  "textFontFamily": "SF Pro Text",
+  "monospaceFontFamily": "SF Mono",
+  "baseFontSize": 16,
+  "theme": "obsidian"
 }
