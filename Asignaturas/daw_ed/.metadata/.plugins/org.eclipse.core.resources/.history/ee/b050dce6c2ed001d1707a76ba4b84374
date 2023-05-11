@@ -1,0 +1,34 @@
+package ac4_ed;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class TablaEnterosTest {
+
+	@BeforeEach
+	void setUp() throws Exception {
+	}
+
+	@Test
+	void testTablaEnteros() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testSumaTabla() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testMayorTabla() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testPosicionTabla() {
+		fail("Not yet implemented");
+	}
+
+}

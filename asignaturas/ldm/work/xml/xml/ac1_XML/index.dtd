@@ -1,0 +1,4 @@
+<!ELEMENT lenguajes (lengua1,lengua2,lengua3)>
+<!ELEMENT lengua1 (#PCDATA)>
+<!ELEMENT lengua2 (#PCDATA)>
+<!ELEMENT lengua3 (#PCDATA)>

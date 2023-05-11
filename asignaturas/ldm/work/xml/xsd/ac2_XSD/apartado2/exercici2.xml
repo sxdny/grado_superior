@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<missatges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="exercici2.xsd">
+  <sms>
+    <destinatari> Avia </destinatari>
+    <remitent> net </remitent>
+    <cos>bon dia</cos>
+  </sms>
+
+  <sms>
+    <destinatari> Amic </destinatari>
+    <remitent> amiga </remitent>
+    <cos>hola què tal?</cos>
+  </sms>
+
+  <email>
+    <destinatari> Amiga </destinatari>
+  <remitent> amic </remitent>
+  <subject> hola</subject>
+  <cos>com
+    va?</cos>
+  </email>
+
+</missatges>

@@ -1,0 +1,14 @@
+{
+    "extras" : {
+        "number_of_numbers" : 23,
+        "name_of_name" : "Sidney Silva Braz de Oliveira",
+        "soporte_sidecar" : true,
+        "array_of_array" : ["1", 2, "3", 4, "5", 6, "7", 8, "9", 10],
+        "json_object" : "",
+        "sillita_bebes" : false,
+        "sillita_S" : true,
+        "sillita_M" : false,
+        "sillite_L" : false,
+        "soporte_remolque" : true
+    }
+}

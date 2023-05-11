@@ -1,9 +1,0 @@
-Pregunta 1. Pot compilar el programa? Hi ha qualque problema? Quin?
-
-El programa no se puede compilar, porque no se puede acceder a la clase "Musica" ya que es abstracta.
-
-Crea els constructors necessaris per a que es puguin crear objectes mp3 i ogg passant com a paràmetre una durada determinada.
-
-Pregunta 2. On crearies aquests constructors, dins la classe Musica o dins cadascuna de les classes derivades? Perquè?
-
-Crearia los constructores dentro de las classes derivadas porqué es más cómodo crearlas ahí + se pueden gestionar mejor.
