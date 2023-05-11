@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asignaturas/daw_ldm/work/xq/Actividades XQ.md",
+                "file": "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "61508e313b391630",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/daw_ldm/work/xq/Actividades XQ.md",
+                "file": "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/daw_ldm/work/xq/Actividades XQ.md",
+                "file": "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/daw_ldm/work/xq/Actividades XQ.md"
+                "file": "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md"
               }
             }
           }
@@ -164,6 +163,7 @@
   },
   "active": "5792de7b556d811e",
   "lastOpenFiles": [
+    "Asignaturas/daw_ldm/work/xq/Actividades XQ.md",
     "Pasted image 20230510211108.png",
     "Pasted image 20230510210945.png",
     "Pasted image 20230510205844.png",
@@ -171,7 +171,6 @@
     "Pasted image 20230510205734.png",
     "Pasted image 20230510205153.png",
     "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
-    "Asignaturas/daw_ldm/work/xq/Actividades XQ.md",
     "Asignaturas/daw_ldm/work/xq",
     "Excalidraw/Drawing 2023-05-02 17.50.25.excalidraw.md",
     "Excalidraw/Drawing 2023-05-03 17.26.18.excalidraw.md",
