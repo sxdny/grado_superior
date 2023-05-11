@@ -11,8 +11,12 @@
             "id": "5792de7b556d811e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Asignaturas/bd/notes/Apuntes Base de Datos.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Asignaturas/bd/notes/Apuntes Base de Datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Asignaturas/bd/notes/Apuntes Base de Datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Asignaturas/bd/notes/Apuntes Base de Datos.md"
+              }
             }
           }
         ]
@@ -142,6 +150,13 @@
   },
   "active": "5792de7b556d811e",
   "lastOpenFiles": [
+    "images/Pasted image 20230510211108.png",
+    "images/Pasted image 20230510210945.png",
+    "images/Pasted image 20230510205844.png",
+    "images/Pasted image 20230510205748.png",
+    "images/Pasted image 20230510205734.png",
+    "images/Pasted image 20230510205153.png",
+    "Asignaturas/daw_ldm/work/xq/Actividades XQ.md",
     "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
     "images/Pasted image 20230501150250.png",
     "images/Pasted Image 20230509174729_278.png",
@@ -168,15 +183,10 @@
     "Asignaturas/p/notes/Java.md",
     "Asignaturas/p/notes/Interficies.canvas",
     "Asignaturas/p/notes/Apuntes Programacion.md",
-    "Asignaturas/ldm/work/xml/xml/ac4_XML/s23wallpaper.jpg",
     "Asignaturas/ldm/work/xml/xml/ac3_XML/actividad3XML.md",
     "Asignaturas/ldm/work/xml/xml/ac2_XML/actividad2XML.md",
     "Asignaturas/ldm/work/xml/rss/ac2_RSS/actividad2_RSS.md",
     "Asignaturas/ldm/work/xml/rss/ac1_RSS/actividad1_RSS.md",
-    "Asignaturas/ldm/work/webpage_project/images/sslogo.svg",
-    "Asignaturas/ldm/work/webpage_project/images/PUNK.jpg",
-    "Asignaturas/ldm/work/webpage_project/images/PROJECTS.svg",
-    "Asignaturas/ldm/work/webpage_project/images/project4.png",
     "Asignaturas/ldm/work/repaso/re_xslt.md",
     "Asignaturas/ldm/work/sgi/SGI.md",
     "Asignaturas/ed/work/testing/Calculadora/README.md",
@@ -187,8 +197,6 @@
     "Asignaturas/ed/notes/diagrams_notes/Diagrama de seqüència.md",
     "Asignaturas/ed/notes/diagrams_notes/Diagrama de comunicació.md",
     "Asignaturas/ed/notes/diagrams_notes/Diagrama d'estat.md",
-    "Asignaturas/ed/notes/diagrams_notes/Diagrama d'activitat.md",
-    "Asignaturas/ed/notes/diagrams_notes/Diagrama Casos d'Ús.md",
     "Asignaturas/bd/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/bd/notes/Examen/Canvas Examen.canvas"
   ]
