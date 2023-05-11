@@ -2,9 +2,9 @@
 // == MASTERMIND JAVA - SIDNEY SILVA 1º DAW ==
 // ===========================================
 
+import java.io.EOFException;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -22,12 +22,13 @@ public class Programa {
 
     // directorio y archivo donde guardamos las partidas
     static File directorio = new File("./partidas");
-    static File partidas = new File("./partidas/partidas.txt");
+    static File partidas = new File("./partidas/partidas.dat");
 
     // lista usuarios
     static Vector<Usuario> usuarios = new Vector<>(0);
     // usuario actual de la partida
     static Usuario usuarioActual = new Usuario();
+    static Vector<Usuario> usuariosArchivo = new Vector<>(1);
 
     // creamos un Scanner
     static Scanner sc = new Scanner(System.in);
@@ -53,6 +54,8 @@ public class Programa {
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
 
+        // CREACION DE DIRECTORIO + ARCHIVO
+
         // creamos el directorio si no existe
         System.out.println("Creando directorio partidas...");
         if (directorio.exists()) {
@@ -69,7 +72,35 @@ public class Programa {
             partidas.createNewFile();
         }
 
-        limpiarConsola();
+        /*
+         * Leemos el archivo antes de empezar para que no se
+         * sobreesciba el archivo cada vez que insertamos un nuevo
+         * usuario en este caso.
+         */
+    
+        // Leemos el archivo para obtener los usuarios existentes
+
+        FileInputStream fis = new FileInputStream(partidas);
+        ObjectInputStream ois = new ObjectInputStream(fis);
+        
+        System.out.println("Lista de usuarios y puntuaciones:");
+
+        try {
+
+            // recorremos el archivo
+            while (true) {
+                Usuario usuario = (Usuario) ois.readObject();
+                usuariosArchivo.add(usuario);
+            }
+
+            // capturamos la excepcion de fin del archivo
+        } catch (EOFException eof) {
+            System.out.println("Final del archivo");
+        } catch (IOException | ClassNotFoundException ex) {
+            ex.printStackTrace();
+        }
+
+        ois.close();
 
         // gestion usuarios
         do {
@@ -85,11 +116,11 @@ public class Programa {
             sc.nextLine();
 
             if (opc == 1) {
-                crearUsuario(usuarios);
+                crearUsuario();
             }
 
             if (opc == 2) {
-                listarUsuario(usuarios);
+                listarUsuario();
             }
 
             if (opc == 3) {
@@ -178,7 +209,7 @@ public class Programa {
     }
 
     // metodo para crear usuarios
-    public static void crearUsuario(Vector<Usuario> usuarios) throws IOException {
+    public static void crearUsuario() throws IOException {
 
         // escritura de usuarios en el archivo
         FileOutputStream fos = new FileOutputStream(partidas);
@@ -194,14 +225,14 @@ public class Programa {
          * si la lista de usuarios no tiene ningún usuario, se
          * crea el usuario directamente
          */
-        if (usuarios.isEmpty()) {
+        if (usuariosArchivo.isEmpty()) {
             System.out.println("Introduce el nombre de usuario:");
             nombreUsuario = sc.nextLine();
 
             nombreUsuario = nombreUsuario.toUpperCase();
 
-            Usuario usuario = new Usuario(usuarios.size() + 1, nombreUsuario, 0);
-            usuarios.add(usuario);
+            Usuario usuario = new Usuario(usuariosArchivo.size() + 1, nombreUsuario, 0);
+            usuariosArchivo.add(usuario);
             System.out.println("Usuario creado correctamente!");
         }
         // si la lista de usuarios ya contiene usuarios dentro:
@@ -216,7 +247,7 @@ public class Programa {
              * diferente a uno ya existente, se repetira el bucle.
              */
             do {
-                for (int i = 0; i < usuarios.size(); i++) {
+                for (int i = 0; i < usuariosArchivo.size(); i++) {
                     if (usuarios.get(i).getNombre().equals(nombreUsuario)) {
                         System.out.println("El nombre de usuario ya existe...");
                         // volvemos a preguntar el nombre de usuario
@@ -235,8 +266,8 @@ public class Programa {
 
             } while (flag != true);
 
-            Usuario usuario = new Usuario(usuarios.size() + 1, nombreUsuario, 0);
-            usuarios.add(usuario);
+            Usuario usuario = new Usuario(usuariosArchivo.size() + 1, nombreUsuario, 0);
+            usuariosArchivo.add(usuario);
             System.out.println("Usuario creado correctamente!");
 
             // escribir objeto en el archivo
@@ -244,30 +275,34 @@ public class Programa {
                 oos.writeObject(usuario2);
             }
 
+            oos.flush();
+            oos.close();
+
         }
     }
 
-    // TODO substituir por lectura de un archivo
-    public static void listarUsuario(Vector<Usuario> usuarios) throws IOException, ClassNotFoundException {
+    public static void listarUsuario() throws IOException, ClassNotFoundException {
 
         FileInputStream fis = new FileInputStream(partidas);
         ObjectInputStream ois = new ObjectInputStream(fis);
-
-        Vector<Usuario> usuariosArchivo = new Vector<Usuario>();
-
-        // recorremos el vector y mostramos los datos de los usuarios
-        System.out.println("Lista de usuarios y puntuaciones:");
-        // for (int i = 0; i < usuarios.size(); i++) {
-        // System.out.println(usuarios.get(i).toString());
-        // }
-
-        for (int i = 0; i < usuariosArchivo.size(); i++) {
-            usuariosArchivo.add((Usuario) ois.readObject());
-        }
-
-        usuariosArchivo.toString();
-        // Usuario uA = (Usuario) ois.readObject();
         
+
+        System.out.println("Lista de usuarios y puntuaciones:");
+        
+        try {
+
+            // recorremos el archivo
+            while (true) {
+                Usuario usuario = (Usuario) ois.readObject();
+                System.out.println(usuario.toString());
+            }
+
+            // capturamos la excepcion de fin del archivo
+        } catch (EOFException eof) {
+            // Arriba al final del archivo
+        } catch (IOException | ClassNotFoundException ex) {
+            ex.printStackTrace();
+        }
 
         ois.close();
 
