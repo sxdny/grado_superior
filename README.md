@@ -1,5 +1,4 @@
-# Actividades Grado Superior
+<h1 align="center"> Actividades Grado Superior  👨‍🏫 </h1>
+<h3 align="center">Sidney Silva Braz de Oliveira | 1º DAW</h3>
 
-Sidney Silva Braz de Oliveira | 1º DAW
-
-Repositorio de cosas de clase, subido al GitHub para la fácil sincronización.
+<p align="center">Repositorio que utilizo para el trabajo de clase. </p>
