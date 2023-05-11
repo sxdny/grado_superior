@@ -11,11 +11,9 @@
             "id": "5792de7b556d811e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Asignaturas/bd/notes/Apuntes Base de Datos.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/ED - Repaso JUnit.md"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/bd/notes/Apuntes Base de Datos.md",
+                "file": "Excalidraw/ED - Repaso JUnit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/bd/notes/Apuntes Base de Datos.md",
+                "file": "Excalidraw/ED - Repaso JUnit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/bd/notes/Apuntes Base de Datos.md"
+                "file": "Excalidraw/ED - Repaso JUnit.md"
               }
             }
           }
@@ -150,6 +148,15 @@
   },
   "active": "5792de7b556d811e",
   "lastOpenFiles": [
+    "Asignaturas/sin/work/subnetting/ejercicios.md",
+    "Asignaturas/sin/work/subnetting/ejercicio18.pdf",
+    "Asignaturas/sin/work/subnetting/ejercicio18_SIN.pdf",
+    "Excalidraw/ED - Repaso JUnit.md",
+    "Asignaturas/ed/notes/testing_17-04-2023.md",
+    "Asignaturas/ed/notes/Cosas Importantes Examen ED Recu.md",
+    "Asignaturas/ed/notes/Apuntes Entornos de Desarrollo.md",
+    "Asignaturas/bd/notes/Apuntes Base de Datos.md",
+    "Asignaturas/daw_ed",
     "images/Pasted image 20230510211108.png",
     "images/Pasted image 20230510210945.png",
     "images/Pasted image 20230510205844.png",
@@ -160,9 +167,6 @@
     "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
     "images/Pasted image 20230501150250.png",
     "images/Pasted Image 20230509174729_278.png",
-    "Asignaturas/sin/work/subnetting/ejercicios.md",
-    "Asignaturas/sin/work/subnetting/ejercicio18.pdf",
-    "Asignaturas/sin/work/subnetting/ejercicio18_SIN.pdf",
     "Asignaturas/sin/work/subnetting",
     "Asignaturas/sin/notes/Repaso Examen ED Recuperación.md",
     "Asignaturas/sin/notes/Examen SIN.md",
@@ -173,10 +177,8 @@
     "Asignaturas/p/work/tema8/actividades/ej8_4/Programa.java",
     "Asignaturas/p/work/tema8/actividades/ej8_4/Programa.class",
     "Asignaturas/p/work/tema8/actividades/ej8_4/ExceptionPersonalizada.java",
-    "Asignaturas/p/work/tema8/actividades/ej8_4/ExceptionPersonalizada.class",
     "Asignaturas/p/work/tema11/mine.png",
     "Asignaturas/p/work/images/Pasted image 20230125095047.png",
-    "Asignaturas/p/work/images/Pasted image 20230124154253.png",
     "Asignaturas/p/notes/Repaso Examen Java Tema 6.md",
     "Asignaturas/p/notes/Recursividad.md",
     "Asignaturas/p/notes/notas_lluc_fitxers.md",
@@ -192,11 +194,6 @@
     "Asignaturas/ed/work/testing/Calculadora/README.md",
     "Asignaturas/ed/work/testing/ac4_ed/ej4_ed_testing.md",
     "Asignaturas/ed/work/pseudocodigo/ex15_ud6_sidneysb.md",
-    "Asignaturas/ed/work/pseudocodigo/ex10_ud6_sidney.md",
-    "Asignaturas/ed/work/pseudocodigo/Ejercicios Tema 6 ED.md",
-    "Asignaturas/ed/notes/diagrams_notes/Diagrama de seqüència.md",
-    "Asignaturas/ed/notes/diagrams_notes/Diagrama de comunicació.md",
-    "Asignaturas/ed/notes/diagrams_notes/Diagrama d'estat.md",
     "Asignaturas/bd/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/bd/notes/Examen/Canvas Examen.canvas"
   ]
