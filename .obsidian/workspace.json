@@ -4,56 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "f346e6ab6436f0fc",
-        "type": "split",
+        "id": "960eb87c9a4a682f",
+        "type": "tabs",
         "children": [
           {
-            "id": "960eb87c9a4a682f",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "0316f303743a8e61",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Drawing 2023-05-03 17.26.18.excalidraw.md"
-                  }
-                }
-              },
-              {
-                "id": "8742b94ab810ddb4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Asignaturas/daw_ed/work/subnetting/ejercicios.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "973faaa963ef2548",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "asignaturas/daw_ed/work/subnetting/ejercicios.md",
+                "mode": "source",
+                "source": false
               }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "e9cd7b56f0a645f0",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "4c8c03a9b666ba93",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Excalidraw/Drawing 2023-05-09 17.39.57.excalidraw.md"
-                  }
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
+      },
+      {
+        "id": "b1144a98b2295e7a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64bc7d5445cefa13",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/SIN - Subnetting ejercicio.md"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 231.5,
     "collapsed": true
   },
   "right": {
@@ -120,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/daw_ed/work/subnetting/ejercicios.md",
+                "file": "Excalidraw/SIN - Subnetting ejercicio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/daw_ed/work/subnetting/ejercicios.md",
+                "file": "Excalidraw/SIN - Subnetting ejercicio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/daw_ed/work/subnetting/ejercicios.md"
+                "file": "Excalidraw/SIN - Subnetting ejercicio.md"
               }
             }
           }
@@ -183,18 +165,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8742b94ab810ddb4",
+  "active": "64bc7d5445cefa13",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2023-05-09 17.39.57.excalidraw.md",
+    "asignaturas/daw_ed/work/subnetting/ejercicios.md",
+    "Excalidraw/SIN - Subnetting ejercicio.md",
+    "Excalidraw/SIN - Subnetting.md",
+    "Excalidraw/BD - Tasks.md",
+    "asignaturas/daw_ed/work/testing/Calculadora/bin/CalculadoraTest.class",
+    "asignaturas/daw_ed/work/testing/Calculadora/src/CalculadoraTest.java",
+    "asignaturas/daw_ed/work/testing/demo",
+    "asignaturas/daw_ed/work/testing/Nueva carpeta",
+    "asignaturas/daw_ed/work/testing/ac4_ed/bin/ac4_ed/TablaEnterosTest.class",
+    "asignaturas/daw_ed/work/testing/ac4_ed/bin/ac4_ed/TablaEnteros.class",
+    "asignaturas/daw_ed/work/testing/ac4_ed/bin/ac4_ed/CuentaTest.class",
+    "asignaturas/daw_ed/work/testing/ac4_ed/bin/ac4_ed/Cuenta.class",
+    "asignaturas/daw_ed/work/testing/ac4_ed/bin/ac4_ed",
+    "asignaturas/daw_ed/work/testing/ac4_ed/bin",
+    "Excalidraw/P - JPanel.md",
+    "Excalidraw/BD - Apuntes + JSON.md",
+    "Excalidraw/BD - JSON.md",
+    "Excalidraw/ED - Junit Method Resumen.md",
+    "Excalidraw/ERP - Resumen.md",
     "Asignaturas/daw_ed/work/subnetting/ejercicios.md",
     "Pasted Image 20230509174729_278.png",
-    "Excalidraw/Drawing 2023-05-03 17.26.18.excalidraw.md",
-    "Asignaturas/daw_ed/work/subnetting",
-    "Excalidraw/Drawing 2023-05-04 15.45.34.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-04 19.51.04.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-05 15.40.04.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-08 17.23.12.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-02 17.50.25.excalidraw.md",
     "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
     "Asignaturas/daw_bd/notes/Diagrama a SQL_230330_113413.jpg",
     "Pasted image 20230501150250.png"
