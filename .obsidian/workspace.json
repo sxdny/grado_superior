@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "960eb87c9a4a682f",
+        "id": "8cb1eea97f09520b",
         "type": "tabs",
         "children": [
           {
-            "id": "8742b94ab810ddb4",
+            "id": "04924a45b5d10469",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5792de7b556d811e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -161,31 +140,56 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5792de7b556d811e",
+  "active": "5a00f1a9ae8e279c",
   "lastOpenFiles": [
-    "Asignaturas/daw_ldm/work/xq/Actividades XQ.md",
-    "Pasted image 20230510211108.png",
-    "Pasted image 20230510210945.png",
-    "Pasted image 20230510205844.png",
-    "Pasted image 20230510205748.png",
-    "Pasted image 20230510205734.png",
-    "Pasted image 20230510205153.png",
-    "Asignaturas/daw_bd/notes/Apuntes Base de Datos.md",
-    "Asignaturas/daw_ldm/work/xq",
-    "Excalidraw/Drawing 2023-05-02 17.50.25.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-03 17.26.18.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-04 15.45.34.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-05 15.40.04.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-04 19.51.04.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-08 17.23.12.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-08 22.54.45.excalidraw.md",
-    "Excalidraw/Drawing 2023-05-09 17.39.57.excalidraw.md",
-    "Asignaturas/daw_ed/work/subnetting/ejercicios.md",
-    "Asignaturas/daw_ed/work/subnetting/ejercicio18_SIN.pdf",
-    "Asignaturas/daw_ed/work/subnetting/ejercicio18.pdf",
-    "Pasted Image 20230509174729_278.png",
-    "Asignaturas/daw_ed/work/subnetting",
-    "Asignaturas/daw_bd/notes/Diagrama a SQL_230330_113413.jpg",
-    "Pasted image 20230501150250.png"
+    "asignaturas/sin/work/subnetting/ejercicios.md",
+    "asignaturas/sin/work/subnetting/ejercicio18_SIN.pdf",
+    "asignaturas/sin/work/subnetting/ejercicio18.pdf",
+    "asignaturas/sin/work/subnetting",
+    "asignaturas/sin/notes/Repaso Examen ED Recuperación.md",
+    "asignaturas/sin/notes/Examen SIN.md",
+    "asignaturas/sin/notes/Apuntes Sistemas Informáticos.md",
+    "asignaturas/sin/work",
+    "asignaturas/sin/notes",
+    "asignaturas/sin",
+    "asignaturas/p/work/tema8/actividades/ej8_4/Programa.java",
+    "asignaturas/p/work/tema8/actividades/ej8_4/Programa.class",
+    "asignaturas/p/work/tema8/actividades/ej8_4/ExceptionPersonalizada.java",
+    "asignaturas/p/work/tema8/actividades/ej8_4/ExceptionPersonalizada.class",
+    "asignaturas/p/work/tema11/mine.png",
+    "asignaturas/p/work/images/Pasted image 20230125095047.png",
+    "asignaturas/p/work/images/Pasted image 20230124154253.png",
+    "asignaturas/p/notes/Repaso Examen Java Tema 6.md",
+    "asignaturas/p/notes/Recursividad.md",
+    "asignaturas/p/notes/notas_lluc_fitxers.md",
+    "asignaturas/p/notes/Java.md",
+    "asignaturas/p/notes/Interficies.canvas",
+    "asignaturas/p/notes/Apuntes Programacion.md",
+    "asignaturas/ldm/work/xml/xml/ac4_XML/s23wallpaper.jpg",
+    "asignaturas/ldm/work/xml/xml/ac3_XML/actividad3XML.md",
+    "asignaturas/ldm/work/xml/xml/ac2_XML/actividad2XML.md",
+    "asignaturas/ldm/work/xml/rss/ac2_RSS/actividad2_RSS.md",
+    "asignaturas/ldm/work/xml/rss/ac1_RSS/actividad1_RSS.md",
+    "asignaturas/ldm/work/webpage_project/images/sslogo.svg",
+    "asignaturas/ldm/work/webpage_project/images/PUNK.jpg",
+    "asignaturas/ldm/work/webpage_project/images/PROJECTS.svg",
+    "asignaturas/ldm/work/webpage_project/images/project4.png",
+    "asignaturas/ldm/work/webpage_project/images/project3.jpg",
+    "asignaturas/ldm/work/webpage_project/images/project2.jpg",
+    "asignaturas/ldm/work/xq/Actividades XQ.md",
+    "asignaturas/ldm/work/sgi/SGI.md",
+    "asignaturas/ed/work/testing/Calculadora/README.md",
+    "asignaturas/ed/work/testing/ac4_ed/ej4_ed_testing.md",
+    "asignaturas/ed/work/pseudocodigo/ex15_ud6_sidneysb.md",
+    "asignaturas/ed/work/pseudocodigo/ex10_ud6_sidney.md",
+    "asignaturas/ed/work/pseudocodigo/Ejercicios Tema 6 ED.md",
+    "asignaturas/ed/work/diagrams_notes/Diagrama de seqüència.md",
+    "asignaturas/ed/work/diagrams_notes/Diagrama de comunicació.md",
+    "asignaturas/ed/work/diagrams_notes/Diagrama d'estat.md",
+    "asignaturas/ed/work/diagrams_notes/Diagrama d'activitat.md",
+    "asignaturas/ed/work/diagrams_notes/Diagrama Casos d'Ús.md",
+    "asignaturas/ed/notes/testing_17-04-2023.md",
+    "asignaturas/bd/work/cinema_db_stuff/24-01-23.canvas",
+    "asignaturas/bd/notes/Examen/Canvas Examen.canvas"
   ]
 }
