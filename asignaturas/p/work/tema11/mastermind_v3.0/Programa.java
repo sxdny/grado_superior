@@ -1,7 +1,3 @@
-// ===========================================
-// == MASTERMIND JAVA - SIDNEY SILVA 1º DAW ==
-// ===========================================
-
 import java.io.EOFException;
 import java.io.File;
 import java.io.FileInputStream;
@@ -20,30 +16,20 @@ import resources.Usuario;
 
 public class Programa {
 
-    // directorio y archivo donde guardamos las partidas
-    static File directorio = new File("./partidas");
-    static File partidas = new File("./partidas/partidas.dat");
+    static File directorio = new File("./partidas"); // directorio para guardar las partidas (más orden)
+    static File partidas = new File("./partidas/partidas.dat"); // archivo para guardar la lista de usuarios
 
-    // lista usuarios
-    static Vector<Usuario> usuarios = new Vector<>(0);
-    // usuario actual de la partida
-    static Usuario usuarioActual = new Usuario();
-    static Vector<Usuario> usuariosArchivo = new Vector<>(1);
+    static Usuario usuarioActual = new Usuario(); // usuario actual de la partida
+    static Vector<Usuario> usuariosArchivo = new Vector<>(1); // lista de usuarios del archivo "partidas.dat"
 
-    // creamos un Scanner
     static Scanner sc = new Scanner(System.in);
 
-    // creamos los objetos Colores y Codigo
-    static Colores colores = new Colores();
-    static Codigo codigo = new Codigo();
+    static Colores colores = new Colores(); // objeto colores
+    static Codigo codigo = new Codigo(); // objeto codigo
 
-    // definimos la variable para el input del usuario
-    static String[] inputUsuario = new String[4];
+    static String[] inputUsuario = new String[4]; // input usuario
 
-    // definir variables resuelto, intentos, coloresPC
-    // para los colores en la posición correcta y
-    // coloresPI para los colores en la posición
-    // incorrecta
+    // variables para el correcto funcionamiento de la partida
     static boolean resuelto = false;
     static int intentos = 0;
     static int coloresPC = 0;
@@ -52,64 +38,63 @@ public class Programa {
     static int opc = 0;
     static boolean salir = false;
 
-    public static void main(String[] args) throws IOException, ClassNotFoundException {
+    public static void main(String[] args) throws IOException, ClassNotFoundException, EOFException {
 
-        // CREACION DE DIRECTORIO + ARCHIVO
-
-        // creamos el directorio si no existe
         System.out.println("Creando directorio partidas...");
         if (directorio.exists()) {
             System.out.println("El directorio ya existe.");
         } else {
-            directorio.mkdir();
+            directorio.mkdir(); // creamos el directorio si no existe
         }
 
-        // creamos el archivo "partidas" si no existe
         System.out.println("Creando archivo partidas...");
         if (partidas.exists()) {
             System.out.println("El archivo ya existe.");
         } else {
-            partidas.createNewFile();
+            partidas.createNewFile(); // creamos el archivo "partidas" si no existe
         }
 
         /*
-         * Leemos el archivo antes de empezar para que no se
-         * sobreesciba el archivo cada vez que insertamos un nuevo
-         * usuario en este caso.
+         * Leemos el archivo ANTES DE EMPEZAR para que no se
+         * sobreesciba el archivo cada vez que entramos al programa.
          */
-    
-        // Leemos el archivo para obtener los usuarios existentes
 
-        FileInputStream fis = new FileInputStream(partidas);
-        ObjectInputStream ois = new ObjectInputStream(fis);
-        
-        System.out.println("Lista de usuarios y puntuaciones:");
+        if (partidas.length() == 0) {
+            // si el archivo está vacio, no creamos ningún objeto para leerlo
+            // sino nos da un EOFException
+        } else { // si el archivo no está vacio...
 
-        try {
+            FileInputStream fis = new FileInputStream(partidas);
+            ObjectInputStream ois = new ObjectInputStream(fis);
 
-            // recorremos el archivo
-            while (true) {
-                Usuario usuario = (Usuario) ois.readObject();
-                usuariosArchivo.add(usuario);
+            try {
+
+                while (true) { // recorremos el archivo
+                    Usuario usuario = (Usuario) ois.readObject();
+                    usuariosArchivo.add(usuario);
+                }
+
+            } catch (EOFException eof) { // capturamos la excepcion de fin del archivo
+                System.out.println("Final del archivo");
+            } catch (IOException | ClassNotFoundException ex) {
+                ex.printStackTrace();
             }
 
-            // capturamos la excepcion de fin del archivo
-        } catch (EOFException eof) {
-            System.out.println("Final del archivo");
-        } catch (IOException | ClassNotFoundException ex) {
-            ex.printStackTrace();
+            ois.close();
+
         }
 
-        ois.close();
+        limpiarConsola();
 
-        // gestion usuarios
-        do {
+        do { // menú para gestionar los usuarios
+
+            System.out.println();
 
             System.out.println("Menu usuarios");
             System.out.println("Introduce una opcion:");
             System.out.println("1. Crear nuevo usuario...");
             System.out.println("2. Listar todos los usuarios y puntuaciones...");
-            System.out.println("3. Seleccionar usuario...");
+            System.out.println("3. Seleccionar usuario para empezar una partida...");
             System.out.println("4. Salir del programa...");
 
             opc = sc.nextInt();
@@ -124,7 +109,7 @@ public class Programa {
             }
 
             if (opc == 3) {
-                seleccionarUsuario(usuarioActual, usuarios);
+                seleccionarUsuario(usuarioActual, usuariosArchivo);
                 salir = true;
             }
 
@@ -139,34 +124,28 @@ public class Programa {
             System.exit(0);
         }
 
-        // generamos el código secreto
-        codigo.generarCodigoAleatorio(codigo, colores);
+        codigo.generarCodigoAleatorio(codigo, colores); // generamos el código secreto
 
-        // para hacer pruebas con el programa
-        System.out.println("Codigo secreto: " + codigo.toString());
-
-        // TODO hacer metodo para crear usuario y guardar en el archivo
+        System.out.println("Codigo secreto: " + codigo.toString()); // respuesta (para testing)
 
         do {
             System.out.println("Introduce una serie de 4 colores:");
 
-            // input del usuario 1x1
-            for (int i = 0; i < inputUsuario.length; i++) {
+            for (int i = 0; i < inputUsuario.length; i++) { // capturamos el input del usuario posición por posición
                 inputUsuario[i] = sc.next();
-                // transformamos a mayúsculas para evitar problemas comparando
-                inputUsuario[i] = inputUsuario[i].toUpperCase();
+                inputUsuario[i] = inputUsuario[i].toUpperCase(); // transformamos a mayúsculas para evitar problemas
+                                                                 // comparando
             }
 
-            // comprobamos los colores que están en la misma posición
-            for (int i = 0; i < codigo.codigo.length; i++) {
+            for (int i = 0; i < codigo.codigo.length; i++) { // comprobamos si los colores que están en la misma
+                                                             // posición
                 if (inputUsuario[i].equals(codigo.codigo[i])) {
                     coloresPC++;
                 }
             }
 
-            // comprobamos los colores que forman parte del código
-            // secreto pero no están correctamente posicionados
-            for (int i = 0; i < codigo.codigo.length; i++) {
+            for (int i = 0; i < codigo.codigo.length; i++) { // comprobamos que los colores introducido por el usuario
+                                                             // están pero no en la posición correcta
                 for (int j = 0; j < codigo.codigo.length; j++) {
                     if (inputUsuario[i].equals(codigo.codigo[j])) {
                         if (inputUsuario[j].equals(codigo.codigo[j])) {
@@ -177,55 +156,44 @@ public class Programa {
                 }
             }
 
-            // si la variable "coloresPC" llega a un valor de 4,
-            // significa que se ha resuelto el código y por lo
-            // tanto pasamos la variable "resuelto" a true.
-            if (coloresPC == 4) {
+            if (coloresPC == 4) { // si llega a 4, significa que ya se ha resuelto el código
                 resuelto = true;
             }
 
-            // sumamos un intento
             intentos++;
 
-            // mostramos el código introducido por el usuario, los
-            // valores de "coloresPC" y "coloresPI" y el nº de intentos
             System.out.println("Input del usuario: " + Arrays.toString(inputUsuario));
             System.out.println("[" + coloresPC + " , " + coloresPI + "]");
             System.out.println("Nº de intentos: " + intentos);
 
-            // reseteamos los valores de las variables
             coloresPC = 0;
             coloresPI = 0;
-        } while (resuelto == false && intentos != 16);
+
+        } while (resuelto == false && intentos != 16); // se repite hasta que se haya resuelto el codigo o hasta que
+                                                       // llegue a 16 intentos
 
         if (intentos == 16 && resuelto == false) {
-            System.out.println("Has perdido... :(");
+            System.out.println("Has perdido... :("); // mensaje partida perdida
             System.out.println("La solucion era: " + codigo.toString());
         } else {
-            System.out.println("HAS GANADO LA PARTIDA.");
+            System.out.println("HAS GANADO LA PARTIDA."); // mensaje partida ganada
             System.out.println("Nº intentos: " + intentos);
         }
 
     }
 
-    // metodo para crear usuarios
-    public static void crearUsuario() throws IOException {
+    public static void crearUsuario() throws IOException { // metodo para crear usuarios
+
+        limpiarConsola();
 
         // escritura de usuarios en el archivo
         FileOutputStream fos = new FileOutputStream(partidas);
         ObjectOutputStream oos = new ObjectOutputStream(fos);
 
-        // Student[] studentsFromSavedFile = (Student[]) ois.readObject();
-
-        // declaracion de variables
         String nombreUsuario = new String();
         boolean flag = false;
 
-        /*
-         * si la lista de usuarios no tiene ningún usuario, se
-         * crea el usuario directamente
-         */
-        if (usuariosArchivo.isEmpty()) {
+        if (usuariosArchivo.size() == 0) { // si el archivo está vacio, el usuario se creará sin comparaciones ni nada
             System.out.println("Introduce el nombre de usuario:");
             nombreUsuario = sc.nextLine();
 
@@ -234,32 +202,21 @@ public class Programa {
             Usuario usuario = new Usuario(usuariosArchivo.size() + 1, nombreUsuario, 0);
             usuariosArchivo.add(usuario);
             System.out.println("Usuario creado correctamente!");
-        }
-        // si la lista de usuarios ya contiene usuarios dentro:
-        else {
-            // pedimos el nombre de usuario
+        } else { // si el archivo ya contiene usuarios, no dejaremos que los usuarios se repitan
+
             System.out.println("Introduce el nombre de usuario:");
             nombreUsuario = sc.nextLine();
             nombreUsuario = nombreUsuario.toUpperCase();
 
-            /*
-             * mientras el nombre de usuario introducido no sea
-             * diferente a uno ya existente, se repetira el bucle.
-             */
             do {
                 for (int i = 0; i < usuariosArchivo.size(); i++) {
-                    if (usuarios.get(i).getNombre().equals(nombreUsuario)) {
+                    if (usuariosArchivo.get(i).getNombre().equals(nombreUsuario)) { // comparamos los dos nombres
                         System.out.println("El nombre de usuario ya existe...");
-                        // volvemos a preguntar el nombre de usuario
                         System.out.println("Introduce otro nombre de usuario:");
+
                         nombreUsuario = sc.nextLine();
                         nombreUsuario = nombreUsuario.toUpperCase();
                     } else {
-                        System.out.println("Nombre de usuario disponible!");
-                        /*
-                         * establecemos el valor de la variable "flag" a true
-                         * para que salga del buble
-                         */
                         flag = true;
                     }
                 }
@@ -267,78 +224,100 @@ public class Programa {
             } while (flag != true);
 
             Usuario usuario = new Usuario(usuariosArchivo.size() + 1, nombreUsuario, 0);
-            usuariosArchivo.add(usuario);
+            usuariosArchivo.add(usuario); // introducimos el usuario en el Vector
             System.out.println("Usuario creado correctamente!");
 
-            // escribir objeto en el archivo
-            for (Usuario usuario2 : usuarios) {
+            for (Usuario usuario2 : usuariosArchivo) { // escribir objeto en el archivo
                 oos.writeObject(usuario2);
             }
 
             oos.flush();
-            oos.close();
+            oos.close(); // importante cerrar el archivo
 
         }
     }
 
-    public static void listarUsuario() throws IOException, ClassNotFoundException {
+    public static void listarUsuario() throws IOException, ClassNotFoundException { // método listar usuarios
+
+        limpiarConsola();
 
         FileInputStream fis = new FileInputStream(partidas);
         ObjectInputStream ois = new ObjectInputStream(fis);
-        
 
         System.out.println("Lista de usuarios y puntuaciones:");
-        
-        try {
 
-            // recorremos el archivo
-            while (true) {
+        try {
+            while (true) { // recorremos el archivo
                 Usuario usuario = (Usuario) ois.readObject();
                 System.out.println(usuario.toString());
             }
-
-            // capturamos la excepcion de fin del archivo
-        } catch (EOFException eof) {
-            // Arriba al final del archivo
+        } catch (EOFException eof) { // excepción de final de archivo
         } catch (IOException | ClassNotFoundException ex) {
             ex.printStackTrace();
         }
-
         ois.close();
 
     }
 
-    // TODO substituir por seleccion de usuario de un archivo
-    public static void seleccionarUsuario(Usuario uA, Vector<Usuario> usuarios) {
+    public static void seleccionarUsuario(Usuario uA, Vector<Usuario> usuarios) throws IOException {
 
         limpiarConsola();
 
-        boolean flag = false;
+        int idUser = 0;
+        boolean select = false;
 
-        System.out.println("Seleccione uno de los siguientes usuarios introduciendo su ID:");
+        System.out.println();
 
-        do {
-            for (Usuario usuario : usuarios) {
-                usuario.toStringEssentials();
+        FileInputStream fis = new FileInputStream(partidas);
+        ObjectInputStream ois = new ObjectInputStream(fis);
+
+        System.out.println("Introduzca el ID de uno de los siguientes usuarios para empezar:");
+
+        System.out.println();
+
+        try {
+            while (true) { // recorremos el archivo
+                Usuario usuario = (Usuario) ois.readObject();
+                System.out.println(usuario.toStringEssentials());
             }
+        } catch (EOFException eof) { // excepción de final de archivo
+        } catch (IOException | ClassNotFoundException ex) {
+            ex.printStackTrace();
+        }
+        ois.close();
 
-            int id = sc.nextInt();
+        System.out.println();
+
+        // hacer while loop
+        do {
+
+            idUser = sc.nextInt();
             sc.nextLine();
 
-            for (Usuario usuario : usuarios) {
-                if (usuario.getId() == id) {
+            for (Usuario usuario : usuariosArchivo) {
+                if (idUser == usuario.getId()) {
                     usuarioActual = usuario;
-                    flag = true;
-                } else {
-                    System.out.println("El id introducido no es correcto o no existe.");
+                    select = true;
                 }
             }
-        } while (flag != true);
+
+            if (select == false) {
+                System.out.println();
+                System.out.println("No se ha encotrado el ID de usuario...");
+                System.out.println("Introduce otro ID de usuario");
+                System.out.println();
+            }
+
+        } while (select == false);
+
+        System.out.println();
+        System.out.println("Usuario seleccionado:");
+        System.out.println(usuarioActual.toString());
+        System.out.println();
 
     }
 
-    // metodo limpiar la consola
-    public static void limpiarConsola() {
+    public static void limpiarConsola() { // metodo limpiar la consola
         System.out.print("\033[H\033[2J");
         System.out.flush();
     }

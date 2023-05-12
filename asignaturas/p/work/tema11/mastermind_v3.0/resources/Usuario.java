@@ -40,7 +40,7 @@ public class Usuario implements Serializable {
     }
 
     public String toStringEssentials() {
-        return "Usuario [id=" + id + "nombre=" + nombre + "]";
+        return "ID usuario: " + id + " , " + "Nombre usuario: " + nombre;
     }
 
     public int getId() {
