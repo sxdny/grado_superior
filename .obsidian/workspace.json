@@ -11,9 +11,11 @@
             "id": "ea7307264f5d43ad",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/ED - Repaso JUnit.md"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/ED - Repaso JUnit.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/ED - Repaso JUnit.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/ED - Repaso JUnit.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,6 +150,7 @@
   },
   "active": "ea7307264f5d43ad",
   "lastOpenFiles": [
+    "Excalidraw/ED - Repaso JUnit.md",
     "Asignaturas/ED/notes/Repaso Examen ED Recuperación.md",
     "Asignaturas/SIN/work/subnetting/ejercicios.md",
     "Asignaturas/SIN/work/subnetting/ejercicio18_SIN.pdf",
@@ -194,7 +197,6 @@
     "Asignaturas/ED/work/diagrams_notes/Diagrama de seqüència.md",
     "Asignaturas/ED/work/diagrams_notes/Diagrama de comunicació.md",
     "Asignaturas/ED/work/diagrams_notes/Diagrama d'estat.md",
-    "Asignaturas/ED/work/diagrams_notes/Diagrama d'activitat.md",
     "Asignaturas/BD/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/BD/notes/Examen/Canvas Examen.canvas",
     "Asignaturas/bd/work/cinema_db_stuff/24-01-23.canvas",
