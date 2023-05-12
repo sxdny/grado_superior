@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "96e4b462874f1f99",
+    "id": "0b50718f1edef5cc",
     "type": "split",
     "children": [
       {
-        "id": "62054cde19e621b5",
+        "id": "69e846dce3404ab9",
         "type": "tabs",
         "children": [
           {
-            "id": "02a07762a64d7f0b",
+            "id": "ea7307264f5d43ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "asignaturas/sin/work/subnetting/ejercicios.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "6a8d31e52e9b7fb6",
+    "id": "3a5bea9151e3b441",
     "type": "split",
     "children": [
       {
-        "id": "0b1ea817b681e643",
+        "id": "60034293604ed42c",
         "type": "tabs",
         "children": [
           {
-            "id": "5a00f1a9ae8e279c",
+            "id": "ad7f451f731be270",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "c2d9abd069770e05",
+            "id": "d92b59cb302e2f4a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "c6cc4b46db944fde",
+            "id": "c7bfd5a4f835e7a8",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,23 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 300
   },
   "right": {
-    "id": "61508e313b391630",
+    "id": "0d634603d8eb463d",
     "type": "split",
     "children": [
       {
-        "id": "6ae1d7f3c3603fdd",
+        "id": "46aa815cabfa93fe",
         "type": "tabs",
         "children": [
           {
-            "id": "fcc4fb64d7f3fe9f",
+            "id": "24594d78905121fd",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "asignaturas/sin/work/subnetting/ejercicios.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +97,19 @@
             }
           },
           {
-            "id": "fe90bf60ff0a00ca",
+            "id": "c3e311f63353fd9a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "asignaturas/sin/work/subnetting/ejercicios.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "9dfcb877b8b74ea5",
+            "id": "af38ee499d45cda0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,29 +120,21 @@
             }
           },
           {
-            "id": "15c13be6d7c9d20e",
+            "id": "bc5f681d6b821e5a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "asignaturas/sin/work/subnetting/ejercicios.md"
+                "file": "README.md"
               }
             }
-          },
-          {
-            "id": "48591a94038f1330",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,58 +148,59 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02a07762a64d7f0b",
+  "active": "ea7307264f5d43ad",
   "lastOpenFiles": [
-    "excalidraw/ED - Junit Method Resumen.md",
-    "asignaturas/sin/work/subnetting/ejercicios.md",
-    "asignaturas/sin/work/subnetting",
-    "asignaturas/sin/work",
-    "asignaturas/sin/Nueva carpeta",
-    "asignaturas/ed/notes/diagrams_notes/Diagrama de comunicació.md",
-    "asignaturas/ed/notes/diagrams_notes/Diagrama de seqüència.md",
-    "asignaturas/ed/notes/diagrams_notes/Diagrama d'estat.md",
-    "asignaturas/ed/notes/diagrams_notes/Diagrama d'activitat.md",
-    "asignaturas/ed/notes/diagrams_notes/Diagrama Casos d'Ús.md",
-    "asignaturas/ed/notes/diagrams_notes",
-    "asignaturas/bd/notes/help/sql_cheatsheet.md",
-    "asignaturas/bd/notes/help",
-    "asignaturas/bd/notes/Nueva carpeta",
-    "asignaturas/sin/notes/Repaso Examen ED Recuperación.md",
-    "asignaturas/sin/notes/Examen SIN.md",
-    "asignaturas/sin/notes/Apuntes Sistemas Informáticos.md",
-    "asignaturas/sin/notes",
-    "asignaturas/sin",
-    "asignaturas/p/work/tema8/actividades/ej8_4/Programa.java",
-    "asignaturas/p/work/tema8/actividades/ej8_4/Programa.class",
-    "asignaturas/p/work/tema11/mine.png",
-    "asignaturas/p/work/images/Pasted image 20230125095047.png",
-    "asignaturas/p/work/images/Pasted image 20230124154253.png",
-    "asignaturas/p/notes/Repaso Examen Java Tema 6.md",
-    "asignaturas/p/notes/Recursividad.md",
-    "asignaturas/p/notes/notas_lluc_fitxers.md",
-    "asignaturas/p/notes/Java.md",
-    "asignaturas/p/notes/Interficies.canvas",
-    "asignaturas/p/notes/Apuntes Programacion.md",
-    "asignaturas/ldm/work/xml/rss/ac2_RSS/actividad2_RSS.md",
-    "asignaturas/ldm/work/xml/rss/ac1_RSS/actividad1_RSS.md",
-    "asignaturas/ldm/work/xml/xml/ac4_XML/s23wallpaper.jpg",
-    "asignaturas/ldm/work/xml/xml/ac3_XML/actividad3XML.md",
-    "asignaturas/ldm/work/xml/xml/ac2_XML/actividad2XML.md",
-    "asignaturas/ldm/work/webpage_project/images/sslogo.svg",
-    "asignaturas/ldm/work/webpage_project/images/PUNK.jpg",
-    "asignaturas/ldm/work/webpage_project/images/PROJECTS.svg",
-    "asignaturas/ldm/work/webpage_project/images/project4.png",
-    "asignaturas/ldm/work/webpage_project/images/project3.jpg",
-    "asignaturas/ldm/work/webpage_project/images/project2.jpg",
-    "asignaturas/ldm/work/sgi/SGI.md",
-    "asignaturas/ldm/work/repaso/re_xslt.md",
-    "asignaturas/bd/work/cinema_db_stuff/Cinema Database.md",
-    "asignaturas/bd/work/cinema_db_stuff/24-01-23.canvas",
-    "asignaturas/bd/notes/php/notes.md",
-    "asignaturas/bd/notes/Examen/Repaso Examen 30-03-2023 1.md",
-    "asignaturas/bd/notes/Examen/Examen_rentacar.md",
-    "asignaturas/bd/notes/Examen/Canvas Examen.canvas",
-    "asignaturas/base_de_datos/work/cinema_db_stuff/24-01-23.canvas",
-    "asignaturas/base_de_datos/notes/Examen/Canvas Examen.canvas"
+    "Excalidraw/ED - Repaso JUnit.md",
+    "Asignaturas/ED/notes/Repaso Examen ED Recuperación.md",
+    "Asignaturas/SIN/work/subnetting/ejercicios.md",
+    "Asignaturas/SIN/work/subnetting/ejercicio18_SIN.pdf",
+    "Asignaturas/SIN/work/subnetting/ejercicio18.pdf",
+    "Asignaturas/SIN/work/subnetting",
+    "Asignaturas/SIN/notes/Repaso Examen ED Recuperación.md",
+    "Asignaturas/SIN/notes/Examen SIN.md",
+    "Asignaturas/SIN/notes/Apuntes Sistemas Informáticos.md",
+    "Asignaturas/SIN/work",
+    "Asignaturas/SIN/notes",
+    "Asignaturas/SIN",
+    "Asignaturas/P/work/tema8/actividades/ej8_4/Programa.java",
+    "Asignaturas/P/work/tema8/actividades/ej8_4/Programa.class",
+    "Asignaturas/P/work/tema8/actividades/ej8_4/ExceptionPersonalizada.java",
+    "Asignaturas/P/work/tema8/actividades/ej8_4/ExceptionPersonalizada.class",
+    "Asignaturas/P/work/tema11/mine.png",
+    "Asignaturas/P/work/images/Pasted image 20230125095047.png",
+    "Asignaturas/P/work/images/Pasted image 20230124154253.png",
+    "Asignaturas/P/notes/Repaso Examen Java Tema 6.md",
+    "Asignaturas/P/notes/notas_lluc_fitxers.md",
+    "Asignaturas/P/notes/Recursividad.md",
+    "Asignaturas/P/notes/Java.md",
+    "Asignaturas/P/notes/Interficies.canvas",
+    "Asignaturas/P/notes/Apuntes Programacion.md",
+    "Asignaturas/LDM/work/xml/xml/ac4_XML/s23wallpaper.jpg",
+    "Asignaturas/LDM/work/xml/xml/ac3_XML/actividad3XML.md",
+    "Asignaturas/LDM/work/xml/xml/ac2_XML/actividad2XML.md",
+    "Asignaturas/LDM/work/xml/rss/ac2_RSS/actividad2_RSS.md",
+    "Asignaturas/LDM/work/xml/rss/ac1_RSS/actividad1_RSS.md",
+    "Asignaturas/LDM/work/webpage_project/images/sslogo.svg",
+    "Asignaturas/LDM/work/webpage_project/images/PUNK.jpg",
+    "Asignaturas/LDM/work/webpage_project/images/PROJECTS.svg",
+    "Asignaturas/LDM/work/webpage_project/images/project4.png",
+    "Asignaturas/LDM/work/webpage_project/images/project3.jpg",
+    "Asignaturas/LDM/work/webpage_project/images/project2.jpg",
+    "Asignaturas/LDM/work/xq/Actividades XQ.md",
+    "Asignaturas/LDM/work/sgi/SGI.md",
+    "Asignaturas/LDM/work/repaso/re_xslt.md",
+    "Asignaturas/ED/work/testing/Calculadora/README.md",
+    "Asignaturas/ED/work/testing/ac4_ed/ej4_ed_testing.md",
+    "Asignaturas/ED/work/pseudocodigo/ex15_ud6_sidneysb.md",
+    "Asignaturas/ED/work/pseudocodigo/ex10_ud6_sidney.md",
+    "Asignaturas/ED/work/pseudocodigo/Ejercicios Tema 6 ED.md",
+    "Asignaturas/ED/work/diagrams_notes/Diagrama de seqüència.md",
+    "Asignaturas/ED/work/diagrams_notes/Diagrama de comunicació.md",
+    "Asignaturas/ED/work/diagrams_notes/Diagrama d'estat.md",
+    "Asignaturas/BD/work/cinema_db_stuff/24-01-23.canvas",
+    "Asignaturas/BD/notes/Examen/Canvas Examen.canvas",
+    "Asignaturas/bd/work/cinema_db_stuff/24-01-23.canvas",
+    "Asignaturas/bd/notes/Examen/Canvas Examen.canvas",
+    "Asignaturas/p/notes/Interficies.canvas"
   ]
 }

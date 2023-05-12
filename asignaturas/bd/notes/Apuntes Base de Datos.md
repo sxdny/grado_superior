@@ -610,7 +610,58 @@ The tables relate with each other.
 
 *Samsung Notes*
 
+## 📓 2023-05-10
 
+### JSON Methods
 
+#### JSON_INSERT
 
+This method inserts a new row on the JSON document.
+
+Example:
+
+````sql
+UPDATE vehicles
+SET vehicles_extras = JSON_INSERT(vehicles_extras, '$.extras.bikesupport', 'false')
+WHERE vehicle_id = 2;
+````
+
+#### JSON_SET
+
+This method updates the column specified.
+
+With a SELECT (the database doesn't change):
+
+````sql
+SELECT JSON_SET(vehicles_extras, '$.extras.soporte_sidecar', 'true') 
+FROM vehicles;
+````
+
+With a UPDATE (it updates the database):
+
+````sql
+UPDATE vehicles
+SET vehicles_extras = JSON_SET(vehicles_extras,'$.extras.soporte_sidecar','true');
+````
+
+#### JSON_LOOSE
+
+Add spaces to a JSON document to make it more readable.
+
+````sql
+JSON_LOOSE(vehicles_extras);
+````
+
+#### JSON_SEARCH
+
+Searches for a match in the JSON document.
+
+````sql
+SELECT JSON_SEARCH(vehicles_extras, 'one', 'true', NULL, '$.extras') AS searchJSON
+FROM vehicles;
+````
+
+On this example, I'm looking on all the fields that come after `$.extras` which keys are `true`.
+
+#### JSON_ARRAY_INSERT
 
