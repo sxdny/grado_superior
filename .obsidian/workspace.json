@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Asignaturas/ldm/work/xq/Actividades XQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Asignaturas/ldm/work/xq/Actividades XQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Asignaturas/ldm/work/xq/Actividades XQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Asignaturas/ldm/work/xq/Actividades XQ.md"
               }
             }
           }
@@ -138,18 +138,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "ea7307264f5d43ad",
   "lastOpenFiles": [
+    "Pasted image 20230512141634.png",
+    "Pasted image 20230512141254.png",
+    "Pasted image 20230512140432.png",
+    "README.md",
     "Excalidraw/ED - Repaso JUnit.md",
     "Asignaturas/ED/notes/Repaso Examen ED Recuperación.md",
     "Asignaturas/SIN/work/subnetting/ejercicios.md",
@@ -184,8 +188,6 @@
     "Asignaturas/LDM/work/webpage_project/images/PUNK.jpg",
     "Asignaturas/LDM/work/webpage_project/images/PROJECTS.svg",
     "Asignaturas/LDM/work/webpage_project/images/project4.png",
-    "Asignaturas/LDM/work/webpage_project/images/project3.jpg",
-    "Asignaturas/LDM/work/webpage_project/images/project2.jpg",
     "Asignaturas/LDM/work/xq/Actividades XQ.md",
     "Asignaturas/LDM/work/sgi/SGI.md",
     "Asignaturas/LDM/work/repaso/re_xslt.md",
@@ -195,8 +197,6 @@
     "Asignaturas/ED/work/pseudocodigo/ex10_ud6_sidney.md",
     "Asignaturas/ED/work/pseudocodigo/Ejercicios Tema 6 ED.md",
     "Asignaturas/ED/work/diagrams_notes/Diagrama de seqüència.md",
-    "Asignaturas/ED/work/diagrams_notes/Diagrama de comunicació.md",
-    "Asignaturas/ED/work/diagrams_notes/Diagrama d'estat.md",
     "Asignaturas/BD/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/BD/notes/Examen/Canvas Examen.canvas",
     "Asignaturas/bd/work/cinema_db_stuff/24-01-23.canvas",
