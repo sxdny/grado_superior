@@ -662,3 +662,6 @@ FROM vehicles;
 ````
 
 On this example, I'm looking on all the fields that come after `$.extras` which keys are `true`.
+
+#### JSON_ARRAY_INSERT
+
