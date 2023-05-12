@@ -126,9 +126,16 @@ public class Programa {
 
         codigo.generarCodigoAleatorio(codigo, colores); // generamos el código secreto
 
+        System.out.println("PARTIDA EMPEZADA!");
+
         System.out.println("Codigo secreto: " + codigo.toString()); // respuesta (para testing)
 
         do {
+
+            // TODO hacer método para la puntiación de las partidas y guardar información partidas en el archivoº
+
+            System.out.println();
+
             System.out.println("Introduce una serie de 4 colores:");
 
             for (int i = 0; i < inputUsuario.length; i++) { // capturamos el input del usuario posición por posición
@@ -288,8 +295,7 @@ public class Programa {
 
         System.out.println();
 
-        // hacer while loop
-        do {
+        do { // mientras no se haya seleccionado un id de usuario válido, este bucle se repetirá
 
             idUser = sc.nextInt();
             sc.nextLine();
@@ -297,6 +303,7 @@ public class Programa {
             for (Usuario usuario : usuariosArchivo) {
                 if (idUser == usuario.getId()) {
                     usuarioActual = usuario;
+                    
                     select = true;
                 }
             }
@@ -310,7 +317,7 @@ public class Programa {
 
         } while (select == false);
 
-        System.out.println();
+        System.out.println(); // información del usuario seleccionado
         System.out.println("Usuario seleccionado:");
         System.out.println(usuarioActual.toString());
         System.out.println();
