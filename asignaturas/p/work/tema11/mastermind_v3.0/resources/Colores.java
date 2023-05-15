@@ -1,5 +1,6 @@
 package resources;
 
+
 public class Colores {
     
     String[] set = new String[] {"R", "G", "B", "M", "Y", "C"};

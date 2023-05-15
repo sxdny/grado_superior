@@ -1,8 +1,9 @@
 package resources;
 
+import java.io.Serializable;
 import java.util.Arrays;
 
-public class Codigo {
+public class Codigo implements Serializable {
     
     public String[] codigo = new String[4];
 
@@ -23,8 +24,6 @@ public class Codigo {
     public void setCodigo(String[] codigo) {
         this.codigo = codigo;
     }
-
-    
 
     @Override
     public String toString() {
