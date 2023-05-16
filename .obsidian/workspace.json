@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ea7307264f5d43ad",
+            "id": "82c26e3d4cd094f5",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/SIN - Subnetting ejercicio.md"
+                "file": "excalidraw/notas2023-05-16.excalidraw.md"
               }
             }
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/SIN - Subnetting ejercicio.md",
+                "file": "excalidraw/notas2023-05-16.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/SIN - Subnetting ejercicio.md",
+                "file": "excalidraw/notas2023-05-16.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/SIN - Subnetting ejercicio.md"
+                "file": "excalidraw/notas2023-05-16.excalidraw.md"
               }
             }
           }
@@ -146,8 +146,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ea7307264f5d43ad",
+  "active": "82c26e3d4cd094f5",
   "lastOpenFiles": [
+    "Excalidraw/SIN - Subnetting ejercicio.md",
+    "Excalidraw/notas2023-05-16.excalidraw.md",
+    "excalidraw/notas2023-05-16.excalidraw.md",
     "Excalidraw/SIN - Subnetting.md",
     "Excalidraw/notas2023-05-15.excalidraw.md",
     "Excalidraw/notas2023-05-15_2.excalidraw.md",
@@ -189,9 +192,6 @@
     "Asignaturas/P/notes/Apuntes Programacion.md",
     "Asignaturas/LDM/work/xml/xml/ac4_XML/s23wallpaper.jpg",
     "Asignaturas/LDM/work/xml/xml/ac3_XML/actividad3XML.md",
-    "Asignaturas/LDM/work/xml/xml/ac2_XML/actividad2XML.md",
-    "Asignaturas/LDM/work/xml/rss/ac2_RSS/actividad2_RSS.md",
-    "Asignaturas/LDM/work/xml/rss/ac1_RSS/actividad1_RSS.md",
     "Asignaturas/LDM/work/webpage_project/images/sslogo.svg",
     "Asignaturas/LDM/work/webpage_project/images/PUNK.jpg",
     "Asignaturas/LDM/work/webpage_project/images/PROJECTS.svg",
