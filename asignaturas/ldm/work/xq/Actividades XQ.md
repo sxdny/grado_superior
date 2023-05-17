@@ -77,3 +77,118 @@ Output:
 **d) Haz un listado de cada profesor con su baile, en formato listado y
 formato XML**
 
+Código:
+
+````xquery
+<bailes> {
+for $x in /bailes/baile
+return
+  <baile>
+        {$x/profesor}
+        {$x/nombre}
+  </baile>     
+}
+</bailes>
+````
+
+Output:
+
+![[Pasted image 20230517100845.png]]
+
+````xml
+<bailes>
+    <baile>
+        <profesor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Roberto Garcia</profesor>
+        <nombre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Tango </nombre>
+    </baile>
+    <baile>
+        <profesor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Miriam Gutiérreza</profesor>
+        <nombre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Cha-cha-cha </nombre>
+    </baile>
+    <baile>
+        <profesor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Laura Mendiola</profesor>
+        <nombre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Rock </nombre>
+    </baile>
+    <baile>
+        <profesor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jesús Lozano</profesor>
+        <nombre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Merengue </nombre>
+    </baile>
+    <baile>
+        <profesor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jesús Lozano</profesor>
+        <nombre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Salsa </nombre>
+    </baile>
+    <baile>
+        <profesor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Miriam Gutierrez</profesor>
+        <nombre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pasodoble </nombre>
+    </baile>
+</bailes>
+````
+
+**e) Haz un listado ordenado por nombre de los bailes.**
+
+Código:
+
+````xquery
+for $x in /bailes/baile
+order by $x/nombre
+return concat("- ", $x/nombre)
+````
+
+Output:
+
+![[Pasted image 20230517101605.png]]
+
+**f) Listado ordenado por nombre de los bailes que se paguen en euros.**
+
+Código:
+
+````xquery
+for $x in /bailes/baile
+order by $x/nombre
+where $x/precio/@moneda = 'euro'
+return concat("- ", $x/nombre)
+````
+
+Output:
+
+![[Pasted image 20230517101847.png]]
+
+**g) Bailes que tengan menos de 20 plazas y se paguen en dólares.**
+
+Código:
+
+````xquery
+for $x in /bailes/baile
+order by $x/nombre
+where $x/precio/@moneda = 'dolares' and $x/plazas < 20
+return concat("- ", $x/nombre)
+````
+
+Output:
+
+![[Pasted image 20230517102120.png]]
+
+**h) Insertar un nodo baile (id: 7, nombre: Reggaeton, cuota: mensual, moneda: euro, precio: 82, plazas:9, comienzo: 09/06/2012, professor: Esteban Quito i sala:1)**
+
+Código:
+
+````xquery
+insert node
+<baile id="7">
+<nombre>Reggaeton</nombre>
+ <precio cuota="mensual" moneda="euro">82</precio>
+ <plazas>9</plazas>
+ <comienzo>9/06/2012</comienzo>
+ <profesor>Esteban Quito</profesor>
+ <sala>1</sala>
+</baile>
+  into /bailes
+````
+
+Output:
+
+![[Pasted image 20230517144711.png]]
+
+**i) Modificar el precio del nuevo nodo a 96 euros.**
+
+

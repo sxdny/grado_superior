@@ -11,9 +11,11 @@
             "id": "82c26e3d4cd094f5",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "excalidraw/notas2023-05-16.excalidraw.md"
+                "file": "Asignaturas/ldm/work/xq/Actividades XQ.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "excalidraw/notas2023-05-16.excalidraw.md",
+                "file": "Asignaturas/ldm/work/xq/Actividades XQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "excalidraw/notas2023-05-16.excalidraw.md",
+                "file": "Asignaturas/ldm/work/xq/Actividades XQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "excalidraw/notas2023-05-16.excalidraw.md"
+                "file": "Asignaturas/ldm/work/xq/Actividades XQ.md"
               }
             }
           }
@@ -148,6 +150,11 @@
   },
   "active": "82c26e3d4cd094f5",
   "lastOpenFiles": [
+    "Pasted image 20230517144711.png",
+    "images/Pasted image 20230517102120.png",
+    "images/Pasted image 20230517101847.png",
+    "images/Pasted image 20230517101605.png",
+    "images/Pasted image 20230517100845.png",
     "Excalidraw/SIN - Subnetting ejercicio.md",
     "Excalidraw/notas2023-05-16.excalidraw.md",
     "excalidraw/notas2023-05-16.excalidraw.md",
@@ -161,9 +168,9 @@
     "excalidraw/notas2023-05-15_1.excalidraw.md",
     "Excalidraw/notas2023-05-15_1.excalidraw.md",
     "Excalidraw/notas2023-05-15_0.excalidraw.md",
-    "Pasted image 20230512141634.png",
-    "Pasted image 20230512141254.png",
-    "Pasted image 20230512140432.png",
+    "images/Pasted image 20230512141634.png",
+    "images/Pasted image 20230512141254.png",
+    "images/Pasted image 20230512140432.png",
     "README.md",
     "Excalidraw/ED - Repaso JUnit.md",
     "Asignaturas/ED/notes/Repaso Examen ED Recuperación.md",
@@ -190,11 +197,6 @@
     "Asignaturas/P/notes/Java.md",
     "Asignaturas/P/notes/Interficies.canvas",
     "Asignaturas/P/notes/Apuntes Programacion.md",
-    "Asignaturas/LDM/work/xml/xml/ac4_XML/s23wallpaper.jpg",
-    "Asignaturas/LDM/work/xml/xml/ac3_XML/actividad3XML.md",
-    "Asignaturas/LDM/work/webpage_project/images/sslogo.svg",
-    "Asignaturas/LDM/work/webpage_project/images/PUNK.jpg",
-    "Asignaturas/LDM/work/webpage_project/images/PROJECTS.svg",
     "Asignaturas/BD/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/BD/notes/Examen/Canvas Examen.canvas",
     "Asignaturas/bd/work/cinema_db_stuff/24-01-23.canvas",
