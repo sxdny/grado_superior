@@ -191,4 +191,28 @@ Output:
 
 **i) Modificar el precio del nuevo nodo a 96 euros.**
 
+Código:
+
+````xquery
+for $x in /bailes/baile[@id=7]
+return replace value of node $x/precio with 96
+````
+
+Output:
+
+==TO-DO hacer output.==
+
+**j) Eliminar el nodo creado a partir de su identificador.**
+
+Código:
+
+````xquery
+delete node /bailes/baile[@id=7]
+````
+
+Output:
+
+==TO-DO hacer output.==
+
+4. **Cread una nueva BD a partir de BDbailes.xml.**
 
