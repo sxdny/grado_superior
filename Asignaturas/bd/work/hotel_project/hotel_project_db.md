@@ -29,3 +29,22 @@ Algunos servicios que se podrián ofrecer en una habitación de hotel:
 - Calefacción.
 - Electricidad (220W)
 - Regalo.
+
+## Trigger pizarra.
+
+Ejemplo de trigger para la database `hotels`:
+
+````sql
+CREATE TRIGGER tr_reservas_historic
+AFTER UPDATE ON reservas 
+FOR EACH ROW 
+BEGIN
+	SET @reserva_id_rm = SELECT reserva_id FROM reserva WHERE NEW.available = false;
+	IF NEW.available = false THEN
+			INSERT INTO historic
+			VALUES SELECT * FROM reservas WHERE reserva_id = @reserva_id_rm;
+			DELETE * FROM reservas
+			WHERE reserva_id = @reserva_id_rm;
+	END IF;
+END
+````

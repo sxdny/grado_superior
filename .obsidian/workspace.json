@@ -4,22 +4,76 @@
     "type": "split",
     "children": [
       {
-        "id": "69e846dce3404ab9",
+        "id": "f6e83a1430005179",
         "type": "tabs",
+        "dimension": 40.77906269020085,
         "children": [
           {
-            "id": "82c26e3d4cd094f5",
+            "id": "6b17b2325fd47fd2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asignaturas/ldm/work/xq/Actividades XQ.md",
+                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ]
+      },
+      {
+        "id": "dc0e39f37b3c051b",
+        "type": "split",
+        "dimension": 59.22093730979915,
+        "children": [
+          {
+            "id": "0da564f534e6e1f6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0ee3e2cdfa1236b7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Asignaturas/bd/notes/Apuntes Base de Datos.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "af2a0f3c0a4787eb",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/notas2023-05-18.excalidraw.md"
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "0dc82cd77c858203",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b6a5cc46ad870761",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/BD - Hotel Project.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -69,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5,
-    "collapsed": true
+    "width": 233.5
   },
   "right": {
     "id": "0d634603d8eb463d",
@@ -86,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/ldm/work/xq/Actividades XQ.md",
+                "file": "Excalidraw/BD - Hotel Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/ldm/work/xq/Actividades XQ.md",
+                "file": "Excalidraw/BD - Hotel Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/ldm/work/xq/Actividades XQ.md"
+                "file": "Excalidraw/BD - Hotel Project.md"
               }
             }
           }
@@ -149,11 +202,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "82c26e3d4cd094f5",
+  "active": "b6a5cc46ad870761",
   "lastOpenFiles": [
-    "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
-    "Asignaturas/ldm/work/xq/Actividades XQ.md",
+    "Excalidraw/notas2023-05-18.excalidraw.md",
     "Excalidraw/BD - Hotel Project.md",
+    "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
+    "Asignaturas/bd/notes/Apuntes Base de Datos.md",
+    "excalidraw/notas2023-05-18.excalidraw.md",
+    "Asignaturas/ldm/work/xq/Actividades XQ.md",
     "Asignaturas/bd/work/hotel_project",
     "Excalidraw/notas2023-05-15_2.excalidraw.md",
     "Excalidraw/SIN - Subnetting ejercicio.md",
@@ -194,10 +250,7 @@
     "Asignaturas/P/work/images/Pasted image 20230125095047.png",
     "Asignaturas/P/notes/Repaso Examen Java Tema 6.md",
     "Asignaturas/P/notes/notas_lluc_fitxers.md",
-    "Asignaturas/P/notes/Recursividad.md",
-    "Asignaturas/P/notes/Java.md",
     "Asignaturas/P/notes/Interficies.canvas",
-    "Asignaturas/P/notes/Apuntes Programacion.md",
     "Asignaturas/BD/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/BD/notes/Examen/Canvas Examen.canvas",
     "Asignaturas/bd/work/cinema_db_stuff/24-01-23.canvas",
