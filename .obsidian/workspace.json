@@ -8,6 +8,22 @@
         "type": "tabs",
         "children": [
           {
+            "id": "b0af92777ef9e4a2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/BD - Hotel Project.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "33d66594fa2eb392",
+        "type": "tabs",
+        "children": [
+          {
             "id": "6b17b2325fd47fd2",
             "type": "leaf",
             "state": {
@@ -18,21 +34,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b0af92777ef9e4a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Asignaturas/ED/work/dchp/actividad_dhcp.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/ED/work/dchp/actividad_dhcp.md",
+                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/ED/work/dchp/actividad_dhcp.md",
+                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/ED/work/dchp/actividad_dhcp.md"
+                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md"
               }
             }
           }
@@ -161,12 +164,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b0af92777ef9e4a2",
+  "active": "6b17b2325fd47fd2",
   "lastOpenFiles": [
+    "Excalidraw/BD - Hotel Project.md",
     "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
+    "Excalidraw/BD - JSON.md",
     "Asignaturas/ED/work/dchp/actividad_dhcp.md",
     "Asignaturas/ED/work/dchp",
-    "Excalidraw/BD - Hotel Project.md",
     "Excalidraw/notas2023-05-18.excalidraw.md",
     "Asignaturas/bd/notes/Apuntes Base de Datos.md",
     "excalidraw/notas2023-05-18.excalidraw.md",
@@ -208,7 +212,6 @@
     "Asignaturas/P/work/tema8/actividades/ej8_4/Programa.class",
     "Asignaturas/P/work/tema11/mine.png",
     "Asignaturas/P/work/images/Pasted image 20230125095047.png",
-    "Asignaturas/P/notes/Repaso Examen Java Tema 6.md",
     "Asignaturas/P/notes/Interficies.canvas",
     "Asignaturas/BD/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/BD/notes/Examen/Canvas Examen.canvas",
