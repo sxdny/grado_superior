@@ -200,7 +200,7 @@ return replace value of node $x/precio with 96
 
 Output:
 
-==TO-DO hacer output.==
+![[Pasted image 20230517230620.png]]
 
 **j) Eliminar el nodo creado a partir de su identificador.**
 
@@ -212,7 +212,40 @@ delete node /bailes/baile[@id=7]
 
 Output:
 
-==TO-DO hacer output.==
+![[Pasted image 20230517230641.png]]
 
-4. **Cread una nueva BD a partir de BDbailes.xml.**
+4. **Realizar la consulta XQuery cuyo resultado sea una tabla HTML que nos muestre el nombre del baile, el profesor que lo imparte y número de plazas ofertadas.**
+
+Código:
+
+````xquery
+<body>
+  <h1>Bailes ofertados</h1>
+  <table border="1">
+  <tr>
+    <th>Nombre baile</th>
+    <th>Nombre profesor</th>
+    <th>Plazas ofertadas</th>
+  </tr>
+  <tr>
+  {
+    for $x in /bailes/baile
+    return
+    <tr>
+      <td>{$x/nombre}</td>
+      <td>{$x/profesor}</td>
+      <td>{$x/plazas}</td>
+    </tr>
+  }
+  </tr>
+  </table>
+</body>
+````
+
+Output:
+
+![[Pasted image 20230517231240.png]]
+
+
+
 

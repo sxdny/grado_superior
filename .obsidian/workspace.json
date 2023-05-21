@@ -4,16 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "f6e83a1430005179",
+        "id": "fa4587436e1de487",
         "type": "tabs",
         "children": [
           {
-            "id": "752e4c5be03571dc",
+            "id": "b00eeeed9ed878f2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/BD - Hotel Project.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "e813af65ccb7f1a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc9d24ff0975f8e6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asignaturas/ldm/work/json/actividades_json.md",
+                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/ldm/work/json/actividades_json.md",
+                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/ldm/work/json/actividades_json.md",
+                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/ldm/work/json/actividades_json.md"
+                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md"
               }
             }
           }
@@ -148,14 +164,57 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "752e4c5be03571dc",
+  "floating": {
+    "id": "7d6561edb992e5ee",
+    "type": "floating",
+    "children": [
+      {
+        "id": "fd492a23e678acae",
+        "type": "window",
+        "children": [
+          {
+            "id": "81c5ee9b7bf10920",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6f189ae5c459b18b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 0,
+        "width": 960,
+        "height": 1040,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "6f189ae5c459b18b",
   "lastOpenFiles": [
+    "Asignaturas/bd/work/databases/hotel.sql",
+    "Asignaturas/bd/work/databases/Sin confirmar 644365.crdownload",
+    "Excalidraw/BD - Hotel Project.md",
+    "Asignaturas/bd/work/databases/hotel_backup.sql",
+    "Asignaturas/bd/work/databases/Sin confirmar 434220.crdownload",
+    "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
+    "Asignaturas/bd/work/hotel_project/json_caracteristicas_habitaciones.json",
+    "Asignaturas/bd/work/repaso_examen_bd.md",
+    "Asignaturas/ldm/work/json/actividades_json.md",
     "actividades_json.pdf",
     "Asignaturas/ldm/work/json/jsonldm.json",
-    "Excalidraw/BD - Hotel Project.md",
-    "Asignaturas/ldm/work/json/actividades_json.md",
     "Asignaturas/ldm/work/json",
-    "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
     "Excalidraw/BD - JSON.md",
     "Asignaturas/ED/work/dchp/actividad_dhcp.md",
     "Asignaturas/ED/work/dchp",
@@ -188,12 +247,6 @@
     "Asignaturas/ED/notes/Repaso Examen ED Recuperación.md",
     "Asignaturas/SIN/work/subnetting/ejercicios.md",
     "Asignaturas/SIN/work/subnetting/ejercicio18_SIN.pdf",
-    "Asignaturas/SIN/work/subnetting/ejercicio18.pdf",
-    "Asignaturas/SIN/work/subnetting",
-    "Asignaturas/SIN/notes/Repaso Examen ED Recuperación.md",
-    "Asignaturas/SIN/work",
-    "Asignaturas/SIN/notes",
-    "Asignaturas/SIN",
     "Asignaturas/P/work/tema11/mine.png",
     "Asignaturas/P/work/images/Pasted image 20230125095047.png",
     "Asignaturas/P/notes/Interficies.canvas",

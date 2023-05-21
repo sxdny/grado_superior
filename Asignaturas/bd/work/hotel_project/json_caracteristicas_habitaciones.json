@@ -1,0 +1,7 @@
+{
+    "wifi" : false,
+    "aire_acondicionado" : false,
+    "interior" : false,
+    "terraza" : true,
+    "piscina" : false
+}
