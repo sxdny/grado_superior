@@ -50,6 +50,8 @@ Pueden existir más, pero de momento solo tendremos estos.
 
 ## Creación de tablas en la base de datos.
 
+==Actualizar estas tablas.==
+
 - En la tabla `empleados`, donde `id_local`, los valores `NULL` significa que trabajan para el Hotel.
 
 ````sql
