@@ -4,35 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "fa4587436e1de487",
+        "id": "6a42fb3284c2f347",
         "type": "tabs",
         "children": [
           {
-            "id": "b00eeeed9ed878f2",
+            "id": "59c40954de92af56",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/BD - Hotel Project.md"
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "e813af65ccb7f1a5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "cc9d24ff0975f8e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -101,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/BD - Hotel Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/BD - Hotel Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,17 +118,15 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Excalidraw/BD - Hotel Project.md"
-              }
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,36 +140,43 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b00eeeed9ed878f2",
+  "active": "59c40954de92af56",
   "lastOpenFiles": [
+    "pdfs/actividad_dhcp.pdf",
+    "pdfs",
+    "Asignaturas/sin/work/dchp/actividad_dhcp.md",
+    "images/Pasted image 20230522174239.png",
+    "images/Pasted image 20230522174140.png",
+    "images/Pasted image 20230522173731.png",
+    "images/Pasted image 20230522173554.png",
+    "images/Pasted image 20230522173339.png",
+    "images/Pasted image 20230522172906.png",
+    "images/Pasted image 20230522172812.png",
+    "images/Pasted image 20230522172631.png",
+    "images/Pasted image 20230522171948.png",
+    "images/Pasted image 20230522171727.png",
+    "Asignaturas/sin/work/dhcp/actividad_dhcp_sidneysilva.md",
+    "Excalidraw/BD - Hotel Project.md",
+    "Asignaturas/sin/work/dhcp",
     "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
     "Asignaturas/bd/work/databases/hotel.sql",
     "Asignaturas/bd/work/databases/Sin confirmar 644365.crdownload",
-    "Excalidraw/BD - Hotel Project.md",
     "Asignaturas/bd/work/databases/hotel_backup.sql",
     "Asignaturas/bd/work/databases/Sin confirmar 434220.crdownload",
     "Asignaturas/bd/work/hotel_project/json_caracteristicas_habitaciones.json",
     "Asignaturas/bd/work/repaso_examen_bd.md",
     "Asignaturas/ldm/work/json/actividades_json.md",
-    "actividades_json.pdf",
+    "pdfs/actividades_json.pdf",
     "Asignaturas/ldm/work/json/jsonldm.json",
     "Asignaturas/ldm/work/json",
     "Excalidraw/BD - JSON.md",
-    "Asignaturas/ED/work/dchp/actividad_dhcp.md",
-    "Asignaturas/ED/work/dchp",
     "Excalidraw/notas2023-05-18.excalidraw.md",
     "Asignaturas/bd/notes/Apuntes Base de Datos.md",
     "excalidraw/notas2023-05-18.excalidraw.md",
     "Asignaturas/ldm/work/xq/Actividades XQ.md",
-    "Asignaturas/bd/work/hotel_project",
     "Excalidraw/notas2023-05-15_2.excalidraw.md",
     "Excalidraw/SIN - Subnetting ejercicio.md",
     "Excalidraw/SIN - Subnetting.md",
-    "images/Pasted image 20230517144711.png",
-    "images/Pasted image 20230517102120.png",
-    "images/Pasted image 20230517101847.png",
-    "images/Pasted image 20230517101605.png",
-    "images/Pasted image 20230517100845.png",
     "excalidraw/notas2023-05-16.excalidraw.md",
     "Excalidraw/notas2023-05-15.excalidraw.md",
     "excalidraw/notas2023-05-15_2.excalidraw.md",
@@ -202,15 +185,9 @@
     "excalidraw/notas2023-05-15_1.excalidraw.md",
     "Excalidraw/notas2023-05-15_1.excalidraw.md",
     "Excalidraw/notas2023-05-15_0.excalidraw.md",
-    "images/Pasted image 20230512141634.png",
-    "images/Pasted image 20230512141254.png",
-    "images/Pasted image 20230512140432.png",
     "README.md",
     "Excalidraw/ED - Repaso JUnit.md",
     "Asignaturas/ED/notes/Repaso Examen ED Recuperación.md",
-    "Asignaturas/SIN/work/subnetting/ejercicios.md",
-    "Asignaturas/P/work/tema11/mine.png",
-    "Asignaturas/P/work/images/Pasted image 20230125095047.png",
     "Asignaturas/P/notes/Interficies.canvas",
     "Asignaturas/BD/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/BD/notes/Examen/Canvas Examen.canvas",
