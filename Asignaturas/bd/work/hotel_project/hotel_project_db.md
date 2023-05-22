@@ -126,7 +126,20 @@ CREATE TABLE historic (
 Query para insertar **datos aleatorios** en la tabla `clientes`:
 
 ````sql
-INSERT INTO clientes (id, nombre, DNI, email, telefono, metodo_pago) SELECT ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS id, CONCAT(nombres.nombre, ' ', apellidos.apellido) AS nombre, CONCAT(FLOOR(RAND() * 89999999) + 10000000, LEFT(DNI, 1)) AS DNI, CONCAT(LEFT(nombre, 1), REPLACE(apellido, ' ', ''), '@', dominios.dominio) AS email, CONCAT('9', FLOOR(RAND() * 89999999) + 10000000) AS telefono, metodos_pago.metodo AS metodo_pago FROM (SELECT 'Juan' AS nombre UNION SELECT 'María' UNION SELECT 'Pedro' UNION SELECT 'Ana') AS nombres, (SELECT 'Gómez' AS apellido UNION SELECT 'López' UNION SELECT 'García' UNION SELECT 'Martínez') AS apellidos, (SELECT '12345678A' AS DNI UNION SELECT '23456789B' UNION SELECT '34567890C' UNION SELECT '45678901D') AS DNI, (SELECT 'gmail.com' AS dominio UNION SELECT 'yahoo.com' UNION SELECT 'hotmail.com' UNION SELECT 'outlook.com') AS dominios, (SELECT 'Tarjeta' AS metodo UNION SELECT 'Transferencia' UNION SELECT 'PayPal' UNION SELECT 'Efectivo') AS metodos_pago LIMIT 500;
+INSERT INTO clientes (id, nombre, DNI, email, telefono, metodo_pago)
+SELECT
+    ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS id,
+    CONCAT(nombres.nombre, ' ', apellidos.apellido) AS nombre,
+    CONCAT(FLOOR(RAND() * 89999999) + 10000000, LEFT(DNI, 1)) AS DNI,
+    CONCAT(LEFT(nombre, 1), REPLACE(apellido, ' ', ''), '@', dominios.dominio) AS email,
+    CONCAT('9', FLOOR(RAND() * 89999999) + 10000000) AS telefono,
+    metodos_pago.metodo AS metodo_pago FROM
+(SELECT 'Juan' AS nombre UNION SELECT 'María' UNION SELECT 'Pedro' UNION SELECT 'Ana') AS nombres,
+(SELECT 'Gómez' AS apellido UNION SELECT 'López' UNION SELECT 'García' UNION SELECT 'Martínez') AS apellidos,
+(SELECT '12345678A' AS DNI UNION SELECT '23456789B' UNION SELECT '34567890C' UNION SELECT '45678901D') AS DNI,
+(SELECT 'gmail.com' AS dominio UNION SELECT 'yahoo.com' UNION SELECT 'hotmail.com' UNION SELECT 'outlook.com') AS dominios,
+(SELECT 'Tarjeta' AS metodo UNION SELECT 'Transferencia' UNION SELECT 'PayPal' UNION SELECT 'Efectivo') AS metodos_pago
+LIMIT 500;
 ````
 
 Query para insertar locales aleatorios **que no se repiten** en `locales`:

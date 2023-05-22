@@ -177,6 +177,17 @@ SELECT car_id
 FROM reservations as r1;
 ````
 
+Improvement:
+
+````sql
+SELECT DISTINCT(car_id), COUNT(car_id)
+	(SELECT COUNT(car_id)
+	FROM reservations AS r2
+	WHERE r1.car_id = r1.car_id) AS count
+FROM reservations AS r1
+ORDER BY count;
+````
+
 ## CREATE PROCEDURE
 
 ## CREATE FUNCTION

@@ -11,11 +11,46 @@
             "id": "59c40954de92af56",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Asignaturas/bd/notes/Apuntes Base de Datos.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
+      },
+      {
+        "id": "3aaf9c19d44cef41",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3e68754ac5c0f58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Asignaturas/bd/work/repaso_examen_bd.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "246887f323abacc0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "trigger.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "trigger.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "trigger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +155,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "trigger.md"
+              }
             }
           }
         ],
@@ -137,11 +176,30 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-projects:Open projects": false
     }
   },
-  "active": "59c40954de92af56",
+  "active": "246887f323abacc0",
   "lastOpenFiles": [
+    "Asignaturas/bd/work/repaso_examen_bd.md",
+    "trigger.md",
+    "Asignaturas/bd/notes/Apuntes Base de Datos.md",
+    "Asignaturas/bd/notes/Examen/Repaso Examen 30-03-2023 1.md",
+    "Asignaturas/bd/notes/Examen/Examen_rentacar.md",
+    "Asignaturas/bd/notes/Examen/Examen BD.md",
+    "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
+    "Asignaturas/ED/work/refactor/Criba.java",
+    "Asignaturas/ED/work/refactor",
+    "Asignaturas/ED/work/Nueva carpeta",
+    "pdfs/Refactor Like a Superhero.pdf",
+    "pdfs/refactor-like-a-superhero-en.pdf",
+    "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
+    "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
+    "Projects - Demo Project/Why You Should Be Taking More Notes.md",
+    "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
+    "Projects - Demo Project/The Best Notes You'll Ever Make.md",
+    "Projects - Demo Project",
     "pdfs/actividad_dhcp.pdf",
     "pdfs",
     "Asignaturas/sin/work/dchp/actividad_dhcp.md",
@@ -158,20 +216,10 @@
     "Asignaturas/sin/work/dhcp/actividad_dhcp_sidneysilva.md",
     "Excalidraw/BD - Hotel Project.md",
     "Asignaturas/sin/work/dhcp",
-    "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
     "Asignaturas/bd/work/databases/hotel.sql",
-    "Asignaturas/bd/work/databases/Sin confirmar 644365.crdownload",
-    "Asignaturas/bd/work/databases/hotel_backup.sql",
-    "Asignaturas/bd/work/databases/Sin confirmar 434220.crdownload",
-    "Asignaturas/bd/work/hotel_project/json_caracteristicas_habitaciones.json",
-    "Asignaturas/bd/work/repaso_examen_bd.md",
     "Asignaturas/ldm/work/json/actividades_json.md",
-    "pdfs/actividades_json.pdf",
-    "Asignaturas/ldm/work/json/jsonldm.json",
-    "Asignaturas/ldm/work/json",
     "Excalidraw/BD - JSON.md",
     "Excalidraw/notas2023-05-18.excalidraw.md",
-    "Asignaturas/bd/notes/Apuntes Base de Datos.md",
     "excalidraw/notas2023-05-18.excalidraw.md",
     "Asignaturas/ldm/work/xq/Actividades XQ.md",
     "Excalidraw/notas2023-05-15_2.excalidraw.md",
@@ -180,14 +228,6 @@
     "excalidraw/notas2023-05-16.excalidraw.md",
     "Excalidraw/notas2023-05-15.excalidraw.md",
     "excalidraw/notas2023-05-15_2.excalidraw.md",
-    "excalidraw/notas2023-05-15.excalidraw.md",
-    "excalidraw/notas2023-05-15_0.excalidraw.md",
-    "excalidraw/notas2023-05-15_1.excalidraw.md",
-    "Excalidraw/notas2023-05-15_1.excalidraw.md",
-    "Excalidraw/notas2023-05-15_0.excalidraw.md",
-    "README.md",
-    "Excalidraw/ED - Repaso JUnit.md",
-    "Asignaturas/ED/notes/Repaso Examen ED Recuperación.md",
     "Asignaturas/P/notes/Interficies.canvas",
     "Asignaturas/BD/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/BD/notes/Examen/Canvas Examen.canvas",
