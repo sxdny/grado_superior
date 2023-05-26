@@ -1,0 +1,166 @@
+[
+    {
+        "contenedor_grande": {
+            "envases": [
+                {
+                    "Grande ancho": {
+                        "liquidos": [
+                            {
+                                "tipo": "alimento",
+                                "texto": "agua"
+                            },
+                            {
+                                "tipo": "alimento",
+                                "texto": "agua"
+                            },
+                            {
+                                "tipo": "alimento",
+                                "texto": "aceite"
+                            },
+                            {
+                                "tipo": "alimento",
+                                "texto": "vinagre"
+                            }
+                        ]
+                    },
+                    "Grande alto": {
+                        "liquidos": [
+                            {
+                                "tipo": "alimento",
+                                "texto": "agua"
+                            },
+                            {
+                                "tipo": "alimento",
+                                "texto": "agua"
+                            },
+                            {
+                                "tipo": "alimento",
+                                "texto": "aceite"
+                            },
+                            {
+                                "tipo": "alimento",
+                                "texto": "vinagre"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "contenedor_mediano": {
+            "envases": [
+                {
+                    "Mediano_ancho": {
+                        "liquidos": [
+                            {
+                                "tipo": "alimento",
+                                "texto": "agua"
+                            },
+                            {
+                                "tipo": "alimento",
+                                "texto": "agua"
+                            },
+                            {
+                                "tipo": "alimento",
+                                "texto": "aceite"
+                            },
+                            {
+                                "tipo": "alimento",
+                                "texto": "vinagre"
+                            }
+                        ]
+                    },
+                    "Mediano alto": {
+                        "liquidos": [
+                            {
+                                "tipo": "sustancia_corrosiva",
+                                "nombre": "Gasolina"
+                            },
+                            {
+                                "tipo": "sustancia_corrosiva",
+                                "nombre": "Aguarrás"
+                            },
+                            {
+                                "tipo": "sustancia_corrosiva",
+                                "nombre": "Amoniaco"
+                            },
+                            {
+                                "tipo": "sustancia_corrosiva",
+                                "nombre": "Lejía"
+                            }
+                        ]
+                    },
+                    "Pequeño": {
+                        "liquidos": [
+                            {
+                                "tipo": "sustancia_corrosiva",
+                                "nombre": "Gasolina"
+                            },
+                            {
+                                "tipo": "sustancia_corrosiva",
+                                "nombre": "Aguarrás"
+                            },
+                            {
+                                "tipo": "sustancia_corrosiva",
+                                "nombre": "Amoniaco"
+                            },
+                            {
+                                "tipo": "sustancia_corrosiva",
+                                "nombre": "Lejía"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "contenedor_vertical": {
+            "envases": [
+                {
+                    "Grande alto": {
+                        "liquidos": [
+                            {
+                                "tipo": "alimento",
+                                "texto": "agua"
+                            },
+                            {
+                                "tipo": "alimento",
+                                "texto": "agua"
+                            },
+                            {
+                                "tipo": "alimento",
+                                "texto": "aceite"
+                            },
+                            {
+                                "tipo": "alimento",
+                                "texto": "vinagre"
+                            }
+                        ]
+                    },
+                    "Mediano alto": {
+                        "liquidos": [
+                            {
+                                "tipo": "sustancia_corrosiva",
+                                "nombre": "Gasolina"
+                            },
+                            {
+                                "tipo": "sustancia_corrosiva",
+                                "nombre": "Aguarrás"
+                            },
+                            {
+                                "tipo": "sustancia_corrosiva",
+                                "nombre": "Amoniaco"
+                            },
+                            {
+                                "tipo": "sustancia_corrosiva",
+                                "nombre": "Lejía"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+]

@@ -190,6 +190,45 @@ ORDER BY count;
 
 ## CREATE PROCEDURE
 
+Procedure example from the whiteboard:
+
+````sql
+
+````
+
 ## CREATE FUNCTION
+
+Function example from the whiteboard:
+
+````sql
+DELIMITER$$
+	CREATE FUNCTION euroToDollar (IN euros DECIMAL(10,2))
+	RETURNS DECIMAL(10, 2)
+	BEGIN 
+		RETURN SELECT euros * 1.0776 INTO dolars;
+	END
+DELIMITER;
+
+---
+
+DELIMITER $$
+CREATE FUNCTION euroToDollar(IN euros DECIMAL(10,2))
+RETURNS DECIMAL(10,2)
+BEGIN
+  RETURN (SELECT euros * 1.0776);
+END;
+$$
+DELIMITER;
+
+---
+
+SELECT euroToDollar(5);
+
+---
+
+| dolars | euros |
+|--------|-------|
+| 5      | x     |
+````
 
 

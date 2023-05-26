@@ -2,10 +2,13 @@
 
 ### Tema 9. Colecciones de elementos.
 
+> [!tip]
+> Consultar los "callouts" en la página de abajo.
+
 Enlace para callouts --> [aquí](https://help.obsidian.md/Editing+and+formatting/Callouts)
 [Enlace a la teoria del Tema 9 en el Classroom.](https://classroom.google.com/c/NTQ3OTA2ODI1NTg5/m/NTQ3OTA2ODI1NjU2/details)
 
-#### Tipos de clases.
+#### Tipo0s de clases.
 
 Clase normal:
 
@@ -164,4 +167,21 @@ dni.compareTo(dni2)
 ````java
 int compare(T o1, T o2) // Compara 2  objetos que no son del mismo tipo.
 ````
+
+## 📓 2023-05-26
+
+### Modelo.
+
+- Variables.
+- Métodos que modifican estas variables.
+
+### Vista
+
+- Entorno gráfico
+
+### Controlador = Modelo + Vista
+
+### Main.
+
+Crea un objeto de MODELO, VISTA y CONTROLADOR.
 

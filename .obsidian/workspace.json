@@ -18,32 +18,14 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "3aaf9c19d44cef41",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d3e68754ac5c0f58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Asignaturas/bd/work/repaso_examen_bd.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           },
           {
-            "id": "246887f323abacc0",
+            "id": "476e859c39b63d08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
+                "file": "Asignaturas/p/notes/Apuntes Programacion.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
+                "file": "Asignaturas/p/notes/Apuntes Programacion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
+                "file": "Asignaturas/p/notes/Apuntes Programacion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md"
+                "file": "Asignaturas/p/notes/Apuntes Programacion.md"
               }
             }
           }
@@ -165,7 +147,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,16 +163,21 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "246887f323abacc0",
+  "active": "476e859c39b63d08",
   "lastOpenFiles": [
-    "Asignaturas/bd/work/repaso_examen_bd.md",
-    "Asignaturas/bd/work/sql_cheatsheet.md",
     "Asignaturas/bd/notes/Apuntes Base de Datos.md",
-    "trigger.md",
-    "Asignaturas/bd/notes/Examen/Repaso Examen 30-03-2023 1.md",
+    "Asignaturas/ldm/work/inventario_xq.md",
+    "Asignaturas/bd/work/repaso_examen_bd.md",
+    "Excalidraw/notas2023-05-26.excalidraw.md",
+    "excalidraw/notas2023-05-26.excalidraw.md",
+    "Asignaturas/ldm/work/json/actividades_json.md",
+    "Asignaturas/ldm/work/json/json2ldm.json",
     "Asignaturas/bd/notes/Examen/Examen_rentacar.md",
-    "Asignaturas/bd/notes/Examen/Examen BD.md",
+    "Asignaturas/bd/notes/Examen/Repaso Examen 30-03-2023 1.md",
     "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
+    "Asignaturas/bd/work/sql_cheatsheet.md",
+    "trigger.md",
+    "Asignaturas/bd/notes/Examen/Examen BD.md",
     "Asignaturas/ED/work/refactor/Criba.java",
     "Asignaturas/ED/work/refactor",
     "Asignaturas/ED/work/Nueva carpeta",
@@ -217,17 +205,12 @@
     "Asignaturas/sin/work/dhcp/actividad_dhcp_sidneysilva.md",
     "Excalidraw/BD - Hotel Project.md",
     "Asignaturas/sin/work/dhcp",
-    "Asignaturas/bd/work/databases/hotel.sql",
-    "Asignaturas/ldm/work/json/actividades_json.md",
     "Excalidraw/BD - JSON.md",
     "Excalidraw/notas2023-05-18.excalidraw.md",
     "excalidraw/notas2023-05-18.excalidraw.md",
     "Asignaturas/ldm/work/xq/Actividades XQ.md",
     "Excalidraw/notas2023-05-15_2.excalidraw.md",
     "Excalidraw/SIN - Subnetting ejercicio.md",
-    "Excalidraw/SIN - Subnetting.md",
-    "excalidraw/notas2023-05-16.excalidraw.md",
-    "Excalidraw/notas2023-05-15.excalidraw.md",
     "Asignaturas/P/notes/Interficies.canvas",
     "Asignaturas/BD/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/BD/notes/Examen/Canvas Examen.canvas",

@@ -11,7 +11,7 @@ WHERE actor_weight = var_character_weight
 AND age(actor_birthdate) = var_character_age;
 
 --
-
+0
 SELECT *
 FROM actors_view
 WHERE actor_weight = var_character_weight

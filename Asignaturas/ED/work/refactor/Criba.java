@@ -30,6 +30,7 @@ public class Criba {
     }
 
     public static boolean[] inicializarArray(int dim, boolean[] esPrimo) {
+        
         // Inicializar el array
         for (int i = 0; i < dim; i++)
             esPrimo[i] = true;
