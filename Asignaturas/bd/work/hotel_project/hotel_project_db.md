@@ -2,6 +2,9 @@
 
 # Hotel Project.
 
+> [!todo]
+> Hacer procedures, perfeccionar la base de datos y más.
+
 Upload your 3T Database Project about HOTEL MANAGEMENT as a zip file with the following documents:
 
 1. Customer Requirements

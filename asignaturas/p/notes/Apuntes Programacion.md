@@ -6,9 +6,10 @@
 > Consultar los "callouts" en la página de abajo.
 
 Enlace para callouts --> [aquí](https://help.obsidian.md/Editing+and+formatting/Callouts)
+
 [Enlace a la teoria del Tema 9 en el Classroom.](https://classroom.google.com/c/NTQ3OTA2ODI1NTg5/m/NTQ3OTA2ODI1NjU2/details)
 
-#### Tipo0s de clases.
+#### Tipos de clases.
 
 Clase normal:
 

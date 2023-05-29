@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "6a42fb3284c2f347",
+        "id": "36e4f76244da02e5",
         "type": "tabs",
         "children": [
           {
-            "id": "59c40954de92af56",
+            "id": "fe791c1c7119ae70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asignaturas/bd/notes/Apuntes Base de Datos.md",
+                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "476e859c39b63d08",
+            "id": "db326387ce99e368",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asignaturas/p/notes/Apuntes Programacion.md",
+                "file": "Asignaturas/bd/work/examen_corregido_t3.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 233.5,
+    "collapsed": true
   },
   "right": {
     "id": "0d634603d8eb463d",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/p/notes/Apuntes Programacion.md",
+                "file": "Asignaturas/bd/work/examen_corregido_t3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/p/notes/Apuntes Programacion.md",
+                "file": "Asignaturas/bd/work/examen_corregido_t3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/p/notes/Apuntes Programacion.md"
+                "file": "Asignaturas/bd/work/examen_corregido_t3.md"
               }
             }
           }
@@ -163,9 +164,12 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "476e859c39b63d08",
+  "active": "db326387ce99e368",
   "lastOpenFiles": [
     "Asignaturas/bd/notes/Apuntes Base de Datos.md",
+    "Asignaturas/p/notes/Apuntes Programacion.md",
+    "Asignaturas/bd/work/examen_corregido_t3.md",
+    "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
     "Asignaturas/ldm/work/inventario_xq.md",
     "Asignaturas/bd/work/repaso_examen_bd.md",
     "Excalidraw/notas2023-05-26.excalidraw.md",
@@ -174,7 +178,6 @@
     "Asignaturas/ldm/work/json/json2ldm.json",
     "Asignaturas/bd/notes/Examen/Examen_rentacar.md",
     "Asignaturas/bd/notes/Examen/Repaso Examen 30-03-2023 1.md",
-    "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
     "Asignaturas/bd/work/sql_cheatsheet.md",
     "trigger.md",
     "Asignaturas/bd/notes/Examen/Examen BD.md",
@@ -209,8 +212,6 @@
     "Excalidraw/notas2023-05-18.excalidraw.md",
     "excalidraw/notas2023-05-18.excalidraw.md",
     "Asignaturas/ldm/work/xq/Actividades XQ.md",
-    "Excalidraw/notas2023-05-15_2.excalidraw.md",
-    "Excalidraw/SIN - Subnetting ejercicio.md",
     "Asignaturas/P/notes/Interficies.canvas",
     "Asignaturas/BD/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/BD/notes/Examen/Canvas Examen.canvas",
