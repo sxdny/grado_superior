@@ -5,16 +5,18 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
-import java.util.Arrays;
 import java.util.Scanner;
 import java.util.Vector;
 
+import frames.Ventana;
 import resources.Codigo;
 import resources.Colores;
 import resources.Partida;
 import resources.Usuario;
 
 public class Programa {
+
+    Ventana ventana = new Ventana();
 
     static File directorio = new File("./partidas"); // directorio para guardar las partidas (más orden)
     static File partidas = new File("./partidas/partidas.dat"); // archivo para guardar la lista de usuarios
@@ -42,6 +44,8 @@ public class Programa {
     static boolean salir = false;
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
+
+        
 
         System.out.println("Creando directorio partidas...");
         if (directorio.exists()) {

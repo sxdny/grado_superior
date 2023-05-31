@@ -214,6 +214,72 @@ JSON_caracteristicas de la tabla `locales`:
 }
 ````
 
+# Funciones, VIEWS, etc.
+
+Para si que si el SELECT = 0, pues sacame esto; sino, sacame esto.
+
+```sql
+SELECT
+	CASE JSON_VALUE(json_caracteristicas, "$.wifi")
+    	WHEN 0 THEN "no"
+        ELSE "si"
+    END
+AS "Wi-Fi"
+FROM habitaciones;
+```
+
+VIEW de las habitaciones:
+
+````sql
+CREATE VIEW habitacoines_view AS
+SELECT
+    `hotel`.`habitaciones`.`id` AS `id`,
+    `hotel`.`habitaciones`.`nombre` AS `nombre`,
+    `hotel`.`habitaciones`.`descripcion` AS `descripcion`,
+    `hotel`.`habitaciones`.`capacidad` AS `capacidad`,
+    `hotel`.`habitaciones`.`tipo` AS `tipo`,
+    CASE `hotel`.`habitaciones`.`disponible` WHEN 0 THEN 'No' ELSE 'Si'
+END AS `disponible`,
+`hotel`.`habitaciones`.`precio` AS `precio`,
+CASE json_value(
+    `hotel`.`habitaciones`.`json_caracteristicas`,
+    '$.wifi'
+) WHEN 0 THEN 'No' ELSE 'Si'
+END AS `wifi`,
+CASE json_value(
+    `hotel`.`habitaciones`.`json_caracteristicas`,
+    '$.aire_acondicionado'
+) WHEN 0 THEN 'No' ELSE 'Si'
+END AS `aire_acondicionado`,
+CASE json_value(
+    `hotel`.`habitaciones`.`json_caracteristicas`,
+    '$.cocina'
+) WHEN 0 THEN 'No' ELSE 'Si'
+END AS `cocina`,
+CASE json_value(
+    `hotel`.`habitaciones`.`json_caracteristicas`,
+    '$.caja_fuerte'
+) WHEN 0 THEN 'No' ELSE 'Si'
+END AS `caja_fuerte`,
+CASE json_value(
+    `hotel`.`habitaciones`.`json_caracteristicas`,
+    '$.limpieza_diaria'
+) WHEN 0 THEN 'No' ELSE 'Si'
+END AS `limpieza_diaria`,
+CASE json_value(
+    `hotel`.`habitaciones`.`json_caracteristicas`,
+    '$.cambio_sabanas_toallas'
+) WHEN 0 THEN 'No' ELSE 'Si'
+END AS `cambio_sabanas_y_toallas`,
+CASE json_value(
+    `hotel`.`habitaciones`.`json_caracteristicas`,
+    '$.regalo'
+) WHEN 0 THEN 'No' ELSE 'Si'
+END AS `regalo`
+FROM
+    `hotel`.`habitaciones`
+````
+
 # Excalidraw
 
 ![[BD - Hotel Project]]

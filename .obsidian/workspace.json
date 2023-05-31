@@ -18,7 +18,13 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "eb687aeac618919f",
+        "type": "tabs",
+        "children": [
           {
             "id": "db326387ce99e368",
             "type": "leaf",
@@ -31,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5,
-    "collapsed": true
+    "width": 233.5
   },
   "right": {
     "id": "0d634603d8eb463d",
@@ -99,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/bd/work/examen_corregido_t3.md",
+                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/bd/work/examen_corregido_t3.md",
+                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/bd/work/examen_corregido_t3.md"
+                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md"
               }
             }
           }
@@ -148,8 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,12 +167,12 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "db326387ce99e368",
+  "active": "fe791c1c7119ae70",
   "lastOpenFiles": [
-    "Asignaturas/bd/notes/Apuntes Base de Datos.md",
-    "Asignaturas/p/notes/Apuntes Programacion.md",
     "Asignaturas/bd/work/examen_corregido_t3.md",
     "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
+    "Asignaturas/bd/notes/Apuntes Base de Datos.md",
+    "Asignaturas/p/notes/Apuntes Programacion.md",
     "Asignaturas/ldm/work/inventario_xq.md",
     "Asignaturas/bd/work/repaso_examen_bd.md",
     "Excalidraw/notas2023-05-26.excalidraw.md",

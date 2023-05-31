@@ -1,6 +1,12 @@
-package actividad6_5;
-
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.util.Scanner;
+
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 public class Main {
     
@@ -12,52 +18,15 @@ public class Main {
 
     static File partidas = new File("personas.txt");
 
-    // escritura de usuarios en el archivo
-    static FileOutputStream fos = new FileOutputStream(partidas);
-    static ObjectOutputStream oos = new ObjectOutputStream(fos);
-    
     static Scanner lector = new Scanner(System.in);
-    
+
     public static void main(String[] args) {
 
-        do {
-            System.out.println("1. Crear nuevo alumno.");
-            System.out.println("2. Crear nuevo profesor.");
-            System.out.println("3. Mostrar todos los alumnos.");
-            System.out.println("4. Mostrar todos los profesores.");
-            System.out.println("5. Mostrar todas las personas.");
-            System.out.println("6. Salir del programa.");
+        Ventana ventana = new Ventana();
 
-            op = lector.nextInt();
-            lector.nextLine();
+        ventana.setVisible(true);
+        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-            if (op == 1) {
-                crearAlumno();
-            }
-
-            if (op == 2) {
-                crearProfesor();
-            }
-
-            if (op == 3) {
-                mostrarAlumnos();
-            }
-
-            if (op == 4) {
-                mostrarProfesores();
-            }
-
-            if (op == 5) {
-                mostrarTodo();
-            }
-
-            if (op < 0 || op >= 7) {
-                System.out.println("No has elegido una opcion valida.");
-            }
-
-
-        } while (op != 6);
-        System.out.println("Has salido del programa.");
     }
 
     public static void crearAlumno() {
@@ -108,6 +77,23 @@ public class Main {
         for (int i = 0; i < alumnosCreados; i++) {
             System.out.println(alumnos[i].mostrarDades());
         }
+    }
+
+    public static void guardarPartida() throws IOException {
+
+        // escritura de usuarios en el archivo
+        FileOutputStream fos = new FileOutputStream(partidas);
+        ObjectOutputStream oos = new ObjectOutputStream(fos);
+
+        for (Alumno alumno : alumnos) {
+            oos.writeObject(alumno);
+        }
+
+        for (Profesor profesor : profesores) {
+            oos.writeObject(profesor);
+        }
+
+        oos.close();
     }
 
     public static void mostrarTodo() {

@@ -157,3 +157,105 @@ IF OLD.reservation_status = 'booked' AND NEW.reservation_status = 'check-in'
 END IF;
 END
 ````
+
+## 9. INSERT products inside shopping_cart.
+
+**Question:** Simulate the customer's buying process.
+
+**Solution:**
+
+````sql
+EVENT
+PROCEDURE(var_lines, var_customer_id, var_product_id, var_qty)
+INSERT INTO shopping_cart (customer_id, product_id, qty)
+VALUES
+(3, 4, 2);
+````
+
+> `random_numbers` rand() function (from 0 to 0.999) -> 0 included
+
+````sql
+SELECT customer_id... ORDER BY rand();
+SELECT product_id... ORDER BY rand();
+-- Hacer select del stock entre 1 al limite del stock
+qty 1..5
+````
+
+> El `var_lines`es donde se guarda cuantas lineas se insertaran en el carrito por un solo pedido. From 1 to 10. Random too.
+
+````sql
+-- Obtiene un customer_id random
+SELECT customer_id
+FROM customers
+WHERE customer_status = 1
+ORDER BY [customer_id DESC ] -> RAND()
+LIMIT 1;
+````
+
+## 10. Online Shop
+
+Products table:
+
+Optoin 1: **NO**
+
+| products_id | product_name    | product_price |
+| ----------- | --------------- | ------------- |
+| 1           | t-shirt blue    | 10.00         |
+| 2           | t-shirt red     |               |
+| 3           | t-shirt white L |               |
+| 4           | t-shirt white M |               |
+| ...         | ...             | ...           |
+
+**Option 2: NO**
+
+| product_id | color |
+| ---------- | ----- |
+| 1          | white |
+| 1          | blue  |
+| 1          | red   |
+| ...        |       |
+
+Option 3:
+
+| product_id | product_name | product_price | product_characteristics |
+| ---------- | ------------ | ------------- | ----------------------- |
+| 1           | t-shirt             | 10                | JSON file**                         |
+
+JSON Design 1**:
+
+````json
+{
+	"size" : ["XS", "S", "M", "L", "XL"],
+	"fit" : ["slim", "regular", "loose"],
+	"color" : ["blue", "red", "white", "black", "green"]
+}
+````
+
+JSON Design 2:
+
+````json
+{
+	"size" : {
+		"xs" : 12.00,
+		"s" : 11,
+		"m": 10,
+		"l" : 11,
+		"xl" : 14
+	},
+	"fit" : {
+		...
+	},
+	"color" : {
+		...
+	}
+}
+````
+
+Consultar la información.
+
+>[!todo]
+>Hacer esto con el Hotel. Hacer una VIEW.
+
+````SQL
+SELECT product_id, product_name, pr oduct_prce, JSON_EXTRACT(product_characteristics, "$.size") AS size, JSON_EXTRACT() AS fit, JSON_EXTRACT() AS color
+````
