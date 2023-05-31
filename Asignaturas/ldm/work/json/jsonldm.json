@@ -1,0 +1,88 @@
+{
+    "bailes": [
+        {
+            "id": 1,
+            "nombre": "Tango",
+            "precio": {
+                "cantidad": 27,
+                "cuota": "Mensual",
+                "moneda": "Euro"
+            },
+            "plazas": 20,
+            "data_comienzo": "2012-01-01",
+            "data_fin": "2012-12-01",
+            "profesor": "Roberto Garcia",
+            "sala": 1
+        },
+        {
+            "id": 2,
+            "nombre": "Cha-cha-cha",
+            "precio": {
+                "cantidad": 80,
+                "cuota": "Trimestral",
+                "moneda": "Euro"
+            },
+            "plazas": 18,
+            "data_comienzo": "2012-07-01",
+            "data_fin": "2012-10-01",
+            "profesor": "Miriam Gutiérrez",
+            "sala": 1
+        },
+        {
+            "id": 3,
+            "nombre": "Rock",
+            "precio": {
+                "cantidad": 30,
+                "cuota": "Mensual",
+                "moneda": "Euro"
+            },
+            "plazas": 15,
+            "data_comienzo": "2012-01-01",
+            "data_fin": "2012-12-01",
+            "profesor": "Laura Mendiola",
+            "sala": 1
+        },
+        {
+            "id": 4,
+            "nombre": "Merengue",
+            "precio": {
+                "cantidad": 75,
+                "cuota": "Trimestral",
+                "moneda": "Dolares"
+            },
+            "plazas": 12,
+            "data_comienzo": "2012-01-01",
+            "data_fin": "2012-12-01",
+            "profesor": "Jesús Lozano",
+            "sala": 2
+        },
+        {
+            "id": 5,
+            "nombre": "Salsa",
+            "precio": {
+                "cantidad": 32,
+                "cuota": "Mensual",
+                "moneda": "Dolares"
+            },
+            "plazas": 10,
+            "data_comienzo": "2012-01-01",
+            "data_fin": "2012-12-01",
+            "profesor": "Roberto Garcia",
+            "sala": 1
+        },
+        {
+            "id": 6,
+            "nombre": "Pasodoble",
+            "precio": {
+                "cantidad": 3200,
+                "cuota": "Anual",
+                "moneda": "Euro"
+            },
+            "plazas": 8,
+            "data_comienzo": "2012-01-01",
+            "data_fin": "2012-12-01",
+            "profesor": "Miriam Gutiérrez",
+            "sala": 2
+        }
+    ]
+}

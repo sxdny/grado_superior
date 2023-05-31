@@ -1,0 +1,26 @@
+<profesoresBailes>
+    <baile>
+        <nombre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Tango </nombre>
+        <profesor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Roberto Garcia</profesor>
+    </baile>
+    <baile>
+        <nombre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Cha-cha-cha </nombre>
+        <profesor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Miriam Gutiérreza</profesor>
+    </baile>
+    <baile>
+        <nombre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Rock </nombre>
+        <profesor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Laura Mendiola</profesor>
+    </baile>
+    <baile>
+        <nombre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Merengue </nombre>
+        <profesor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jesús Lozano</profesor>
+    </baile>
+    <baile>
+        <nombre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Salsa </nombre>
+        <profesor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Jesús Lozano</profesor>
+    </baile>
+    <baile>
+        <nombre xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Pasodoble </nombre>
+        <profesor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Miriam Gutierrez</profesor>
+    </baile>
+</profesoresBailes>
