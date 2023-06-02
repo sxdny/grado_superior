@@ -45,6 +45,4 @@ public class Persona {
         this.edadPersona = edadPersona;
     }
 
-    
-
 }
