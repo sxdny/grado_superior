@@ -18,23 +18,13 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "eb687aeac618919f",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "db326387ce99e368",
+            "id": "e109cce02842e29a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Asignaturas/bd/work/examen_corregido_t3.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "obsidian-projects",
+              "state": {}
             }
           }
         ]
@@ -169,10 +159,13 @@
   },
   "active": "fe791c1c7119ae70",
   "lastOpenFiles": [
+    "Asignaturas/bd/work/databases/hotel_2023-06-02.sql",
+    "Asignaturas/bd/work/databases/hotel.sql",
+    "Asignaturas/bd/work/databases/hotel_v1.sql",
+    "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
     "Asignaturas/p/work/tema11/mastermind_v3.0/partidas/partidas.dat",
     "Asignaturas/p/work/tema11/mastermind_v3.0/partidas",
     "Asignaturas/bd/work/examen_corregido_t3.md",
-    "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
     "Asignaturas/bd/notes/Apuntes Base de Datos.md",
     "Asignaturas/p/notes/Apuntes Programacion.md",
     "Asignaturas/ldm/work/inventario_xq.md",
@@ -196,9 +189,6 @@
     "Projects - Demo Project/Why You Should Be Taking More Notes.md",
     "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
     "Projects - Demo Project/The Best Notes You'll Ever Make.md",
-    "Projects - Demo Project",
-    "pdfs/actividad_dhcp.pdf",
-    "pdfs",
     "Asignaturas/sin/work/dchp/actividad_dhcp.md",
     "images/Pasted image 20230522174239.png",
     "images/Pasted image 20230522174140.png",

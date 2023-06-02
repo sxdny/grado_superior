@@ -1,9 +1,13 @@
+
 #bd #hotel #project
 
 # Hotel Project.
 
 > [!todo]
-> Hacer procedures, perfeccionar la base de datos y más.
+> - Hacer procedures, perfeccionar la base de datos y más.
+> - Hacer funcion para calcular el precio (precio inicial y final) de una habitación.
+> - Hacer función que dados los servicios de la tabla `habitaciones` (o de la view `habitaciones_view`), teniendo en cuente los valores en `true`, de esos, coja un número x de servicios.
+
 
 Upload your 3T Database Project about HOTEL MANAGEMENT as a zip file with the following documents:
 
@@ -283,3 +287,4 @@ FROM
 # Excalidraw
 
 ![[BD - Hotel Project]]
+
