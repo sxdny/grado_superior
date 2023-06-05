@@ -1,13 +1,4 @@
-
-#bd #hotel #project
-
-# Hotel Project.
-
-> [!todo]
-> - Hacer procedures, perfeccionar la base de datos y más.
-> - Hacer funcion para calcular el precio (precio inicial y final) de una habitación.
-> - Hacer función que dados los servicios de la tabla `habitaciones` (o de la view `habitaciones_view`), teniendo en cuente los valores en `true`, de esos, coja un número x de servicios.
-
+---
 
 Upload your 3T Database Project about HOTEL MANAGEMENT as a zip file with the following documents:
 
@@ -19,6 +10,23 @@ Upload your 3T Database Project about HOTEL MANAGEMENT as a zip file with the fo
 5. Any other information related to your project
 
 Name the file as ForenameLastname_HotelManagement.zip
+
+---
+
+#bd #hotel #project
+
+# Hotel Project.
+
+> [!todo]
+> - Hacer procedures, perfeccionar la base de datos y más.
+
+
+## Functions and procedures ideas.
+
+- Método para crear nuevas reservas teniendo en cuenta los **servicios** de cada habitación.
+- Calcular precio de una reserva teniendo en cuenta los valores `Si` de la view `habitaciones_view` y los servicios que ha pedido al inicio y los que se han añadido al final.
+- Hacer un evento que inserte **reservas aleatorias** en la base de dato para ver el flujo de la base de datos.
+- 
 
 ## Tables.
 
@@ -220,7 +228,23 @@ JSON_caracteristicas de la tabla `locales`:
 
 # Funciones, VIEWS, etc.
 
-Para si que si el SELECT = 0, pues sacame esto; sino, sacame esto.
+Procedimiento para seleccionar los valores `true` de una key del `json_caracteristicas` y pasarlos a la tabla `reservations`.
+
+Para esto usaremos un procedimiento:
+
+Hacer una query que vaya seleccionando las diferentes tablas y dentro habran diferentes subquerys que retornaran un valor `true` or `false`. Si el valor es `true`, lo **introducirá en el NUEVO archivo JSON** que tendrá la habitación reservada.
+
+
+```sql
+INSERT INTO reservations (json_caracteristicas)  
+VALUES (
+SELECT JSON_KEYS(json_caracteristicas, "$")
+WHERE 
+);
+WHERE id = id_habitacion
+```
+
+Para si que si el `SELECT = 0`, pues sacame esto; sino, sacame esto.
 
 ```sql
 SELECT
