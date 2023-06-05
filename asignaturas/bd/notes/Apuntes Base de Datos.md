@@ -665,4 +665,3 @@ On this example, I'm looking on all the fields that come after `$.extras` which 
 
 #### JSON_ARRAY_INSERT
 
-t

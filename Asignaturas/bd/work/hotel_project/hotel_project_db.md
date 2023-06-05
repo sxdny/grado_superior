@@ -17,8 +17,10 @@ Name the file as ForenameLastname_HotelManagement.zip
 
 # Hotel Project.
 
+
 > [!todo]
 > - Hacer procedures, perfeccionar la base de datos y más.
+> - ![[Pasted image 20230605211401.png]]
 
 
 ## Functions and procedures ideas.
@@ -232,16 +234,11 @@ Procedimiento para seleccionar los valores `true` de una key del `json_caracteri
 
 Para esto usaremos un procedimiento:
 
-Hacer una query que vaya seleccionando las diferentes tablas y dentro habran diferentes subquerys que retornaran un valor `true` or `false`. Si el valor es `true`, lo **introducirá en el NUEVO archivo JSON** que tendrá la habitación reservada.
-
+Primero, buscaremos todas las `keys` que estén a `true` o `1`:
 
 ```sql
-INSERT INTO reservations (json_caracteristicas)  
-VALUES (
-SELECT JSON_KEYS(json_caracteristicas, "$")
-WHERE 
-);
-WHERE id = id_habitacion
+SELECT JSON_SEARCH(json_caracteristicas, 'all', '1') AS searchJSON
+FROM habitaciones;
 ```
 
 Para si que si el `SELECT = 0`, pues sacame esto; sino, sacame esto.
