@@ -45,8 +45,6 @@ public class Programa {
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
 
-        
-
         System.out.println("Creando directorio partidas...");
         if (directorio.exists()) {
             System.out.println("El directorio ya existe.");

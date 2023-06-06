@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fe791c1c7119ae70",
+            "id": "f54f365791235f91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
+                "file": "Asignaturas/p/notes/cheat_sheet_examen.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,11 +22,11 @@
         ]
       },
       {
-        "id": "e84847d156bfedb9",
+        "id": "2bceb90ea20d4245",
         "type": "tabs",
         "children": [
           {
-            "id": "07f7056020c8b79b",
+            "id": "d32a3d15ee51a9d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
+                "file": "Asignaturas/p/notes/cheat_sheet_examen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
+                "file": "Asignaturas/p/notes/cheat_sheet_examen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md"
+                "file": "Asignaturas/p/notes/cheat_sheet_examen.md"
               }
             }
           }
@@ -168,59 +168,59 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "fe791c1c7119ae70",
+  "active": "f54f365791235f91",
   "lastOpenFiles": [
-    "Pasted image 20230605211401.png",
-    "Pasted image 20230605211356.png",
-    "Asignaturas/bd/notes/Apuntes Base de Datos.md",
-    "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
-    "Asignaturas/bd/notes/Examen/Repaso Examen 30-03-2023 1.md",
-    "Asignaturas/bd/notes/Examen/Examen_rentacar.md",
-    "Asignaturas/bd/notes/help/sql_cheatsheet.md",
-    "Asignaturas/bd/notes/Examen/Examen BD.md",
-    "Asignaturas/bd/work/repaso_examen_bd.md",
-    "Asignaturas/bd/work/databases/hotel_2023-06-02.sql",
-    "Asignaturas/bd/work/databases/hotel.sql",
-    "Asignaturas/bd/work/databases/hotel_v1.sql",
-    "Asignaturas/p/work/tema11/mastermind_v3.0/partidas/partidas.dat",
-    "Asignaturas/p/work/tema11/mastermind_v3.0/partidas",
-    "Asignaturas/bd/work/examen_corregido_t3.md",
+    "Pasted image 20230606123509.png",
     "Asignaturas/p/notes/Apuntes Programacion.md",
+    "Asignaturas/p/notes/Java.md",
+    "Asignaturas/p/notes/Interficies.canvas",
+    "Asignaturas/p/notes/cheat_sheet_examen.md",
+    "images/Diagrama Concesionario.svg",
+    "images/exampleDiagram.svg",
+    "README.md",
+    "Asignaturas/bd/work/hotel_project/trigger.md",
+    "images/Pasted image 20230605211401.png",
+    "images/Pasted image 20230605211356.png",
+    "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
+    "excalidraw/notas2023-06-05.excalidraw.md",
+    "Asignaturas/bd/notes/Apuntes Base de Datos.md",
+    "Asignaturas/bd/notes/Examen/Examen_rentacar.md",
+    "Asignaturas/bd/notes/Examen/Examen BD.md",
+    "Asignaturas/bd/notes/Examen/Repaso Examen 30-03-2023 1.md",
+    "Excalidraw/notas2023-06-05.excalidraw.md",
+    "Asignaturas/ED/notes/testing_17-04-2023.md",
+    "Asignaturas/p/work/tema6/actividad6_5project/src/Ventana.java",
+    "Asignaturas/p/work/tema6/actividad6_5project/src/Profesor.java",
+    "Asignaturas/p/work/tema6/actividad6_5project/src/Persona.java",
+    "Asignaturas/p/work/tema6/actividad6_5project/src/Main.java",
+    "Asignaturas/p/work/tema6/actividad6_5project/src/Alumno.java",
+    "Asignaturas/p/work/tema6/actividad6_5project/bin/Ventana.class",
+    "Asignaturas/p/work/tema6/actividad6_5project/bin/Profesor.class",
+    "Asignaturas/p/work/tema6/actividad6_5project/bin/Persona.class",
+    "Asignaturas/p/work/tema6/actividad6_5project/bin/Main.class",
+    "Asignaturas/p/work/tema6/actividad6_5project/bin/Alumno.class",
+    "Asignaturas/p/work/tema6/actividad6_5project/README.md",
+    "Asignaturas/ldm/work/xq/ac2XQ.md",
+    "Asignaturas/ldm/work/xq/ac1XQ.md",
+    "Asignaturas/ldm/work/repaso/re_xslt.md",
+    "Asignaturas/ldm/work/json/actividades_json.md",
     "Asignaturas/ldm/work/inventario_xq.md",
+    "Asignaturas/bd/work/examen_corregido_t3.md",
+    "Asignaturas/ED/notes/reapao_examen_2T.md",
+    "Pasted image 20230605121142.png",
+    "Pasted image 20230605121124.png",
+    "Pasted image 20230605121114.png",
+    "Pasted image 20230604190154.png",
+    "Pasted image 20230604185850.png",
+    "Pasted image 20230604185636.png",
+    "Asignaturas/bd/work/repaso_examen_bd.md",
     "Excalidraw/notas2023-05-26.excalidraw.md",
     "excalidraw/notas2023-05-26.excalidraw.md",
-    "Asignaturas/ldm/work/json/actividades_json.md",
-    "Asignaturas/ldm/work/json/json2ldm.json",
     "Asignaturas/bd/work/sql_cheatsheet.md",
-    "trigger.md",
-    "Asignaturas/ED/work/refactor/Criba.java",
-    "Asignaturas/ED/work/refactor",
-    "Asignaturas/ED/work/Nueva carpeta",
-    "pdfs/Refactor Like a Superhero.pdf",
-    "Projects - Demo Project/5 Mistakes I Made When I Started Using Obsidian.md",
-    "Projects - Demo Project/What I Learned From Taking 15,000 Notes.md",
-    "Projects - Demo Project/Why You Should Be Taking More Notes.md",
-    "Projects - Demo Project/The Easiest Way to Start Taking Notes.md",
-    "Projects - Demo Project/The Best Notes You'll Ever Make.md",
-    "Asignaturas/sin/work/dchp/actividad_dhcp.md",
-    "images/Pasted image 20230522174239.png",
-    "images/Pasted image 20230522174140.png",
-    "images/Pasted image 20230522173731.png",
-    "images/Pasted image 20230522173554.png",
-    "images/Pasted image 20230522173339.png",
-    "images/Pasted image 20230522172906.png",
-    "images/Pasted image 20230522172812.png",
-    "images/Pasted image 20230522172631.png",
-    "images/Pasted image 20230522171948.png",
-    "Asignaturas/sin/work/dhcp/actividad_dhcp_sidneysilva.md",
-    "Excalidraw/BD - Hotel Project.md",
-    "Excalidraw/BD - JSON.md",
-    "Excalidraw/notas2023-05-18.excalidraw.md",
     "Asignaturas/P/notes/Interficies.canvas",
     "Asignaturas/BD/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/BD/notes/Examen/Canvas Examen.canvas",
     "Asignaturas/bd/work/cinema_db_stuff/24-01-23.canvas",
-    "Asignaturas/bd/notes/Examen/Canvas Examen.canvas",
-    "Asignaturas/p/notes/Interficies.canvas"
+    "Asignaturas/bd/notes/Examen/Canvas Examen.canvas"
   ]
 }
