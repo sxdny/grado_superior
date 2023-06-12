@@ -1,4 +1,9 @@
 ---
+banner: "![[hotel-banner.jpg]]"
+banner_y: 0.3
+---
+
+# Enunciado.
 
 Upload your 3T Database Project about HOTEL MANAGEMENT as a zip file with the following documents:
 
@@ -11,36 +16,95 @@ Upload your 3T Database Project about HOTEL MANAGEMENT as a zip file with the fo
 
 Name the file as ForenameLastname_HotelManagement.zip
 
----
-
-#bd #hotel #project
-
 # Hotel Project.
 
+Diagrama Entidad-Relación:
 
-> [!todo]
-> - Hacer procedures, perfeccionar la base de datos y más.
-> - ![[Pasted image 20230605211401.png]]
-
+![[Pasted image 20230612120957.png]]
 
 ## Functions and procedures ideas.
 
-- Método para crear nuevas reservas teniendo en cuenta los **servicios** de cada habitación.
-- Calcular precio de una reserva teniendo en cuenta los valores `Si` de la view `habitaciones_view` y los servicios que ha pedido al inicio y los que se han añadido al final.
-- Hacer un evento que inserte **reservas aleatorias** en la base de dato para ver el flujo de la base de datos.
-- 
+1. Función para obtener los `true` values (en este caso características) del archivo JSON de la tabla `habitaciones`.
+
+```sql
+BEGIN
+
+DECLARE len INT DEFAULT 0;
+DECLARE json_len INT DEFAULT 0;
+DECLARE json JSON;
+DECLARE result JSON;
+DECLARE j INT DEFAULT 0;
+
+SET result = JSON_ARRAY();
+SET json = JSON_ARRAY();
+SET len = (SELECT COUNT(*) FROM habitaciones);
+
+SET json = (SELECT JSON_SEARCH(json_caracteristicas, 'all', '1') FROM habitaciones WHERE id = var_id_room);
+SET json_len = JSON_LENGTH(json, '$');
+	WHILE j < json_len DO
+		SELECT JSON_ARRAY_INSERT( result, CONCAT('$[',j,']') , REPLACE(JSON_UNQUOTE(JSON_EXTRACT(json,CONCAT('$[',j,']'))), '$.', '') ) INTO result;
+		SET j = j + 1;
+	END WHILE;
+SELECT result;
+
+END
+```
+
+2. Procediimento para insertar reservas aleatoriamente.
+
+```sql
+BEGIN
+
+DECLARE date1 DATE;
+DECLARE date2 DATE;
+DECLARE room INT DEFAULT 0;
+DECLARE precio INT DEFAULT 0;
+
+SELECT FLOOR(1 + (RAND() * 100)) INTO room;
+
+SELECT precio FROM habitaciones WHERE id = room INTO precio;
+
+SET date1 = randomDATE();
+SET date2 = randomDATE();
+
+WHILE (DATEDIFF(date2, date1) < 1) DO
+	SET date1 = randomDATE();
+	SET date2 = randomDATE();
+END WHILE;
+
+INSERT INTO reservas
+VALUES
+(DEFAULT, room, (FLOOR(1 + (RAND() * 500))), date1, date2, precio, (precio + FLOOR(10 + (RAND() * 300))), trueValuesJSON(room));
+
+END
+```
+
+3. Función para obtener una `DATE` aleatoria:
+
+```sql
+RETURN (SELECT CURDATE() - INTERVAL FLOOR(RAND() * 14) DAY);
+```
 
 ## Tables.
 
-- **Clientes.** ID (autogenerada), nombre, apellidos, metodo_de_pago, nacionalidad, DNI, correo_electronico, nº teléfono.
-- **Habitaciones.** ID (autogenerada), nombre, capacidad, JSON_caracteristicas
-- **Empleados.** ID (autogenerada), nombre, apellidos, DNI, nombre_telefono, correo_electrónico,  cargo.
-- **Servicios.** ID (autogenerada), nombre, tipo_servicio, ubicación, 
-- **Reservas.** ID Reserva (autogenerada), ID Cliente, ID Habitación, data_entrada, data_salida, 
+Tablas y sus columnas:
 
-## Servicios posibles de una habitación de hotel.
+| Clientes            | Habitaciones         | Empleados          | Servicios        | Reservas             | Historial      |
+| ------------------- | -------------------- | ------------------ | ---------------- | -------------------- | -------------- |
+| ID                  | ID                   | ID                 | ID               | ID                   | ID             |
+| Nombre              | Nombre               | Nombre             | Nombre           | ID Cliente           | ID Cliente     |
+| ~~Apellidos~~       | Capacidad            | Apellidos          | Tipo de servicio | ID Habitación        | ID Habitación  |
+| Métodos de pago.    | JSON características | DNI                | Ubicación        | Data entrada         | Data entrada   |
+| ~~Nacionalidad.~~   | Descripción          | Número de teléfono |                  | Data salida          | Data salida    |
+| DNI.                | Tipo                 | Correo electrónico |                  | Estado de la reserva | Precio inicial |
+| Correo electrónico. | Disponible           | Cargo / ID local   |                  | Precio inicial       | Precio final   |
+| Número de teléfono. | Precio               |                    |                  | Precio final         | JSON Servicios |
+|                     |                      |                    |                  | JSON Servicios       |                |
 
-Servicios que he elegido para mi hotel (estarán en el JSON de la tabla `habitaciones`):
+
+## Posibles servicios para una habitación de hotel.
+
+Servicios que he elegido para mi hotel (estarán en el JSON de la tabla `habitaciones`:
 
 - Wifi.
 - Aire acondicionado.
@@ -50,7 +114,7 @@ Servicios que he elegido para mi hotel (estarán en el JSON de la tabla `habitac
 - Cambio sabanas y toallas.
 - Regalo.
 
-## Puestos de trabajo de un hotel.
+## Posibles puestos de trabajo de un hotel.
 
 Los puestos de trabajo que pueden existir en un hotel son:
 
@@ -63,9 +127,28 @@ Los puestos de trabajo que pueden existir en un hotel son:
 - Socorrista.
 - Masajista.
 
-Pueden existir más, pero de momento solo tendremos estos.
+*Pueden existir más, pero de momento solo tendremos estos.*
+
+## Estados de una habitación.
+
+- Available.
+- Booked.
+- Out of service.
+
+## Estados de una reserva.
+
+- Check-in.
+- Check-out.
+- Out of service.
+- In maintenance.
 
 ## Creación de tablas en la base de datos.
+
+Para resetear el AUTO_INCREMENT:
+
+```sql
+ALTER TABLE reservas AUTO_INCREMENT = 1; -- Próximo valor
+```
 
 ==Actualizar estas tablas.==
 
@@ -143,43 +226,193 @@ CREATE TABLE historic (
 Query para insertar **datos aleatorios** en la tabla `clientes`:
 
 ````sql
-INSERT INTO clientes (id, nombre, DNI, email, telefono, metodo_pago)
+INSERT INTO clientes(
+    id,
+    nombre,
+    DNI,
+    email,
+    telefono,
+    metodo_pago
+)
 SELECT
-    ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS id,
-    CONCAT(nombres.nombre, ' ', apellidos.apellido) AS nombre,
-    CONCAT(FLOOR(RAND() * 89999999) + 10000000, LEFT(DNI, 1)) AS DNI,
-    CONCAT(LEFT(nombre, 1), REPLACE(apellido, ' ', ''), '@', dominios.dominio) AS email,
-    CONCAT('9', FLOOR(RAND() * 89999999) + 10000000) AS telefono,
-    metodos_pago.metodo AS metodo_pago FROM
-(SELECT 'Juan' AS nombre UNION SELECT 'María' UNION SELECT 'Pedro' UNION SELECT 'Ana') AS nombres,
-(SELECT 'Gómez' AS apellido UNION SELECT 'López' UNION SELECT 'García' UNION SELECT 'Martínez') AS apellidos,
-(SELECT '12345678A' AS DNI UNION SELECT '23456789B' UNION SELECT '34567890C' UNION SELECT '45678901D') AS DNI,
-(SELECT 'gmail.com' AS dominio UNION SELECT 'yahoo.com' UNION SELECT 'hotmail.com' UNION SELECT 'outlook.com') AS dominios,
-(SELECT 'Tarjeta' AS metodo UNION SELECT 'Transferencia' UNION SELECT 'PayPal' UNION SELECT 'Efectivo') AS metodos_pago
+        ROW_NUMBER() OVER(
+ORDER BY
+    (
+SELECT NULL
+)
+) AS id,
+    CONCAT(
+    nombres.nombre,
+    ' ',
+    apellidos.apellido
+) AS nombre,
+    CONCAT(
+    FLOOR(RAND() * 89999999) + 10000000,
+    LEFT(DNI, 1)) AS DNI,
+        CONCAT(
+        LEFT(nombre, 1),
+    REPLACE
+        (apellido, ' ', ''),
+        '@',
+        dominios.dominio
+    ) AS email,
+        CONCAT(
+        '9',
+        FLOOR(RAND() * 89999999) + 10000000) AS telefono,
+            metodos_pago.metodo AS metodo_pago
+    FROM
+        (
+        SELECT
+            'Juan' AS nombre
+        UNION
+    SELECT
+        'María'
+    UNION
+SELECT
+    'Pedro'
+UNION
+SELECT
+    'Ana'
+    ) AS nombres,
+    (
+    SELECT
+        'Gómez' AS apellido
+    UNION
+SELECT
+    'López'
+UNION
+SELECT
+    'García'
+UNION
+SELECT
+    'Martínez'
+) AS apellidos,
+(
+    SELECT
+        '12345678A' AS DNI
+    UNION
+SELECT
+    '23456789B'
+UNION
+SELECT
+    '34567890C'
+UNION
+SELECT
+    '45678901D'
+) AS DNI,
+(
+    SELECT
+        'gmail.com' AS dominio
+    UNION
+SELECT
+    'yahoo.com'
+UNION
+SELECT
+    'hotmail.com'
+UNION
+SELECT
+    'outlook.com'
+) AS dominios,
+(
+    SELECT
+        'Tarjeta' AS metodo
+    UNION
+SELECT
+    'Transferencia'
+UNION
+SELECT
+    'PayPal'
+UNION
+SELECT
+    'Efectivo'
+) AS metodos_pago
 LIMIT 500;
 ````
 
 Query para insertar locales aleatorios **que no se repiten** en `locales`:
 
 ````sql
-INSERT INTO locales (id, nombre, tipo, ubicacion, descripcion, json_caracteristicas)
-SELECT
-  ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS id,
-  CONCAT('Local ', numero) AS nombre,
-  tipos.tipo AS tipo,
-  ubicaciones.ubicacion AS ubicacion,
-  CONCAT('Descripción del local ', numero) AS descripcion,
-  CONCAT('{"wifi": ', caracteristicas.wifi, ', "tv": ', caracteristicas.tv, ', "aire_acondicionado": ', caracteristicas.aire_acondicionado, ', "terraza": ', caracteristicas.terraza, '}') AS json_caracteristicas
-FROM
-  (SELECT 1 + (seq.seq - 1) AS numero FROM seq_1_to_20 seq) AS numeros,
-  (SELECT 'Restaurante' AS tipo UNION SELECT 'Cafetería' UNION SELECT 'Tienda' UNION SELECT 'Salón de eventos') AS tipos,
-  (SELECT 'Lobby' AS ubicacion UNION SELECT 'Planta baja' UNION SELECT 'Piso 1' UNION SELECT 'Piso 2' UNION SELECT 'Piso 3') AS ubicaciones,
-  (SELECT FLOOR(RAND() * 2) AS wifi, FLOOR(RAND() * 2) AS tv, FLOOR(RAND() * 2) AS aire_acondicionado, FLOOR(RAND() * 2) AS terraza) AS caracteristicas
-WHERE NOT EXISTS (
-  SELECT 1
-  FROM locales
-  WHERE nombre = CONCAT('Local ', numero)
+INSERT INTO locales(
+    id,
+    nombre,
+    tipo,
+    ubicacion,
+    descripcion,
+    json_caracteristicas
 )
+SELECT
+    ROW_NUMBER() OVER(
+ORDER BY
+    (
+SELECT NULL
+)
+) AS id,
+CONCAT('Local ', numero) AS nombre,
+tipos.tipo AS tipo,
+ubicaciones.ubicacion AS ubicacion,
+CONCAT('Descripción del local ', numero) AS descripcion,
+CONCAT(
+    '{"wifi": ',
+    caracteristicas.wifi,
+    ', "tv": ',
+    caracteristicas.tv,
+    ', "aire_acondicionado": ',
+    caracteristicas.aire_acondicionado,
+    ', "terraza": ',
+    caracteristicas.terraza,
+    '}'
+) AS json_caracteristicas
+FROM
+    (
+    SELECT
+        1 +(seq.seq - 1) AS numero
+    FROM
+        seq_1_to_20 seq
+) AS numeros,
+(
+    SELECT
+        'Restaurante' AS tipo
+    UNION
+SELECT
+    'Cafetería'
+UNION
+SELECT
+    'Tienda'
+UNION
+SELECT
+    'Salón de eventos'
+) AS tipos,
+(
+    SELECT
+        'Lobby' AS ubicacion
+    UNION
+SELECT
+    'Planta baja'
+UNION
+SELECT
+    'Piso 1'
+UNION
+SELECT
+    'Piso 2'
+UNION
+SELECT
+    'Piso 3'
+) AS ubicaciones,
+(
+    SELECT
+        FLOOR(RAND() * 2) AS wifi,
+        FLOOR(RAND() * 2) AS tv,
+        FLOOR(RAND() * 2) AS aire_acondicionado,
+        FLOOR(RAND() * 2) AS terraza) AS caracteristicas
+    WHERE NOT
+        EXISTS(
+        SELECT
+            1
+        FROM
+            locales
+        WHERE
+            nombre = CONCAT('Local ', numero)
+    )
 LIMIT 20;
 
 ````
@@ -187,17 +420,26 @@ LIMIT 20;
 Query para actualizar los datos de la tabla `habitaciones`, específicamente en la tabla `json_características`:
 
 ````sql
-UPDATE habitaciones
-SET json_caracteristicas = JSON_OBJECT(
-    'wifi', FLOOR(RAND() * 2),
-    'aire_acondicionado', FLOOR(RAND() * 2),
-    'cocina', FLOOR(RAND() * 2),
-    'caja_fuerte', FLOOR(RAND() * 2),
-    'limpieza_diaria', FLOOR(RAND() * 2),
-    'cambio_sabanas_toallas', FLOOR(RAND() * 2),
-    'regalo', FLOOR(RAND() * 2)
-)
-WHERE id BETWEEN 1 AND 100;
+UPDATE
+    habitaciones
+SET
+    json_caracteristicas = JSON_OBJECT(
+        'wifi',
+        FLOOR(RAND() * 2),
+        'aire_acondicionado',
+        FLOOR(RAND() * 2),
+        'cocina',
+        FLOOR(RAND() * 2),
+        'caja_fuerte',
+        FLOOR(RAND() * 2),
+        'limpieza_diaria',
+        FLOOR(RAND() * 2),
+        'cambio_sabanas_toallas',
+        FLOOR(RAND() * 2),
+        'regalo',
+        FLOOR(RAND() * 2))
+    WHERE
+        id BETWEEN 1 AND 100;
 ````
 
 # JSON
@@ -228,7 +470,7 @@ JSON_caracteristicas de la tabla `locales`:
 }
 ````
 
-# Funciones, VIEWS, etc.
+# Funciones, vistas, eventos, etc.
 
 Procedimiento para seleccionar los valores `true` de una key del `json_caracteristicas` y pasarlos a la tabla `reservations`.
 
@@ -253,10 +495,10 @@ AS "Wi-Fi"
 FROM habitaciones;
 ```
 
-VIEW de las habitaciones:
+- VIEW para una vista humana de las habitaciones y sus servicios:
 
 ````sql
-CREATE VIEW habitacoines_view AS
+CREATE VIEW habitaciones_view AS
 SELECT
     `hotel`.`habitaciones`.`id` AS `id`,
     `hotel`.`habitaciones`.`nombre` AS `nombre`,
@@ -305,7 +547,13 @@ FROM
     `hotel`.`habitaciones`
 ````
 
-# Excalidraw
+- Evento para insertar una reserva cada 1 minuto:
 
-![[BD - Hotel Project]]
+```sql
+CREATE EVENT reservationInsertEvery1min
+ON SCHEDULE EVERY 1 MINUTE
+DO
+CALL randomReservations();
+```
+
 

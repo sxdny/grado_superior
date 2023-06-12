@@ -1,3 +1,7 @@
+---
+banner: "![[java-banner.png]]"
+banner_y: 0.5
+---
 ## 📓 2023-03-17
 
 ### Tema 9. Colecciones de elementos.

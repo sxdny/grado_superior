@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "36e4f76244da02e5",
+        "id": "d11119ba937dd2b8",
         "type": "tabs",
         "children": [
           {
-            "id": "f54f365791235f91",
+            "id": "28ab40726860eced",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Asignaturas/p/notes/cheat_sheet_examen.md",
+                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5,
-    "collapsed": true
+    "width": 233.5
   },
   "right": {
     "id": "0d634603d8eb463d",
@@ -79,14 +78,26 @@
       {
         "id": "46aa815cabfa93fe",
         "type": "tabs",
+        "dimension": 61.25000000000001,
         "children": [
+          {
+            "id": "af38ee499d45cda0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
           {
             "id": "24594d78905121fd",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/p/notes/cheat_sheet_examen.md",
+                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,20 +114,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/p/notes/cheat_sheet_examen.md",
+                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "af38ee499d45cda0",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
               }
             }
           },
@@ -126,17 +126,30 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/p/notes/cheat_sheet_examen.md"
+                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md"
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
+      },
+      {
+        "id": "5b6aef8218dee272",
+        "type": "tabs",
+        "dimension": 38.75,
+        "children": [
+          {
+            "id": "f54f365791235f91",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 282.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,25 +159,38 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "f54f365791235f91",
+  "active": "28ab40726860eced",
   "lastOpenFiles": [
-    "Pasted image 20230606123509.png",
+    "Excalidraw/BD - Hotel Project.png",
+    "Excalidraw/BD - Hotel Project.md",
+    "Excalidraw/BD - Apuntes + JSON.md",
+    "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
+    "Pasted image 20230612120957.png",
+    "excalidraw/notas2023-06-10.excalidraw.md",
+    "Excalidraw/notas2023-06-10.excalidraw.md",
     "Asignaturas/p/notes/Apuntes Programacion.md",
+    "images/hotel2-banner.jpg",
+    "images/hotel2-banner.jpg.crdownload",
+    "images/java-banner.png",
+    "images/hotel-banner.jpg",
+    "Asignaturas/p/notes/cheat_sheet_examen.md",
+    "images/Pasted image 20230130233706.png",
+    "images/Pasted image 20230130230236.png",
+    "images/exampleDiagram.svg",
+    "images/Pasted image 20230606123509.png",
+    "images/banners/java-banner.jpg",
+    "images/banners/java-banner.jpg.crdownload",
+    "images/banners",
+    "images/Nueva carpeta",
     "Asignaturas/p/notes/Java.md",
     "Asignaturas/p/notes/Interficies.canvas",
-    "Asignaturas/p/notes/cheat_sheet_examen.md",
-    "images/Diagrama Concesionario.svg",
-    "images/exampleDiagram.svg",
     "README.md",
     "Asignaturas/bd/work/hotel_project/trigger.md",
-    "images/Pasted image 20230605211401.png",
-    "images/Pasted image 20230605211356.png",
-    "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
     "excalidraw/notas2023-06-05.excalidraw.md",
     "Asignaturas/bd/notes/Apuntes Base de Datos.md",
     "Asignaturas/bd/notes/Examen/Examen_rentacar.md",
@@ -178,10 +204,6 @@
     "Asignaturas/p/work/tema6/actividad6_5project/src/Main.java",
     "Asignaturas/p/work/tema6/actividad6_5project/src/Alumno.java",
     "Asignaturas/p/work/tema6/actividad6_5project/bin/Ventana.class",
-    "Asignaturas/p/work/tema6/actividad6_5project/bin/Profesor.class",
-    "Asignaturas/p/work/tema6/actividad6_5project/bin/Persona.class",
-    "Asignaturas/p/work/tema6/actividad6_5project/bin/Main.class",
-    "Asignaturas/p/work/tema6/actividad6_5project/bin/Alumno.class",
     "Asignaturas/p/work/tema6/actividad6_5project/README.md",
     "Asignaturas/ldm/work/xq/ac2XQ.md",
     "Asignaturas/ldm/work/xq/ac1XQ.md",
@@ -190,16 +212,6 @@
     "Asignaturas/ldm/work/inventario_xq.md",
     "Asignaturas/bd/work/examen_corregido_t3.md",
     "Asignaturas/ED/notes/reapao_examen_2T.md",
-    "Pasted image 20230605121142.png",
-    "Pasted image 20230605121124.png",
-    "Pasted image 20230605121114.png",
-    "Pasted image 20230604190154.png",
-    "Pasted image 20230604185850.png",
-    "Pasted image 20230604185636.png",
-    "Asignaturas/bd/work/repaso_examen_bd.md",
-    "Excalidraw/notas2023-05-26.excalidraw.md",
-    "excalidraw/notas2023-05-26.excalidraw.md",
-    "Asignaturas/bd/work/sql_cheatsheet.md",
     "Asignaturas/P/notes/Interficies.canvas",
     "Asignaturas/BD/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/BD/notes/Examen/Canvas Examen.canvas",
