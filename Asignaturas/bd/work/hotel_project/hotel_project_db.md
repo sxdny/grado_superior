@@ -1,6 +1,6 @@
 ---
 banner: "![[hotel-banner.jpg]]"
-banner_y: 0.3
+---
 ---
 
 # Enunciado.
