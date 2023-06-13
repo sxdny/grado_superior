@@ -34,6 +34,7 @@ public class VentanaListar extends JFrame {
 	 * Create the frame.
 	 */
 	public VentanaListar() {
+		setTitle("Lista de usuarios Mastermind");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 702, 519);
 		contentPane = new JPanel();

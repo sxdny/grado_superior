@@ -92,7 +92,7 @@ public class Ventana extends JFrame {
 				VentanaListar ventanaListar = new VentanaListar();
 				
 				ventanaListar.setVisible(true);
-				// ocultar la otra ventana
+				// ocultar la otra ventana (¿?)
 				
 			}
 		});
