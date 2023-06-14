@@ -11,24 +11,23 @@
             "id": "28ab40726860eced",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Asignaturas/p/notes/Proyecto Final Java.canvas",
-                "viewState": {
-                  "x": -0.42274775269881815,
-                  "y": -472.4880892978256,
-                  "zoom": 0.11111114501953123
-                }
+                "file": "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "9127a4876fb787c2",
+            "id": "730dd56f63f50e72",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Asignaturas/p/notes/notas2023-06-12.excalidraw.md"
+                "file": "Asignaturas/ED/notes/refactor.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/p/notes/notas2023-06-12.excalidraw.md",
+                "file": "Asignaturas/ED/notes/refactor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/p/notes/notas2023-06-12.excalidraw.md",
+                "file": "Asignaturas/ED/notes/refactor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/p/notes/notas2023-06-12.excalidraw.md"
+                "file": "Asignaturas/ED/notes/refactor.md"
               }
             }
           }
@@ -178,19 +177,12 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "9127a4876fb787c2",
+  "active": "ad7f451f731be270",
   "lastOpenFiles": [
-    "Asignaturas/p/notes/Proyecto Final Java.canvas",
-    "Asignaturas/p/notes/notas2023-06-12.excalidraw.md",
-    "Asignaturas/p/notes/Interficies.canvas",
     "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
-    "Excalidraw/BD - Hotel Project.md",
-    "Asignaturas/bd/notes/Examen/Repaso Examen 30-03-2023 1.md",
-    "Asignaturas/bd/notes/Examen/Examen_rentacar.md",
+    "Asignaturas/ED/notes/refactor.md",
     "Excalidraw/BD - Hotel Project.png",
-    "pdfs/Refactor Like a Superhero.pdf",
-    "pdfs/actividad_dhcp.pdf",
-    "pdfs/actividades_json.pdf",
+    "Excalidraw/BD - Hotel Project.md",
     "Excalidraw/BD - Apuntes + JSON.md",
     "Pasted image 20230612120957.png",
     "excalidraw/notas2023-06-10.excalidraw.md",
@@ -210,16 +202,22 @@
     "images/banners",
     "images/Nueva carpeta",
     "Asignaturas/p/notes/Java.md",
+    "Asignaturas/p/notes/Interficies.canvas",
     "README.md",
     "Asignaturas/bd/work/hotel_project/trigger.md",
     "excalidraw/notas2023-06-05.excalidraw.md",
     "Asignaturas/bd/notes/Apuntes Base de Datos.md",
+    "Asignaturas/bd/notes/Examen/Examen_rentacar.md",
     "Asignaturas/bd/notes/Examen/Examen BD.md",
+    "Asignaturas/bd/notes/Examen/Repaso Examen 30-03-2023 1.md",
     "Excalidraw/notas2023-06-05.excalidraw.md",
     "Asignaturas/ED/notes/testing_17-04-2023.md",
     "Asignaturas/p/work/tema6/actividad6_5project/src/Ventana.java",
     "Asignaturas/p/work/tema6/actividad6_5project/src/Profesor.java",
     "Asignaturas/p/work/tema6/actividad6_5project/src/Persona.java",
+    "Asignaturas/p/work/tema6/actividad6_5project/src/Main.java",
+    "Asignaturas/p/work/tema6/actividad6_5project/src/Alumno.java",
+    "Asignaturas/p/work/tema6/actividad6_5project/bin/Ventana.class",
     "Asignaturas/p/work/tema6/actividad6_5project/README.md",
     "Asignaturas/ldm/work/xq/ac2XQ.md",
     "Asignaturas/ldm/work/xq/ac1XQ.md",
@@ -227,6 +225,7 @@
     "Asignaturas/ldm/work/json/actividades_json.md",
     "Asignaturas/ldm/work/inventario_xq.md",
     "Asignaturas/bd/work/examen_corregido_t3.md",
+    "Asignaturas/ED/notes/reapao_examen_2T.md",
     "Asignaturas/P/notes/Interficies.canvas",
     "Asignaturas/BD/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/BD/notes/Examen/Canvas Examen.canvas",
