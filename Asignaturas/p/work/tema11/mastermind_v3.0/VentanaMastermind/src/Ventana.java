@@ -170,8 +170,8 @@ public class Ventana extends javax.swing.JFrame {
     }//GEN-LAST:event_jTextField1ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
-        ventanaPrincipal.setVisible(true);
+        // VentanaPrincipal ventanaPrincipal = new VentanaPrincipal();
+        // ventanaPrincipal.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

@@ -23,11 +23,9 @@
             "id": "730dd56f63f50e72",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Asignaturas/ED/notes/refactor.md",
-                "mode": "source",
-                "source": false
+                "file": "Asignaturas/bd/work/hotel_project/sidneySilva_HotelManagment/hotel_project_db_manual.pdf"
               }
             }
           }
@@ -110,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Asignaturas/ED/notes/refactor.md",
+                "file": "Asignaturas/bd/work/hotel_project/sidneySilva_HotelManagment/hotel_project_db_manual.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Asignaturas/ED/notes/refactor.md",
+                "file": "Asignaturas/bd/work/hotel_project/sidneySilva_HotelManagment/hotel_project_db_manual.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Asignaturas/ED/notes/refactor.md"
+                "file": "Asignaturas/bd/work/hotel_project/sidneySilva_HotelManagment/hotel_project_db_manual.pdf"
               }
             }
           }
@@ -177,8 +175,15 @@
       "obsidian-projects:Open projects": false
     }
   },
-  "active": "ad7f451f731be270",
+  "active": "730dd56f63f50e72",
   "lastOpenFiles": [
+    "Asignaturas/bd/work/hotel_project/sidneySilva_HotelManagment.rar",
+    "Asignaturas/bd/work/hotel_project/sidneySilva_HotelManagment/BD - Hotel Project - Apuntes y Diagrama.png",
+    "Asignaturas/p/notes/notas2023-06-12.excalidraw.md",
+    "Asignaturas/p/notes/Proyecto Final Java.canvas",
+    "Asignaturas/p/notes/Java.md",
+    "Asignaturas/p/notes/Interficies.canvas",
+    "Asignaturas/p/notes/cheat_sheet_examen.md",
     "Asignaturas/bd/work/hotel_project/hotel_project_db.md",
     "Asignaturas/ED/notes/refactor.md",
     "Excalidraw/BD - Hotel Project.png",
@@ -192,17 +197,13 @@
     "images/hotel2-banner.jpg.crdownload",
     "images/java-banner.png",
     "images/hotel-banner.jpg",
-    "Asignaturas/p/notes/cheat_sheet_examen.md",
     "images/Pasted image 20230130233706.png",
     "images/Pasted image 20230130230236.png",
     "images/exampleDiagram.svg",
     "images/Pasted image 20230606123509.png",
-    "images/banners/java-banner.jpg",
     "images/banners/java-banner.jpg.crdownload",
     "images/banners",
     "images/Nueva carpeta",
-    "Asignaturas/p/notes/Java.md",
-    "Asignaturas/p/notes/Interficies.canvas",
     "README.md",
     "Asignaturas/bd/work/hotel_project/trigger.md",
     "excalidraw/notas2023-06-05.excalidraw.md",
@@ -224,8 +225,6 @@
     "Asignaturas/ldm/work/repaso/re_xslt.md",
     "Asignaturas/ldm/work/json/actividades_json.md",
     "Asignaturas/ldm/work/inventario_xq.md",
-    "Asignaturas/bd/work/examen_corregido_t3.md",
-    "Asignaturas/ED/notes/reapao_examen_2T.md",
     "Asignaturas/P/notes/Interficies.canvas",
     "Asignaturas/BD/work/cinema_db_stuff/24-01-23.canvas",
     "Asignaturas/BD/notes/Examen/Canvas Examen.canvas",
