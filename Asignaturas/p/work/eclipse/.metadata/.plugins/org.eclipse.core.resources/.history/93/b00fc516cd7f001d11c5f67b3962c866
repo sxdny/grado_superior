@@ -1,0 +1,45 @@
+package tema4;
+import java.util.Scanner;
+public class ej4_24 {
+
+	
+	    public static void main(String[] args) {
+	        Scanner sc = new Scanner(System.in);
+
+	        int nFilas = 1;
+	        int nCol = 0;
+	        int position = 0;
+
+	        nFilas = sc.nextInt();
+	        sc.nextLine();
+	        nCol = sc.nextInt();
+	        sc.nextLine();
+
+	        String[] rec = new String[nCol];
+	        String[] resultado = new String[nFilas];
+	        
+	        for (int k = 0; k < nFilas; k++) {
+	            for (int i = 0; i < nCol; i++) {
+	                rec[i] = sc.next();
+	                sc.nextLine();
+	            }
+	    
+	            for (int i = 0; i <= 3; i++) {
+	                for (int j = 0; j <= nCol; j++) {
+	                    System.out.print(rec[j].charAt(position));
+	                    
+	                }
+	                position++;
+	            }
+	 
+	            for (int i = 0; i <= nFilas; i++) {
+	                System.out.println(resultado[nFilas]);
+	            }
+	        }
+	        
+	    }
+
+	    private static String charToString(char charAt) {
+	        return null;
+	    }
+	}

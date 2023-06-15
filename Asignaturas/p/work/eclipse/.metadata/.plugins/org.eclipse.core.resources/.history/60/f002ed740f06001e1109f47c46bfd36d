@@ -1,0 +1,26 @@
+
+import java.sql.*;
+public class Programa {
+
+	public static void main(String[] args) {
+		String urlBaseDeDatoString = "jdbc:mysql://localhost:3306/instituto";
+		
+		String usuari = "root";
+		String password = "";
+		
+		try {
+			
+			Class.forName("com.mysql.cj.jdbc.Driver"); 
+			
+			Connection connection = DriverManager.getConnection(urlBaseDeDatoString, usuari, password);
+			java.sql.Statement stmt = connection.createStatement();
+			PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO alumnes (id, nombre, apellidos, edad, curso) VALUES (DEFAULT, 'Sidney', 'Silva Braz de Oliveira', 18, '1º DAW')");
+			preparedStatement.execute();
+			connection.close();
+			
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+	}
+	
+}

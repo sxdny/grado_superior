@@ -1,0 +1,25 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		System.out.print("Hola");
+
+		String urlBaseDeDatoString = "http://127.0.0.1/phpmyadmin/index.php?route=/database/structure&db=hotel";
+		
+		String usuari = "root";
+		String password = "";
+		
+		try {
+			
+			Class.forName("com.mysql.cj.jbdc.Driver");
+			
+			Connection connection = DriverManager.getConnection(urlBaseDeDatoString, usuari, password);
+			
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+	}
+
+}

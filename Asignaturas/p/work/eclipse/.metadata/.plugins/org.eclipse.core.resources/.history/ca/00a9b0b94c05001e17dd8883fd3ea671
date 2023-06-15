@@ -1,0 +1,28 @@
+import com.mysql.cj.xdevapi.Statement;
+
+import java.sql.*;
+public class Programa {
+
+	public static void main(String[] args) {
+		String urlBaseDeDatoString = "jdbc:mysql://localhost:3306/hotel";
+		
+		String usuari = "root";
+		String password = "";
+		
+		try {
+			
+			Class.forName("com.mysql.cj.jdbc.Driver"); 
+			
+			Connection connection = DriverManager.getConnection(urlBaseDeDatoString, usuari, password);
+			java.sql.Statement stmt = connection.createStatement();
+			ResultSet rSet = stmt.executeQuery("SELECT * FROM clientes");
+			while (rSet.next()) {
+				System.out.println(rSet.getString("id") + rSet.getString("nombre"));
+			}
+			
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+	}
+	
+}

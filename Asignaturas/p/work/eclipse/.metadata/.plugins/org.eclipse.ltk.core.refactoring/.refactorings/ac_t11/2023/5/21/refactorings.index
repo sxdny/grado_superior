@@ -1,0 +1,4 @@
+1685030486972	Extract method 'rellenarPrimos'
+1685030558979	Extract method 'cribar'
+1685030698647	Extract method 'inicializarCriba'
+1685030934373	Convert local variable 'esPrimo' to field

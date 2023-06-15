@@ -1,0 +1,5 @@
+1685375850933	Rename type 'Criba'
+1685376493586	Rename method 'inicializarCriba'
+1685376629184	Rename method 'cribar'
+1685376809130	Extract method 'calcularNumPrimos'
+1685376991838	Extract method 'eliminarMultiplosDe'

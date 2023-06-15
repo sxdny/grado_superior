@@ -1,0 +1,30 @@
+import java.sql.*;
+
+import com.mysql.cj.xdevapi.Statement;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		String urlBaseDeDatoString = "jbdc:mysql://localhost:3306/rents";
+		
+		String usuari = "root";
+		String password = "";
+		
+		try {
+			
+			Class.forName("com.mysql.jdbc.Driver"); 
+			
+			Connection connection = DriverManager.getConnection(urlBaseDeDatoString, usuari, password);
+			Statement statement = (Statement) connection.createStatement();
+			ResultSet rSet=((java.sql.Statement) statement).executeQuery("SELECT * FROM habitaciones");
+			
+			while (rSet.next()) {
+				System.out.println(rSet.getString("id"));
+			}
+			
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+	}
+
+}
